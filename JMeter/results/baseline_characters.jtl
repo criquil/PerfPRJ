@@ -1,0 +1,713 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1769477058637,5916,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1665,133,1,1,https://thesimpsonsapi.com/api/characters/356,5898,0,616
+1769477067555,658,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,2073,133,2,2,https://thesimpsonsapi.com/api/characters/550,658,0,90
+1769477070530,660,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1759,133,2,2,https://thesimpsonsapi.com/api/characters/515,660,0,82
+1769477071216,143,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29729,191,2,2,https://thesimpsonsapi.com/api/characters,136,0,86
+1769477074196,122,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,2,2,https://thesimpsonsapi.com/api/characters,122,0,80
+1769477074361,611,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1553,133,2,2,https://thesimpsonsapi.com/api/characters/461,611,0,78
+1769477077973,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,2,2,https://thesimpsonsapi.com/api/characters,118,0,80
+1769477077320,935,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1856,133,2,2,https://thesimpsonsapi.com/api/characters/754,934,0,84
+1769477081256,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,3,3,https://thesimpsonsapi.com/api/characters,119,0,80
+1769477081093,620,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1843,133,3,3,https://thesimpsonsapi.com/api/characters/952,620,0,81
+1769477082531,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,3,3,https://thesimpsonsapi.com/api/characters,118,0,81
+1769477084376,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,3,3,https://thesimpsonsapi.com/api/characters,117,0,80
+1769477084715,582,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1504,133,3,3,https://thesimpsonsapi.com/api/characters/677,582,0,82
+1769477085651,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,3,3,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477087494,616,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1740,133,3,3,https://thesimpsonsapi.com/api/characters/559,615,0,86
+1769477088299,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,3,3,https://thesimpsonsapi.com/api/characters,114,0,78
+1769477088768,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,191,3,3,https://thesimpsonsapi.com/api/characters,117,0,78
+1769477091111,195,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,3,3,https://thesimpsonsapi.com/api/characters,195,0,156
+1769477091414,401,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1686,133,4,4,https://thesimpsonsapi.com/api/characters/423,401,0,85
+1769477091893,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,4,4,https://thesimpsonsapi.com/api/characters,113,0,77
+1769477094530,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,4,4,https://thesimpsonsapi.com/api/characters,120,0,82
+1769477094306,586,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,2783,132,4,4,https://thesimpsonsapi.com/api/characters/77,586,0,78
+1769477094815,574,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1469,133,4,4,https://thesimpsonsapi.com/api/characters/544,574,0,78
+1769477095007,944,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1491,133,4,4,https://thesimpsonsapi.com/api/characters/759,944,0,76
+1769477097652,321,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1391,133,4,4,https://thesimpsonsapi.com/api/characters/981,321,0,77
+1769477097894,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,191,4,4,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477098391,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,4,4,https://thesimpsonsapi.com/api/characters,117,0,79
+1769477098953,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,4,4,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477100976,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,191,4,4,https://thesimpsonsapi.com/api/characters,117,0,78
+1769477101015,616,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1631,133,4,4,https://thesimpsonsapi.com/api/characters/807,615,0,75
+1769477101511,129,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,190,4,4,https://thesimpsonsapi.com/api/characters,122,0,82
+1769477102068,346,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1603,133,4,4,https://thesimpsonsapi.com/api/characters/142,346,0,79
+1769477104102,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,5,5,https://thesimpsonsapi.com/api/characters,118,0,79
+1769477104632,124,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477104641,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477105416,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,5,5,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477106530,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,5,5,https://thesimpsonsapi.com/api/characters,120,0,80
+1769477107221,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477107757,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,5,5,https://thesimpsonsapi.com/api/characters,118,0,80
+1769477107761,574,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,2116,133,5,5,https://thesimpsonsapi.com/api/characters/826,573,0,76
+1769477108530,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,5,5,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477109651,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477110344,124,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,118,0,78
+1769477110877,126,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477111643,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,5,5,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477111336,578,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1521,133,5,5,https://thesimpsonsapi.com/api/characters/617,577,0,76
+1769477112771,624,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1517,133,5,5,https://thesimpsonsapi.com/api/characters/849,624,0,75
+1769477113470,365,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1546,133,5,5,https://thesimpsonsapi.com/api/characters/383,364,0,87
+1769477114005,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,5,5,https://thesimpsonsapi.com/api/characters,117,0,78
+1769477114758,133,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,127,0,86
+1769477114916,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,191,5,5,https://thesimpsonsapi.com/api/characters,116,0,76
+1769477116396,578,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1772,133,6,6,https://thesimpsonsapi.com/api/characters/313,578,0,83
+1769477116836,595,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1814,133,6,6,https://thesimpsonsapi.com/api/characters/908,595,0,76
+1769477117124,572,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1397,133,6,6,https://thesimpsonsapi.com/api/characters/409,571,0,76
+1769477117892,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,6,6,https://thesimpsonsapi.com/api/characters,118,0,79
+1769477118528,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,191,6,6,https://thesimpsonsapi.com/api/characters,118,0,76
+1769477119974,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,6,6,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477120431,127,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,191,6,6,https://thesimpsonsapi.com/api/characters,122,0,80
+1769477120697,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,191,6,6,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477121011,564,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1554,133,6,6,https://thesimpsonsapi.com/api/characters/877,564,0,76
+1769477118038,3948,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1670,133,6,6,https://thesimpsonsapi.com/api/characters/636,3948,0,76
+1769477121651,813,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1478,133,6,6,https://thesimpsonsapi.com/api/characters/519,813,0,264
+1769477123090,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,191,6,6,https://thesimpsonsapi.com/api/characters,117,0,76
+1769477123560,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,6,6,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477123817,123,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,6,6,https://thesimpsonsapi.com/api/characters,123,0,83
+1769477124987,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,6,6,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477124576,613,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,2829,132,6,6,https://thesimpsonsapi.com/api/characters/18,612,0,82
+1769477125466,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,191,6,6,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477126213,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,191,6,6,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477126674,127,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,191,6,6,https://thesimpsonsapi.com/api/characters,122,0,79
+1769477126943,679,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1746,134,7,7,https://thesimpsonsapi.com/api/characters/1000,679,0,78
+1769477128190,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,191,7,7,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477128101,688,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1767,133,7,7,https://thesimpsonsapi.com/api/characters/861,688,0,76
+1769477128588,715,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,2066,133,7,7,https://thesimpsonsapi.com/api/characters/228,715,0,73
+1769477129802,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,7,7,https://thesimpsonsapi.com/api/characters,121,0,81
+1769477129336,1033,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1236,133,7,7,https://thesimpsonsapi.com/api/characters/176,1032,0,79
+1769477130527,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,7,7,https://thesimpsonsapi.com/api/characters,115,0,78
+1769477130624,560,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1708,133,7,7,https://thesimpsonsapi.com/api/characters/270,560,0,77
+1769477131313,128,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,191,7,7,https://thesimpsonsapi.com/api/characters,122,0,82
+1769477132304,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,7,7,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477131790,638,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1564,133,7,7,https://thesimpsonsapi.com/api/characters/647,638,0,80
+1769477132925,342,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1589,133,7,7,https://thesimpsonsapi.com/api/characters/167,342,0,79
+1769477133371,337,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1487,133,7,7,https://thesimpsonsapi.com/api/characters/572,337,0,83
+1769477133645,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,190,7,7,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477134186,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,7,7,https://thesimpsonsapi.com/api/characters,117,0,79
+1769477134443,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,7,7,https://thesimpsonsapi.com/api/characters,113,0,76
+1769477135418,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,190,7,7,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477135430,613,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1978,133,7,7,https://thesimpsonsapi.com/api/characters/777,613,0,74
+1769477136268,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,7,7,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477136766,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,7,7,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477136710,503,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1906,132,7,7,https://thesimpsonsapi.com/api/characters/98,502,0,73
+1769477137305,595,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,2547,132,7,7,https://thesimpsonsapi.com/api/characters/62,595,0,75
+1769477137558,575,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1849,133,7,7,https://thesimpsonsapi.com/api/characters/896,574,0,79
+1769477138538,736,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1556,133,7,7,https://thesimpsonsapi.com/api/characters/372,736,0,74
+1769477139046,335,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1018,133,7,7,https://thesimpsonsapi.com/api/characters/307,335,0,76
+1769477139385,564,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1637,133,8,8,https://thesimpsonsapi.com/api/characters/113,563,0,76
+1769477139879,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477140213,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477140901,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477141134,572,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1483,133,8,8,https://thesimpsonsapi.com/api/characters/287,572,0,76
+1769477142275,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,113,0,73
+1769477142382,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477142528,129,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,123,0,80
+1769477142951,125,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,125,0,78
+1769477142996,328,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1579,133,8,8,https://thesimpsonsapi.com/api/characters/891,327,0,81
+1769477143339,566,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,2109,133,8,8,https://thesimpsonsapi.com/api/characters/458,566,0,75
+1769477144023,544,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1626,133,8,8,https://thesimpsonsapi.com/api/characters/257,543,0,75
+1769477144707,601,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1939,132,8,8,https://thesimpsonsapi.com/api/characters/72,601,0,73
+1769477145394,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477145495,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477145658,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,190,8,8,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477146326,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,111,0,75
+1769477146078,672,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1751,133,8,8,https://thesimpsonsapi.com/api/characters/362,672,0,74
+1769477146906,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,119,0,78
+1769477147568,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,112,0,76
+1769477148309,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477148614,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477148775,130,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,191,8,8,https://thesimpsonsapi.com/api/characters,124,0,81
+1769477148513,581,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1946,133,8,8,https://thesimpsonsapi.com/api/characters/646,581,0,79
+1769477149438,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477149751,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477150025,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,8,8,https://thesimpsonsapi.com/api/characters,112,0,76
+1769477150682,572,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,2224,133,8,8,https://thesimpsonsapi.com/api/characters/295,572,0,80
+1769477151429,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477151730,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477151906,144,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,144,0,106
+1769477152094,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477152553,126,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,125,0,80
+1769477152863,591,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1884,133,9,9,https://thesimpsonsapi.com/api/characters/121,591,0,77
+1769477153139,588,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1935,133,9,9,https://thesimpsonsapi.com/api/characters/537,587,0,74
+1769477154256,138,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,190,9,9,https://thesimpsonsapi.com/api/characters,138,0,82
+1769477154527,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477154542,132,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,126,0,84
+1769477154846,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,190,9,9,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477155215,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,190,9,9,https://thesimpsonsapi.com/api/characters,115,0,74
+1769477155051,574,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1558,133,9,9,https://thesimpsonsapi.com/api/characters/394,574,0,76
+1769477155680,386,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1363,133,9,9,https://thesimpsonsapi.com/api/characters/411,386,0,76
+1769477156455,130,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,124,0,81
+1769477156727,132,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,2081,133,9,9,https://thesimpsonsapi.com/api/characters/550,132,0,83
+1769477157395,132,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,124,0,81
+1769477157645,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477157676,310,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1029,133,9,9,https://thesimpsonsapi.com/api/characters/608,310,0,75
+1769477157967,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477158626,123,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,122,0,79
+1769477158335,592,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1735,133,9,9,https://thesimpsonsapi.com/api/characters/225,592,0,80
+1769477159067,122,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,121,0,81
+1769477159586,154,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,191,9,9,https://thesimpsonsapi.com/api/characters,153,0,76
+1769477159861,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,118,0,80
+1769477160528,122,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,122,0,81
+1769477161087,158,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,190,9,9,https://thesimpsonsapi.com/api/characters,143,0,75
+1769477160767,567,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1519,133,9,9,https://thesimpsonsapi.com/api/characters/747,566,0,81
+1769477160987,566,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1586,133,9,9,https://thesimpsonsapi.com/api/characters/179,566,0,79
+1769477161750,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,9,9,https://thesimpsonsapi.com/api/characters,115,0,75
+1769477161928,546,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1968,133,9,9,https://thesimpsonsapi.com/api/characters/884,545,0,77
+1769477162190,620,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1524,133,9,9,https://thesimpsonsapi.com/api/characters/242,620,0,75
+1769477162741,534,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,2056,132,9,9,https://thesimpsonsapi.com/api/characters/70,534,0,76
+1769477163653,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,74
+1769477164246,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,76
+1769477164335,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477164555,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,73
+1769477164869,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,191,10,10,https://thesimpsonsapi.com/api/characters,118,0,76
+1769477165475,133,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,191,10,10,https://thesimpsonsapi.com/api/characters,132,0,80
+1769477165813,122,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1491,133,10,10,https://thesimpsonsapi.com/api/characters/287,122,0,75
+1769477166278,577,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1173,133,10,10,https://thesimpsonsapi.com/api/characters/146,576,0,76
+1769477166772,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477166529,455,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1805,132,10,10,https://thesimpsonsapi.com/api/characters/52,454,0,81
+1769477162981,4312,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1890,133,10,10,https://thesimpsonsapi.com/api/characters/719,4312,0,75
+1769477167360,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477167446,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,120,0,80
+1769477167671,402,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1536,133,10,10,https://thesimpsonsapi.com/api/characters/869,402,0,92
+1769477167993,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,74
+1769477168937,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477168608,583,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,2036,133,10,10,https://thesimpsonsapi.com/api/characters/120,583,0,72
+1769477169856,131,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,125,0,84
+1769477169883,132,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,126,0,85
+1769477169986,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477170296,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477170567,360,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1756,133,10,10,https://thesimpsonsapi.com/api/characters/100,359,0,75
+1769477170474,553,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,2006,133,10,10,https://thesimpsonsapi.com/api/characters/845,552,0,75
+1769477171074,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,120,0,79
+1769477171105,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477172193,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477172055,330,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1563,133,10,10,https://thesimpsonsapi.com/api/characters/941,330,0,75
+1769477172989,126,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,121,0,80
+1769477173015,331,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1520,133,10,10,https://thesimpsonsapi.com/api/characters/824,331,0,74
+1769477173098,355,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,2075,133,10,10,https://thesimpsonsapi.com/api/characters/141,355,0,73
+1769477173416,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477174027,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,75
+1769477174196,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477174226,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,119,0,80
+1769477173928,679,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1955,133,10,10,https://thesimpsonsapi.com/api/characters/852,679,0,77
+1769477175307,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,72
+1769477175387,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,120,0,80
+1769477176116,127,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,126,0,79
+1769477176347,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477176454,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477176534,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,121,0,81
+1769477177142,123,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1037,133,10,10,https://thesimpsonsapi.com/api/characters/608,123,0,75
+1769477177310,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,73
+1769477177347,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477177608,623,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1434,133,10,10,https://thesimpsonsapi.com/api/characters/810,623,0,74
+1769477178425,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477178509,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477179457,124,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,119,0,78
+1769477179656,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,75
+1769477179244,589,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1858,133,10,10,https://thesimpsonsapi.com/api/characters/399,588,0,78
+1769477179575,613,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1458,133,10,10,https://thesimpsonsapi.com/api/characters/327,612,0,75
+1769477180266,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,74
+1769477180462,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477180429,579,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1871,133,10,10,https://thesimpsonsapi.com/api/characters/545,579,0,73
+1769477181231,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,76
+1769477181539,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,76
+1769477181625,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,74
+1769477182582,193,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,193,0,157
+1769477182770,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477182833,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,75
+1769477183189,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,74
+1769477183377,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477183576,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477184009,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477184343,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,72
+1769477184662,322,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1507,133,10,10,https://thesimpsonsapi.com/api/characters/679,321,0,72
+1769477184741,572,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,2229,132,10,10,https://thesimpsonsapi.com/api/characters/44,572,0,80
+1769477185775,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477185887,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477185954,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,79
+1769477186309,321,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1836,133,10,10,https://thesimpsonsapi.com/api/characters/526,321,0,78
+1769477186693,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477186494,574,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1387,133,10,10,https://thesimpsonsapi.com/api/characters/992,574,0,80
+1769477187122,321,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1613,132,10,10,https://thesimpsonsapi.com/api/characters/83,321,0,76
+1769477187459,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,121,0,74
+1769477187984,308,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1678,133,10,10,https://thesimpsonsapi.com/api/characters/330,308,0,73
+1769477188315,558,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,2100,133,10,10,https://thesimpsonsapi.com/api/characters/837,558,0,72
+1769477188890,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477189074,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,74
+1769477189014,322,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1918,133,10,10,https://thesimpsonsapi.com/api/characters/160,321,0,73
+1769477189810,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477189633,394,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1740,133,10,10,https://thesimpsonsapi.com/api/characters/258,394,0,72
+1769477190070,324,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1774,132,10,10,https://thesimpsonsapi.com/api/characters/54,324,0,72
+1769477190445,126,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,121,0,79
+1769477190582,356,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,3261,132,10,10,https://thesimpsonsapi.com/api/characters/56,355,0,78
+1769477191295,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477191875,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,117,0,78
+1769477192006,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477192190,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477192336,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,74
+1769477192931,340,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1443,133,10,10,https://thesimpsonsapi.com/api/characters/967,340,0,77
+1769477193029,321,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1728,133,10,10,https://thesimpsonsapi.com/api/characters/457,321,0,74
+1769477193395,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477193571,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,72
+1769477193938,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477194420,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477194997,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,78
+1769477195120,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477195457,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,76
+1769477195301,631,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1461,133,10,10,https://thesimpsonsapi.com/api/characters/740,630,0,81
+1769477196272,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477196686,107,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,107,0,71
+1769477196516,294,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1958,133,10,10,https://thesimpsonsapi.com/api/characters/483,294,0,75
+1769477196351,583,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1891,133,10,10,https://thesimpsonsapi.com/api/characters/264,583,0,74
+1769477197054,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477197536,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,118,0,79
+1769477198119,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477198240,311,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,2099,133,10,10,https://thesimpsonsapi.com/api/characters/598,311,0,76
+1769477198571,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477198934,575,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1126,133,10,10,https://thesimpsonsapi.com/api/characters/508,575,0,75
+1769477199401,118,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1026,133,10,10,https://thesimpsonsapi.com/api/characters/307,118,0,74
+1769477199795,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477199812,315,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1156,133,10,10,https://thesimpsonsapi.com/api/characters/996,315,0,79
+1769477200168,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,71
+1769477199936,600,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,2268,132,10,10,https://thesimpsonsapi.com/api/characters/36,600,0,75
+1769477200661,310,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1399,133,10,10,https://thesimpsonsapi.com/api/characters/846,310,0,78
+1769477201238,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477201554,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,75
+1769477201690,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477202511,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,121,0,81
+1769477202520,352,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,3149,131,10,10,https://thesimpsonsapi.com/api/characters/5,352,0,79
+1769477202917,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477203128,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477203537,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,113,0,76
+1769477203279,446,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,3650,131,10,10,https://thesimpsonsapi.com/api/characters/3,446,0,73
+1769477203974,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,79
+1769477204354,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,71
+1769477204666,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477204810,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477205633,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,73
+1769477206027,127,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,122,0,79
+1769477205873,353,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1646,133,10,10,https://thesimpsonsapi.com/api/characters/781,352,0,83
+1769477206238,351,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,2056,133,10,10,https://thesimpsonsapi.com/api/characters/497,350,0,76
+1769477206652,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477206726,108,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,72
+1769477207091,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477207470,315,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1551,133,10,10,https://thesimpsonsapi.com/api/characters/392,315,0,80
+1769477207781,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477207923,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,72
+1769477208751,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,74
+1769477209226,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477209154,351,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1780,133,10,10,https://thesimpsonsapi.com/api/characters/883,351,0,75
+1769477209588,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477209834,124,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,118,0,78
+1769477209766,539,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1704,133,10,10,https://thesimpsonsapi.com/api/characters/528,539,0,77
+1769477210203,108,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,71
+1769477210786,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477210893,413,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1729,133,10,10,https://thesimpsonsapi.com/api/characters/322,413,0,72
+1769477211038,671,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1555,133,10,10,https://thesimpsonsapi.com/api/characters/641,671,0,76
+1769477211861,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477212347,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477212505,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477212960,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,78
+1769477212709,560,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1579,132,10,10,https://thesimpsonsapi.com/api/characters/95,559,0,83
+1769477213312,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,72
+1769477213306,577,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1553,133,10,10,https://thesimpsonsapi.com/api/characters/277,577,0,78
+1769477213905,365,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,2113,132,10,10,https://thesimpsonsapi.com/api/characters/50,365,0,74
+1769477214306,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477214710,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,113,0,77
+1769477214973,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477215617,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,121,0,81
+1769477215460,290,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,2086,133,10,10,https://thesimpsonsapi.com/api/characters/116,290,0,73
+1769477216076,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,76
+1769477216270,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,120,0,81
+1769477216421,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,111,0,72
+1769477216884,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477217271,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477217425,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,76
+1769477217824,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,72
+1769477218084,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477218752,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,113,0,74
+1769477218741,314,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1925,133,10,10,https://thesimpsonsapi.com/api/characters/543,314,0,76
+1769477219392,122,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,121,0,83
+1769477219199,317,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1523,133,10,10,https://thesimpsonsapi.com/api/characters/580,317,0,80
+1769477220006,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477219540,590,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1984,133,10,10,https://thesimpsonsapi.com/api/characters/434,589,0,77
+1769477220389,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477220550,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477220942,306,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1632,133,10,10,https://thesimpsonsapi.com/api/characters/707,306,0,73
+1769477221195,108,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,71
+1769477221866,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477222056,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477222516,317,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1965,133,10,10,https://thesimpsonsapi.com/api/characters/649,317,0,73
+1769477222515,600,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,2091,133,10,10,https://thesimpsonsapi.com/api/characters/533,600,0,78
+1769477223132,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477223123,312,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,2033,133,10,10,https://thesimpsonsapi.com/api/characters/583,312,0,74
+1769477223669,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477223501,305,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1826,133,10,10,https://thesimpsonsapi.com/api/characters/697,305,0,75
+1769477224247,122,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1572,133,10,10,https://thesimpsonsapi.com/api/characters/647,122,0,76
+1769477224303,108,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,72
+1769477224986,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477225169,123,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1395,133,10,10,https://thesimpsonsapi.com/api/characters/992,123,0,76
+1769477225833,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477226115,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477226434,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,117,0,77
+1769477226241,351,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,2193,132,10,10,https://thesimpsonsapi.com/api/characters/10,351,0,79
+1769477226787,114,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,70
+1769477226806,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477227413,410,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1438,133,10,10,https://thesimpsonsapi.com/api/characters/335,410,0,74
+1769477227371,555,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1812,133,10,10,https://thesimpsonsapi.com/api/characters/540,555,0,77
+1769477228292,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477228105,326,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1901,132,10,10,https://thesimpsonsapi.com/api/characters/31,325,0,75
+1769477228953,122,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,122,0,81
+1769477229557,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477229593,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477229228,541,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1614,133,10,10,https://thesimpsonsapi.com/api/characters/361,540,0,73
+1769477229919,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,74
+1769477229902,586,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,2400,132,10,10,https://thesimpsonsapi.com/api/characters/16,586,0,72
+1769477230824,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477230927,386,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1696,133,10,10,https://thesimpsonsapi.com/api/characters/836,385,0,79
+1769477231406,143,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,121,0,80
+1769477231432,140,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,140,0,76
+1769477232076,580,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,2136,133,10,10,https://thesimpsonsapi.com/api/characters/973,580,0,81
+1769477232675,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,72
+1769477232704,309,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1022,133,10,10,https://thesimpsonsapi.com/api/characters/738,308,0,72
+1769477232769,565,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1350,133,10,10,https://thesimpsonsapi.com/api/characters/998,565,0,73
+1769477233038,554,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1827,133,10,10,https://thesimpsonsapi.com/api/characters/983,553,0,73
+1769477233489,124,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,124,0,81
+1769477233936,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477234314,320,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,2175,132,10,10,https://thesimpsonsapi.com/api/characters/30,319,0,76
+1769477234552,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,119,0,82
+1769477234575,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,120,0,80
+1769477235786,124,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,119,0,80
+1769477236016,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,109,0,71
+1769477235658,537,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1766,133,10,10,https://thesimpsonsapi.com/api/characters/603,537,0,76
+1769477236335,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,74
+1769477236595,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477236616,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477237048,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477237672,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477237635,535,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1603,133,10,10,https://thesimpsonsapi.com/api/characters/410,535,0,75
+1769477237697,577,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1610,133,10,10,https://thesimpsonsapi.com/api/characters/904,577,0,75
+1769477238911,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477239135,114,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,109,0,71
+1769477239196,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,72
+1769477239455,317,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1687,133,10,10,https://thesimpsonsapi.com/api/characters/304,317,0,74
+1769477239717,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477239732,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,117,0,76
+1769477240167,118,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1515,133,10,10,https://thesimpsonsapi.com/api/characters/679,118,0,73
+1769477240787,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,117,0,78
+1769477241171,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,117,0,77
+1769477241275,114,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,109,0,72
+1769477242028,325,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1439,133,10,10,https://thesimpsonsapi.com/api/characters/467,325,0,74
+1769477242250,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477242313,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,74
+1769477242855,156,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,156,0,119
+1769477242774,249,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,243,0,204
+1769477242835,399,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1713,133,10,10,https://thesimpsonsapi.com/api/characters/465,399,0,142
+1769477243904,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477243286,748,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,2621,133,10,10,https://thesimpsonsapi.com/api/characters/136,748,0,76
+1769477244288,139,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,139,0,81
+1769477244389,130,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,129,0,77
+1769477245353,107,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,107,0,71
+1769477245366,139,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,2201,132,10,10,https://thesimpsonsapi.com/api/characters/10,139,0,76
+1769477245429,124,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,118,0,78
+1769477246024,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477246234,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,74
+1769477246011,580,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1712,133,10,10,https://thesimpsonsapi.com/api/characters/676,580,0,73
+1769477247018,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,76
+1769477247034,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,74
+1769477247428,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477247520,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477248461,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477248554,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477248506,345,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1591,133,10,10,https://thesimpsonsapi.com/api/characters/637,345,0,83
+1769477249142,550,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1037,133,10,10,https://thesimpsonsapi.com/api/characters/723,549,0,71
+1769477249345,567,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1869,133,10,10,https://thesimpsonsapi.com/api/characters/527,567,0,78
+1769477249592,561,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,2085,133,10,10,https://thesimpsonsapi.com/api/characters/728,561,0,71
+1769477250140,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477250154,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,76
+1769477250549,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,77
+1769477250640,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,116,0,76
+1769477251573,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,72
+1769477251852,121,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1987,133,10,10,https://thesimpsonsapi.com/api/characters/777,121,0,74
+1769477251674,562,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,2098,133,10,10,https://thesimpsonsapi.com/api/characters/391,562,0,72
+1769477252693,115,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,72
+1769477252913,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,119,0,77
+1769477253155,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477253271,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477253663,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477253255,579,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1678,133,10,10,https://thesimpsonsapi.com/api/characters/486,579,0,76
+1769477253762,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477254689,129,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,122,0,81
+1769477254974,107,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,107,0,72
+1769477255237,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477255809,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477256037,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,118,0,79
+1769477256388,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477256270,563,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1570,133,10,10,https://thesimpsonsapi.com/api/characters/743,563,0,76
+1769477256876,128,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,123,0,81
+1769477256782,306,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1506,133,10,10,https://thesimpsonsapi.com/api/characters/122,306,0,73
+1769477256834,558,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1526,133,10,10,https://thesimpsonsapi.com/api/characters/742,558,0,75
+1769477257819,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477258356,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,118,0,79
+1769477258082,552,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,2061,133,10,10,https://thesimpsonsapi.com/api/characters/999,552,0,73
+1769477258922,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477259156,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,118,0,78
+1769477259509,117,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,117,0,79
+1769477260089,118,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1955,133,10,10,https://thesimpsonsapi.com/api/characters/646,118,0,73
+1769477260006,289,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1466,133,10,10,https://thesimpsonsapi.com/api/characters/247,289,0,73
+1769477259835,561,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1709,133,10,10,https://thesimpsonsapi.com/api/characters/428,560,0,81
+1769477260394,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477260933,338,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1611,133,10,10,https://thesimpsonsapi.com/api/characters/402,338,0,76
+1769477261474,145,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,144,0,104
+1769477261635,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477262039,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477262275,315,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1261,133,10,10,https://thesimpsonsapi.com/api/characters/635,315,0,74
+1769477262628,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477263209,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477263396,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477263297,314,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1127,133,10,10,https://thesimpsonsapi.com/api/characters/186,314,0,73
+1769477263514,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,119,0,76
+1769477264272,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477264619,553,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1779,133,10,10,https://thesimpsonsapi.com/api/characters/479,553,0,75
+1769477265152,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477264748,543,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1590,133,10,10,https://thesimpsonsapi.com/api/characters/599,543,0,72
+1769477265591,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,115,0,75
+1769477265751,543,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1477,133,10,10,https://thesimpsonsapi.com/api/characters/181,543,0,75
+1769477266320,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477266515,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477266613,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477266635,540,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1891,133,10,10,https://thesimpsonsapi.com/api/characters/917,539,0,75
+1769477267387,114,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,109,0,72
+1769477268174,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,73
+1769477268262,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477268293,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477268711,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,113,0,73
+1769477269294,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477269433,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,73
+1769477269626,140,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,140,0,104
+1769477269725,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,79
+1769477270177,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,118,0,77
+1769477270503,311,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1802,133,10,10,https://thesimpsonsapi.com/api/characters/433,311,0,77
+1769477271284,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477271374,341,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1790,133,10,10,https://thesimpsonsapi.com/api/characters/985,341,0,73
+1769477271831,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,73
+1769477271405,585,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1694,133,10,10,https://thesimpsonsapi.com/api/characters/876,585,0,74
+1769477272405,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,72
+1769477272553,126,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,121,0,79
+1769477272767,132,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,132,0,77
+1769477272842,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,78
+1769477273302,141,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,141,0,102
+1769477273816,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,75
+1769477274402,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,75
+1769477274717,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,118,0,79
+1769477274992,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477274955,297,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1748,133,10,10,https://thesimpsonsapi.com/api/characters/412,297,0,75
+1769477275515,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,109,0,74
+1769477275681,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,118,0,78
+1769477275901,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477275956,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,117,0,76
+1769477276927,121,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,121,0,82
+1769477276445,629,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1752,133,10,10,https://thesimpsonsapi.com/api/characters/180,629,0,79
+1769477277517,596,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1946,133,10,10,https://thesimpsonsapi.com/api/characters/889,595,0,90
+1769477278107,125,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1400,133,10,10,https://thesimpsonsapi.com/api/characters/981,125,0,77
+1769477278253,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477277835,639,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1963,133,10,10,https://thesimpsonsapi.com/api/characters/430,639,0,79
+1769477278625,133,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,126,0,87
+1769477278800,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477279017,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477279080,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,73
+1769477280048,108,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,71
+1769477280075,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,117,0,76
+1769477281113,117,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477281369,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477281474,120,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,120,0,80
+1769477281233,562,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1569,132,10,10,https://thesimpsonsapi.com/api/characters/94,562,0,73
+1769477281759,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477281915,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,120,0,75
+1769477282135,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477282197,121,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477283159,107,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,107,0,71
+1769477283198,337,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1382,133,10,10,https://thesimpsonsapi.com/api/characters/573,337,0,74
+1769477284233,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,120,0,77
+1769477284490,110,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,74
+1769477284595,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477284881,109,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,71
+1769477285252,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,118,0,77
+1769477284796,582,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1713,133,10,10,https://thesimpsonsapi.com/api/characters/594,582,0,76
+1769477285038,558,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1724,133,10,10,https://thesimpsonsapi.com/api/characters/890,557,0,86
+1769477285320,294,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1662,133,10,10,https://thesimpsonsapi.com/api/characters/746,294,0,76
+1769477286268,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,76
+1769477286538,556,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1521,133,10,10,https://thesimpsonsapi.com/api/characters/578,555,0,73
+1769477287360,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,71
+1769477287601,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,112,0,75
+1769477287708,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477287991,127,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,121,0,78
+1769477288379,116,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1559,133,10,10,https://thesimpsonsapi.com/api/characters/392,116,0,70
+1769477288596,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477288376,340,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1550,133,10,10,https://thesimpsonsapi.com/api/characters/106,340,0,75
+1769477288615,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,117,0,77
+1769477289390,115,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,115,0,77
+1769477290094,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,119,0,78
+1769477290476,113,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,113,0,76
+1769477290719,124,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477290827,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,72
+1769477291118,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,111,0,73
+1769477291494,108,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,108,0,72
+1769477291713,159,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,158,0,99
+1769477291716,189,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,189,0,126
+1769477291737,173,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,173,0,135
+1769477292506,123,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,118,0,77
+1769477293220,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,110,0,73
+1769477293591,125,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,125,0,85
+1769477293845,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,118,0,79
+1769477293945,125,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1835,133,10,10,https://thesimpsonsapi.com/api/characters/983,125,0,76
+1769477294236,339,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1686,133,10,10,https://thesimpsonsapi.com/api/characters/690,339,0,76
+1769477294604,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477294906,288,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1786,133,10,10,https://thesimpsonsapi.com/api/characters/966,288,0,72
+1769477294873,546,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,2970,133,10,10,https://thesimpsonsapi.com/api/characters/469,545,0,74
+1769477294912,526,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1888,132,10,10,https://thesimpsonsapi.com/api/characters/71,526,0,75
+1769477295631,544,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1848,133,10,10,https://thesimpsonsapi.com/api/characters/164,544,0,74
+1769477296333,346,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,2269,133,10,10,https://thesimpsonsapi.com/api/characters/780,346,0,79
+1769477296717,120,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,76
+1769477296964,116,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,116,0,75
+1769477297072,118,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,74
+1769477297576,122,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,116,0,77
+1769477297716,118,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,118,0,78
+1769477298420,114,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,114,0,75
+1769477298195,435,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1346,133,10,10,https://thesimpsonsapi.com/api/characters/894,435,0,74
+1769477298439,776,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1954,133,10,10,https://thesimpsonsapi.com/api/characters/345,776,0,73
+1769477299174,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,119,0,77
+1769477299836,119,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,119,0,79
+1769477300080,114,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,109,0,72
+1769477299678,576,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1448,133,10,10,https://thesimpsonsapi.com/api/characters/775,575,0,74
+1769477300190,127,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,122,0,81
+1769477300697,116,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,110,0,72
+1769477300835,777,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,2101,133,10,10,https://thesimpsonsapi.com/api/characters/898,777,0,73
+1769477301629,125,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,119,0,78
+1769477301534,323,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,2024,133,10,10,https://thesimpsonsapi.com/api/characters/290,323,0,74
+1769477302215,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,113,0,75
+1769477302300,111,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,111,0,74
+1769477302955,119,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,114,0,74
+1769477303195,130,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1814,132,10,10,https://thesimpsonsapi.com/api/characters/52,130,0,81
+1769477303318,112,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,112,0,74
+1769477303255,377,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1654,133,10,10,https://thesimpsonsapi.com/api/characters/386,376,0,73
+1769477303814,140,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,140,0,132
+1769477304614,17,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,17,0,10
+1769477304754,17,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,17,0,13
+1769477304857,46,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,46,0,9
+1769477305334,20,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,20,0,16
+1769477305412,19,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,18,0,12
+1769477306075,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,16,0,11
+1769477306431,64,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1933,133,10,10,https://thesimpsonsapi.com/api/characters/543,64,0,20
+1769477306326,246,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,3068,133,10,10,https://thesimpsonsapi.com/api/characters/500,246,0,10
+1769477306633,512,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1902,133,10,10,https://thesimpsonsapi.com/api/characters/714,512,0,11
+1769477306955,298,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1964,132,10,10,https://thesimpsonsapi.com/api/characters/33,298,0,11
+1769477307632,14,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,14,0,9
+1769477307772,15,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,15,0,9
+1769477307904,18,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,18,0,12
+1769477308356,15,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,15,0,10
+1769477308431,13,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,13,0,9
+1769477309094,13,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,12,0,9
+1769477309498,15,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,15,0,10
+1769477309574,47,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1655,133,10,10,https://thesimpsonsapi.com/api/characters/781,47,0,9
+1769477310255,16,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,16,0,11
+1769477310147,247,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1900,133,10,10,https://thesimpsonsapi.com/api/characters/235,246,0,12
+1769477310648,15,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,14,0,10
+1769477310789,22,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,21,0,15
+1769477310924,284,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1712,133,10,10,https://thesimpsonsapi.com/api/characters/254,284,0,11
+1769477311374,21,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,21,0,11
+1769477311447,461,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1693,133,10,10,https://thesimpsonsapi.com/api/characters/401,460,0,11
+1769477312108,14,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,14,0,8
+1769477312514,14,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,14,0,9
+1769477312622,228,GET /characters/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1825,133,10,10,https://thesimpsonsapi.com/api/characters/699,228,0,9
+1769477313273,18,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,18,0,13
+1769477313395,19,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,19,0,13
+1769477313662,17,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,17,0,10
+1769477313811,255,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1733,133,10,10,https://thesimpsonsapi.com/api/characters/822,255,0,11
+1769477314209,41,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,39,0,33
+1769477314395,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,16,0,10
+1769477314909,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,15,0,9
+1769477315121,103,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1755,134,10,10,https://thesimpsonsapi.com/api/characters/1000,103,0,9
+1769477315529,19,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,18,0,13
+1769477315850,16,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,16,0,11
+1769477316414,29,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,29,0,19
+1769477316679,14,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,14,0,10
+1769477316291,521,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1677,133,10,10,https://thesimpsonsapi.com/api/characters/893,521,0,11
+1769477317066,19,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,18,0,11
+1769477317412,29,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,29,0,21
+1769477317250,478,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1718,133,10,10,https://thesimpsonsapi.com/api/characters/352,478,0,9
+1769477317925,484,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,2103,133,10,10,https://thesimpsonsapi.com/api/characters/903,483,0,10
+1769477318225,467,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,2008,133,10,10,https://thesimpsonsapi.com/api/characters/422,467,0,11
+1769477318548,243,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,2356,132,10,10,https://thesimpsonsapi.com/api/characters/13,242,0,10
+1769477318867,17,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,17,0,12
+1769477319444,105,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1030,133,10,10,https://thesimpsonsapi.com/api/characters/738,105,0,10
+1769477319694,497,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1574,133,10,10,https://thesimpsonsapi.com/api/characters/753,496,0,14
+1769477319813,479,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1458,133,10,10,https://thesimpsonsapi.com/api/characters/712,479,0,8
+1769477320085,225,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1031,133,10,10,https://thesimpsonsapi.com/api/characters/359,225,0,9
+1769477320442,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,16,0,11
+1769477320729,243,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1950,133,10,10,https://thesimpsonsapi.com/api/characters/200,243,0,10
+1769477321409,32,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,32,0,19
+1769477321693,82,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,67,0,60
+1769477321791,35,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,35,0,29
+1769477321886,15,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,14,0,9
+1769477322550,50,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,50,0,20
+1769477323192,45,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1957,133,10,10,https://thesimpsonsapi.com/api/characters/200,45,0,9
+1769477323311,14,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,14,0,9
+1769477323459,16,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,16,0,8
+1769477323293,280,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,2035,133,10,10,https://thesimpsonsapi.com/api/characters/596,280,0,13
+1769477323973,44,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1908,133,10,10,https://thesimpsonsapi.com/api/characters/235,44,0,8
+1769477324442,15,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,15,0,9
+1769477324776,17,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,17,0,11
+1769477324827,14,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,14,0,9
+1769477324902,29,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,28,0,19
+1769477325600,18,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,18,0,13
+1769477326238,44,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1558,133,10,10,https://thesimpsonsapi.com/api/characters/106,44,0,8
+1769477326326,16,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,15,0,11
+1769477326476,49,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1530,133,10,10,https://thesimpsonsapi.com/api/characters/617,48,0,10
+1769477326574,30,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,28,0,19
+1769477327018,832,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1643,133,10,10,https://thesimpsonsapi.com/api/characters/542,832,0,12
+1769477327842,29,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,29,0,23
+1769477327931,13,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,13,0,8
+1769477327459,509,GET /characters/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1725,133,10,10,https://thesimpsonsapi.com/api/characters/476,509,0,15
+1769477327794,456,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1572,133,10,10,https://thesimpsonsapi.com/api/characters/897,456,0,10
+1769477328619,16,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,16,0,11
+1769477329284,16,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,16,0,10
+1769477329343,17,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,17,0,10
+1769477329527,16,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,16,0,10
+1769477329606,492,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1589,133,10,10,https://thesimpsonsapi.com/api/characters/851,491,0,18
+1769477330852,18,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,17,0,13
+1769477330873,13,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,13,0,8
+1769477330946,23,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,23,0,14
+1769477330970,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,16,0,9
+1769477331253,15,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,15,0,10
+1769477331637,24,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,21,0,15
+1769477332300,46,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1794,133,10,10,https://thesimpsonsapi.com/api/characters/966,46,0,10
+1769477332361,18,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,18,0,12
+1769477332545,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,15,0,10
+1769477333099,24,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,24,0,12
+1769477333888,18,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,17,0,10
+1769477333970,20,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,20,0,15
+1769477333986,17,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,17,0,9
+1769477333872,221,GET /characters/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1417,133,10,10,https://thesimpsonsapi.com/api/characters/444,221,0,8
+1769477334269,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/characters,16,0,11
+1769477334662,477,GET /characters/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1703,133,10,10,https://thesimpsonsapi.com/api/characters/987,477,0,10
+1769477335380,48,GET /characters/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1967,133,10,10,https://thesimpsonsapi.com/api/characters/483,48,0,11
+1769477335561,18,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,17,0,11
+1769477335347,269,GET /characters/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1585,133,10,10,https://thesimpsonsapi.com/api/characters/341,269,0,10
+1769477336124,227,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1427,133,10,10,https://thesimpsonsapi.com/api/characters/942,227,0,10
+1769477336907,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,16,0,10
+1769477336991,16,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,16,0,10
+1769477337004,22,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,21,0,10
+1769477337094,20,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,20,0,13
+1769477337286,18,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,18,0,12
+1769477338140,18,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,18,0,11
+1769477338429,23,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,22,0,14
+1769477338616,14,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,13,0,9
+1769477338579,228,GET /characters/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1970,133,10,10,https://thesimpsonsapi.com/api/characters/595,228,0,9
+1769477339352,45,GET /characters/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1640,133,10,10,https://thesimpsonsapi.com/api/characters/807,45,0,9
+1769477340008,30,GET /characters (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,191,10,10,https://thesimpsonsapi.com/api/characters,29,0,19
+1769477340027,15,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,15,0,9
+1769477340116,15,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,15,0,9
+1769477340305,49,GET /characters/{id},200,OK,Baseline - 10 Users 1-9,text,true,,3158,131,10,10,https://thesimpsonsapi.com/api/characters/5,48,0,10
+1769477339924,467,GET /characters/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1415,133,10,10,https://thesimpsonsapi.com/api/characters/436,467,0,10
+1769477341159,18,GET /characters (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,9012,129,10,10,https://thesimpsonsapi.com/api/characters,18,0,9

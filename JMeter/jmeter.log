@@ -1,0 +1,739 @@
+2026-01-26 22:38:35,549 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-01-26 22:38:35,569 INFO o.a.j.JMeter: Loading user properties from: C:\jmeter\bin\user.properties
+2026-01-26 22:38:35,570 INFO o.a.j.JMeter: Loading system properties from: C:\jmeter\bin\system.properties
+2026-01-26 22:38:35,578 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-01-26 22:38:35,578 INFO o.a.j.JMeter: Version 5.6.3
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: java.version=25.0.1
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: os.name=Windows 11
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: os.arch=amd64
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: os.version=10.0
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: java.awt.headless=true
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-01-26 22:38:35,579 INFO o.a.j.JMeter: Available Processors =12
+2026-01-26 22:38:35,595 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-01-26 22:38:35,596 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-01-26 22:38:35,596 INFO o.a.j.JMeter: JMeterHome=C:\jmeter
+2026-01-26 22:38:35,596 INFO o.a.j.JMeter: user.dir  =C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter
+2026-01-26 22:38:35,596 INFO o.a.j.JMeter: PWD       =C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter
+2026-01-26 22:38:35,598 INFO o.a.j.JMeter: IP: 192.168.1.89 Name: Lenovo FullName: Lenovo
+2026-01-26 22:38:35,609 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report'
+2026-01-26 22:38:35,611 INFO o.a.j.s.FileServer: Default base='C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter'
+2026-01-26 22:38:35,612 INFO o.a.j.s.FileServer: Set new base='C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter'
+2026-01-26 22:38:35,893 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-01-26 22:38:35,913 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-01-26 22:38:35,918 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-01-26 22:38:35,923 INFO o.a.j.s.SaveService: Loading file: spike_characters.jmx
+2026-01-26 22:38:35,975 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:38:35,975 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:38:35,975 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:38:35,975 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:38:35,975 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-01-26 22:38:35,975 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-01-26 22:38:36,002 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-01-26 22:38:36,007 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-01-26 22:38:36,007 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: results/spike_characters.jtl
+2026-01-26 22:38:36,007 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\jmeter\bin\reportgenerator.properties
+2026-01-26 22:38:36,008 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-01-26 22:38:36,010 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-01-26 22:38:36,012 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-01-26 22:38:36,012 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-01-26 22:38:36,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-01-26 22:38:36,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-01-26 22:38:36,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-01-26 22:38:36,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-01-26 22:38:36,013 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-01-26 22:38:36,014 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-01-26 22:38:36,016 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,018 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,019 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 22:38:36,020 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-01-26 22:38:36,020 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-01-26 22:38:36,020 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-01-26 22:38:36,021 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-01-26 22:38:36,021 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-01-26 22:38:36,021 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-01-26 22:38:36,034 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-01-26 22:38:36,035 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-01-26 22:38:36,035 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-01-26 22:38:36,041 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-01-26 22:38:36,042 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-01-26 22:38:36,117 INFO o.a.j.JMeter: Running test (1769477916117)
+2026-01-26 22:38:36,138 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Spike Test - 200 Users Burst
+2026-01-26 22:38:36,138 INFO o.a.j.e.StandardJMeterEngine: Starting 200 threads for group Spike Test - 200 Users Burst.
+2026-01-26 22:38:36,138 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-01-26 22:38:36,138 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=200 ramp-up=1 delayedStart=false
+2026-01-26 22:38:36,146 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-1
+2026-01-26 22:38:36,146 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-2
+2026-01-26 22:38:36,151 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-3
+2026-01-26 22:38:36,156 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-4
+2026-01-26 22:38:36,160 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-5
+2026-01-26 22:38:36,165 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-6
+2026-01-26 22:38:36,169 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-7
+2026-01-26 22:38:36,170 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Lenovo
+2026-01-26 22:38:36,176 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-8
+2026-01-26 22:38:36,180 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-9
+2026-01-26 22:38:36,180 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-01-26 22:38:36,182 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-01-26 22:38:36,182 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-01-26 22:38:36,182 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-01-26 22:38:36,182 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-01-26 22:38:36,185 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-10
+2026-01-26 22:38:36,191 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-11
+2026-01-26 22:38:36,195 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-12
+2026-01-26 22:38:36,198 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-01-26 22:38:36,199 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-01-26 22:38:36,205 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-13
+2026-01-26 22:38:36,207 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-14
+2026-01-26 22:38:36,210 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-15
+2026-01-26 22:38:36,215 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-16
+2026-01-26 22:38:36,219 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-17
+2026-01-26 22:38:36,224 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-18
+2026-01-26 22:38:36,230 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-19
+2026-01-26 22:38:36,235 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-20
+2026-01-26 22:38:36,241 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-21
+2026-01-26 22:38:36,247 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-22
+2026-01-26 22:38:36,252 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-23
+2026-01-26 22:38:36,255 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-24
+2026-01-26 22:38:36,261 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-25
+2026-01-26 22:38:36,266 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-26
+2026-01-26 22:38:36,269 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-27
+2026-01-26 22:38:36,275 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-28
+2026-01-26 22:38:36,279 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-29
+2026-01-26 22:38:36,285 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-30
+2026-01-26 22:38:36,290 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-31
+2026-01-26 22:38:36,294 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-32
+2026-01-26 22:38:36,299 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-33
+2026-01-26 22:38:36,305 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-34
+2026-01-26 22:38:36,310 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-35
+2026-01-26 22:38:36,315 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-36
+2026-01-26 22:38:36,319 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-37
+2026-01-26 22:38:36,324 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-38
+2026-01-26 22:38:36,330 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-39
+2026-01-26 22:38:36,335 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-40
+2026-01-26 22:38:36,340 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-41
+2026-01-26 22:38:36,345 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-42
+2026-01-26 22:38:36,350 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-43
+2026-01-26 22:38:36,355 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-44
+2026-01-26 22:38:36,359 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-45
+2026-01-26 22:38:36,365 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-46
+2026-01-26 22:38:36,367 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-01-26 22:38:36,371 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-47
+2026-01-26 22:38:36,374 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-01-26 22:38:36,374 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-01-26 22:38:36,375 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-48
+2026-01-26 22:38:36,379 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-49
+2026-01-26 22:38:36,385 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-50
+2026-01-26 22:38:36,390 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-51
+2026-01-26 22:38:36,395 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-52
+2026-01-26 22:38:36,399 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-53
+2026-01-26 22:38:36,405 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-54
+2026-01-26 22:38:36,410 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-55
+2026-01-26 22:38:36,415 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-56
+2026-01-26 22:38:36,420 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-57
+2026-01-26 22:38:36,425 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-58
+2026-01-26 22:38:36,429 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-59
+2026-01-26 22:38:36,435 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-60
+2026-01-26 22:38:36,441 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-61
+2026-01-26 22:38:36,445 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-62
+2026-01-26 22:38:36,448 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-01-26 22:38:36,451 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-63
+2026-01-26 22:38:36,451 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-01-26 22:38:36,452 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-01-26 22:38:36,454 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-64
+2026-01-26 22:38:36,459 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-65
+2026-01-26 22:38:36,465 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-66
+2026-01-26 22:38:36,470 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-67
+2026-01-26 22:38:36,475 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-68
+2026-01-26 22:38:36,480 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-69
+2026-01-26 22:38:36,485 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-70
+2026-01-26 22:38:36,489 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-71
+2026-01-26 22:38:36,495 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-72
+2026-01-26 22:38:36,501 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-73
+2026-01-26 22:38:36,506 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-74
+2026-01-26 22:38:36,510 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-75
+2026-01-26 22:38:36,515 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-76
+2026-01-26 22:38:36,520 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-77
+2026-01-26 22:38:36,525 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-78
+2026-01-26 22:38:36,530 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-79
+2026-01-26 22:38:36,535 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-80
+2026-01-26 22:38:36,540 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-81
+2026-01-26 22:38:36,545 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-82
+2026-01-26 22:38:36,550 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-83
+2026-01-26 22:38:36,555 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-84
+2026-01-26 22:38:36,560 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-85
+2026-01-26 22:38:36,565 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-86
+2026-01-26 22:38:36,571 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-87
+2026-01-26 22:38:36,575 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-88
+2026-01-26 22:38:36,579 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-89
+2026-01-26 22:38:36,584 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-90
+2026-01-26 22:38:36,589 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-91
+2026-01-26 22:38:36,596 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-92
+2026-01-26 22:38:36,605 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-93
+2026-01-26 22:38:36,608 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-94
+2026-01-26 22:38:36,610 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-95
+2026-01-26 22:38:36,615 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-96
+2026-01-26 22:38:36,618 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-97
+2026-01-26 22:38:36,640 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-101
+2026-01-26 22:38:36,644 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-102
+2026-01-26 22:38:36,644 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-99
+2026-01-26 22:38:36,645 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-100
+2026-01-26 22:38:36,624 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-98
+2026-01-26 22:38:36,660 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-105
+2026-01-26 22:38:36,663 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-103
+2026-01-26 22:38:36,663 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-104
+2026-01-26 22:38:36,666 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-106
+2026-01-26 22:38:36,671 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-107
+2026-01-26 22:38:36,676 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-108
+2026-01-26 22:38:36,681 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-109
+2026-01-26 22:38:36,686 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-110
+2026-01-26 22:38:36,689 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-111
+2026-01-26 22:38:36,695 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-112
+2026-01-26 22:38:36,700 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-113
+2026-01-26 22:38:36,705 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-114
+2026-01-26 22:38:36,711 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-115
+2026-01-26 22:38:36,716 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-116
+2026-01-26 22:38:36,721 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-117
+2026-01-26 22:38:36,726 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-118
+2026-01-26 22:38:36,731 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-119
+2026-01-26 22:38:36,736 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-120
+2026-01-26 22:38:36,771 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-125
+2026-01-26 22:38:36,772 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-126
+2026-01-26 22:38:36,773 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-123
+2026-01-26 22:38:36,774 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-124
+2026-01-26 22:38:36,782 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-129
+2026-01-26 22:38:36,785 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-130
+2026-01-26 22:38:36,789 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-131
+2026-01-26 22:38:36,800 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-132
+2026-01-26 22:38:36,783 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-121
+2026-01-26 22:38:36,810 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-122
+2026-01-26 22:38:36,812 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-127
+2026-01-26 22:38:36,812 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-128
+2026-01-26 22:38:36,813 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-133
+2026-01-26 22:38:36,818 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-136
+2026-01-26 22:38:36,820 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-134
+2026-01-26 22:38:36,820 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-135
+2026-01-26 22:38:36,826 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-137
+2026-01-26 22:38:36,840 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-140
+2026-01-26 22:38:36,843 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-142
+2026-01-26 22:38:36,850 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-143
+2026-01-26 22:38:36,854 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-141
+2026-01-26 22:38:36,867 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-146
+2026-01-26 22:38:36,876 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-148
+2026-01-26 22:38:36,879 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-149
+2026-01-26 22:38:36,885 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-138
+2026-01-26 22:38:36,888 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-139
+2026-01-26 22:38:36,891 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-144
+2026-01-26 22:38:36,900 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-145
+2026-01-26 22:38:36,900 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-147
+2026-01-26 22:38:36,902 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-150
+2026-01-26 22:38:36,904 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-151
+2026-01-26 22:38:36,910 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-154
+2026-01-26 22:38:36,916 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-155
+2026-01-26 22:38:36,917 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-156
+2026-01-26 22:38:36,919 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-157
+2026-01-26 22:38:36,935 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-160
+2026-01-26 22:38:36,940 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-161
+2026-01-26 22:38:36,949 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-152
+2026-01-26 22:38:36,950 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-162
+2026-01-26 22:38:36,951 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-153
+2026-01-26 22:38:36,955 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-163
+2026-01-26 22:38:36,956 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-158
+2026-01-26 22:38:36,956 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-159
+2026-01-26 22:38:36,959 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-164
+2026-01-26 22:38:36,962 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-165
+2026-01-26 22:38:36,964 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-166
+2026-01-26 22:38:36,976 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-167
+2026-01-26 22:38:36,984 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-168
+2026-01-26 22:38:36,984 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-169
+2026-01-26 22:38:36,989 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-170
+2026-01-26 22:38:36,990 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-171
+2026-01-26 22:38:37,000 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-173
+2026-01-26 22:38:37,000 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-172
+2026-01-26 22:38:37,004 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-174
+2026-01-26 22:38:37,023 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-176
+2026-01-26 22:38:37,025 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-177
+2026-01-26 22:38:37,018 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-175
+2026-01-26 22:38:37,030 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-178
+2026-01-26 22:38:37,030 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-179
+2026-01-26 22:38:37,033 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-180
+2026-01-26 22:38:37,046 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-182
+2026-01-26 22:38:37,050 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-183
+2026-01-26 22:38:37,041 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-181
+2026-01-26 22:38:37,054 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-184
+2026-01-26 22:38:37,059 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-185
+2026-01-26 22:38:37,074 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-188
+2026-01-26 22:38:37,071 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-186
+2026-01-26 22:38:37,076 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-187
+2026-01-26 22:38:37,081 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-189
+2026-01-26 22:38:37,085 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-190
+2026-01-26 22:38:37,089 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-191
+2026-01-26 22:38:37,095 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-192
+2026-01-26 22:38:37,101 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-193
+2026-01-26 22:38:37,104 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-194
+2026-01-26 22:38:37,112 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-195
+2026-01-26 22:38:37,119 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-196
+2026-01-26 22:38:37,127 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-197
+2026-01-26 22:38:37,136 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-198
+2026-01-26 22:38:37,139 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-199
+2026-01-26 22:38:37,142 INFO o.a.j.t.JMeterThread: Thread started: Spike Test - 200 Users Burst 1-200
+2026-01-26 22:39:00,005 INFO o.a.j.r.Summariser: summary +   8779 in 00:00:24 =  367.6/s Avg:   495 Min:    11 Max:  8434 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2026-01-26 22:39:30,000 INFO o.a.j.r.Summariser: summary +  10148 in 00:00:30 =  338.3/s Avg:   588 Min:     9 Max: 21060 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2026-01-26 22:39:30,001 INFO o.a.j.r.Summariser: summary =  18927 in 00:00:54 =  351.3/s Avg:   545 Min:     9 Max: 21060 Err:     0 (0.00%)
+2026-01-26 22:40:00,000 INFO o.a.j.r.Summariser: summary +  10130 in 00:00:30 =  337.7/s Avg:   597 Min:     9 Max: 21077 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2026-01-26 22:40:00,003 INFO o.a.j.r.Summariser: summary =  29057 in 00:01:24 =  346.4/s Avg:   563 Min:     9 Max: 21077 Err:     0 (0.00%)
+2026-01-26 22:40:30,007 INFO o.a.j.r.Summariser: summary +   9454 in 00:00:30 =  315.1/s Avg:   627 Min:     8 Max: 22294 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+2026-01-26 22:40:30,007 INFO o.a.j.r.Summariser: summary =  38511 in 00:01:54 =  338.1/s Avg:   579 Min:     8 Max: 22294 Err:     0 (0.00%)
+2026-01-26 22:40:36,151 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-6
+2026-01-26 22:40:36,151 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-6
+2026-01-26 22:40:36,159 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-28
+2026-01-26 22:40:36,159 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-28
+2026-01-26 22:40:36,167 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-10
+2026-01-26 22:40:36,167 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-10
+2026-01-26 22:40:36,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-4
+2026-01-26 22:40:36,168 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-4
+2026-01-26 22:40:36,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-63
+2026-01-26 22:40:36,170 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-63
+2026-01-26 22:40:36,175 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-94
+2026-01-26 22:40:36,176 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-94
+2026-01-26 22:40:36,184 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-129
+2026-01-26 22:40:36,185 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-129
+2026-01-26 22:40:36,190 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-83
+2026-01-26 22:40:36,190 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-83
+2026-01-26 22:40:36,190 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-124
+2026-01-26 22:40:36,192 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-124
+2026-01-26 22:40:36,197 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-184
+2026-01-26 22:40:36,197 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-184
+2026-01-26 22:40:36,198 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-96
+2026-01-26 22:40:36,198 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-70
+2026-01-26 22:40:36,198 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-96
+2026-01-26 22:40:36,198 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-70
+2026-01-26 22:40:36,204 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-197
+2026-01-26 22:40:36,204 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-197
+2026-01-26 22:40:36,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-158
+2026-01-26 22:40:36,231 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-150
+2026-01-26 22:40:36,233 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-158
+2026-01-26 22:40:36,233 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-150
+2026-01-26 22:40:36,235 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-151
+2026-01-26 22:40:36,235 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-151
+2026-01-26 22:40:36,238 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-120
+2026-01-26 22:40:36,238 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-120
+2026-01-26 22:40:36,243 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-7
+2026-01-26 22:40:36,243 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-187
+2026-01-26 22:40:36,243 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-7
+2026-01-26 22:40:36,243 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-187
+2026-01-26 22:40:36,251 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-162
+2026-01-26 22:40:36,251 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-162
+2026-01-26 22:40:36,257 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-195
+2026-01-26 22:40:36,257 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-195
+2026-01-26 22:40:36,260 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-1
+2026-01-26 22:40:36,260 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-1
+2026-01-26 22:40:36,262 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-48
+2026-01-26 22:40:36,262 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-48
+2026-01-26 22:40:36,278 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-2
+2026-01-26 22:40:36,278 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-2
+2026-01-26 22:40:36,281 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-137
+2026-01-26 22:40:36,281 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-137
+2026-01-26 22:40:36,283 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-160
+2026-01-26 22:40:36,283 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-160
+2026-01-26 22:40:36,287 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-50
+2026-01-26 22:40:36,288 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-50
+2026-01-26 22:40:36,291 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-9
+2026-01-26 22:40:36,291 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-9
+2026-01-26 22:40:36,303 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-127
+2026-01-26 22:40:36,303 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-127
+2026-01-26 22:40:36,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-71
+2026-01-26 22:40:36,308 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-71
+2026-01-26 22:40:36,310 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-3
+2026-01-26 22:40:36,310 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-3
+2026-01-26 22:40:36,310 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-29
+2026-01-26 22:40:36,310 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-29
+2026-01-26 22:40:36,320 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-68
+2026-01-26 22:40:36,320 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-68
+2026-01-26 22:40:36,328 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-99
+2026-01-26 22:40:36,328 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-164
+2026-01-26 22:40:36,328 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-107
+2026-01-26 22:40:36,329 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-99
+2026-01-26 22:40:36,329 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-107
+2026-01-26 22:40:36,329 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-164
+2026-01-26 22:40:36,333 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-55
+2026-01-26 22:40:36,333 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-55
+2026-01-26 22:40:36,347 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-59
+2026-01-26 22:40:36,347 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-59
+2026-01-26 22:40:36,372 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-190
+2026-01-26 22:40:36,372 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-190
+2026-01-26 22:40:36,399 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-130
+2026-01-26 22:40:36,399 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-130
+2026-01-26 22:40:36,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-30
+2026-01-26 22:40:36,400 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-30
+2026-01-26 22:40:36,402 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-152
+2026-01-26 22:40:36,402 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-152
+2026-01-26 22:40:36,404 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-85
+2026-01-26 22:40:36,405 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-85
+2026-01-26 22:40:36,405 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-46
+2026-01-26 22:40:36,405 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-46
+2026-01-26 22:40:36,407 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-49
+2026-01-26 22:40:36,407 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-49
+2026-01-26 22:40:36,411 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-194
+2026-01-26 22:40:36,411 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-194
+2026-01-26 22:40:36,420 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-25
+2026-01-26 22:40:36,422 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-25
+2026-01-26 22:40:36,426 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-122
+2026-01-26 22:40:36,426 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-122
+2026-01-26 22:40:36,450 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-64
+2026-01-26 22:40:36,450 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-64
+2026-01-26 22:40:36,454 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-167
+2026-01-26 22:40:36,454 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-153
+2026-01-26 22:40:36,454 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-153
+2026-01-26 22:40:36,454 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-167
+2026-01-26 22:40:36,469 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-62
+2026-01-26 22:40:36,469 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-62
+2026-01-26 22:40:36,477 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-88
+2026-01-26 22:40:36,477 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-88
+2026-01-26 22:40:36,478 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-143
+2026-01-26 22:40:36,478 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-143
+2026-01-26 22:40:36,480 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-61
+2026-01-26 22:40:36,480 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-61
+2026-01-26 22:40:36,482 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-74
+2026-01-26 22:40:36,482 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-74
+2026-01-26 22:40:36,482 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-26
+2026-01-26 22:40:36,482 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-26
+2026-01-26 22:40:36,484 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-169
+2026-01-26 22:40:36,484 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-169
+2026-01-26 22:40:36,490 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-27
+2026-01-26 22:40:36,490 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-27
+2026-01-26 22:40:36,495 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-79
+2026-01-26 22:40:36,495 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-144
+2026-01-26 22:40:36,495 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-79
+2026-01-26 22:40:36,495 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-144
+2026-01-26 22:40:36,500 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-166
+2026-01-26 22:40:36,501 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-166
+2026-01-26 22:40:36,507 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-76
+2026-01-26 22:40:36,507 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-76
+2026-01-26 22:40:36,507 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-196
+2026-01-26 22:40:36,507 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-196
+2026-01-26 22:40:36,514 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-21
+2026-01-26 22:40:36,514 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-21
+2026-01-26 22:40:36,528 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-69
+2026-01-26 22:40:36,528 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-69
+2026-01-26 22:40:36,538 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-140
+2026-01-26 22:40:36,538 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-140
+2026-01-26 22:40:36,538 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-81
+2026-01-26 22:40:36,540 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-81
+2026-01-26 22:40:36,542 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-139
+2026-01-26 22:40:36,542 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-119
+2026-01-26 22:40:36,542 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-139
+2026-01-26 22:40:36,542 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-119
+2026-01-26 22:40:36,543 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-43
+2026-01-26 22:40:36,543 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-43
+2026-01-26 22:40:36,561 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-12
+2026-01-26 22:40:36,561 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-12
+2026-01-26 22:40:36,601 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-145
+2026-01-26 22:40:36,602 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-145
+2026-01-26 22:40:36,661 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-89
+2026-01-26 22:40:36,661 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-89
+2026-01-26 22:40:36,666 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-177
+2026-01-26 22:40:36,666 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-177
+2026-01-26 22:40:36,674 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-104
+2026-01-26 22:40:36,674 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-104
+2026-01-26 22:40:36,675 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-78
+2026-01-26 22:40:36,675 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-78
+2026-01-26 22:40:36,676 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-141
+2026-01-26 22:40:36,676 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-146
+2026-01-26 22:40:36,676 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-141
+2026-01-26 22:40:36,676 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-146
+2026-01-26 22:40:36,682 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-142
+2026-01-26 22:40:36,682 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-142
+2026-01-26 22:40:36,694 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-113
+2026-01-26 22:40:36,695 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-113
+2026-01-26 22:40:36,702 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-199
+2026-01-26 22:40:36,702 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-199
+2026-01-26 22:40:36,707 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-5
+2026-01-26 22:40:36,707 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-5
+2026-01-26 22:40:36,736 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-82
+2026-01-26 22:40:36,736 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-82
+2026-01-26 22:40:36,738 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-14
+2026-01-26 22:40:36,738 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-14
+2026-01-26 22:40:36,762 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-109
+2026-01-26 22:40:36,762 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-109
+2026-01-26 22:40:36,766 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-97
+2026-01-26 22:40:36,766 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-97
+2026-01-26 22:40:36,784 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-58
+2026-01-26 22:40:36,784 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-58
+2026-01-26 22:40:36,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-52
+2026-01-26 22:40:36,785 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-52
+2026-01-26 22:40:36,787 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-147
+2026-01-26 22:40:36,787 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-147
+2026-01-26 22:40:36,788 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-60
+2026-01-26 22:40:36,788 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-60
+2026-01-26 22:40:36,791 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-90
+2026-01-26 22:40:36,791 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-90
+2026-01-26 22:40:36,802 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-36
+2026-01-26 22:40:36,802 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-36
+2026-01-26 22:40:36,804 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-45
+2026-01-26 22:40:36,805 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-45
+2026-01-26 22:40:36,806 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-35
+2026-01-26 22:40:36,806 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-121
+2026-01-26 22:40:36,806 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-35
+2026-01-26 22:40:36,806 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-121
+2026-01-26 22:40:36,814 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-175
+2026-01-26 22:40:36,814 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-175
+2026-01-26 22:40:36,829 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-149
+2026-01-26 22:40:36,829 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-149
+2026-01-26 22:40:36,847 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-170
+2026-01-26 22:40:36,847 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-170
+2026-01-26 22:40:36,858 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-80
+2026-01-26 22:40:36,858 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-80
+2026-01-26 22:40:36,861 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-11
+2026-01-26 22:40:36,861 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-11
+2026-01-26 22:40:36,863 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-174
+2026-01-26 22:40:36,863 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-174
+2026-01-26 22:40:36,866 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-114
+2026-01-26 22:40:36,866 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-114
+2026-01-26 22:40:36,873 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-193
+2026-01-26 22:40:36,873 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-193
+2026-01-26 22:40:36,877 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-100
+2026-01-26 22:40:36,877 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-100
+2026-01-26 22:40:36,923 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-183
+2026-01-26 22:40:36,923 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-183
+2026-01-26 22:40:36,933 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-136
+2026-01-26 22:40:36,933 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-136
+2026-01-26 22:40:36,947 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-115
+2026-01-26 22:40:36,949 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-115
+2026-01-26 22:40:36,949 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-161
+2026-01-26 22:40:36,949 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-161
+2026-01-26 22:40:36,962 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-42
+2026-01-26 22:40:36,962 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-42
+2026-01-26 22:40:36,964 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-66
+2026-01-26 22:40:36,964 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-66
+2026-01-26 22:40:36,964 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-56
+2026-01-26 22:40:36,964 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-56
+2026-01-26 22:40:36,973 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-131
+2026-01-26 22:40:36,973 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-131
+2026-01-26 22:40:36,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-93
+2026-01-26 22:40:36,983 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-93
+2026-01-26 22:40:36,985 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-163
+2026-01-26 22:40:36,986 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-163
+2026-01-26 22:40:36,996 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-171
+2026-01-26 22:40:36,996 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-179
+2026-01-26 22:40:36,996 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-171
+2026-01-26 22:40:36,996 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-179
+2026-01-26 22:40:37,009 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-116
+2026-01-26 22:40:37,009 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-116
+2026-01-26 22:40:37,038 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-173
+2026-01-26 22:40:37,038 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-173
+2026-01-26 22:40:37,055 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-111
+2026-01-26 22:40:37,055 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-111
+2026-01-26 22:40:37,068 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-105
+2026-01-26 22:40:37,068 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-105
+2026-01-26 22:40:37,070 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-198
+2026-01-26 22:40:37,070 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-198
+2026-01-26 22:40:37,072 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-108
+2026-01-26 22:40:37,072 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-108
+2026-01-26 22:40:37,075 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-128
+2026-01-26 22:40:37,075 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-128
+2026-01-26 22:40:37,087 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-73
+2026-01-26 22:40:37,087 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-73
+2026-01-26 22:40:37,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-112
+2026-01-26 22:40:37,088 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-112
+2026-01-26 22:40:37,095 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-133
+2026-01-26 22:40:37,095 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-133
+2026-01-26 22:40:37,115 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-72
+2026-01-26 22:40:37,115 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-72
+2026-01-26 22:40:37,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-23
+2026-01-26 22:40:37,116 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-23
+2026-01-26 22:40:37,127 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-132
+2026-01-26 22:40:37,127 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-132
+2026-01-26 22:40:37,129 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-117
+2026-01-26 22:40:37,129 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-117
+2026-01-26 22:40:37,132 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-125
+2026-01-26 22:40:37,132 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-125
+2026-01-26 22:40:37,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-47
+2026-01-26 22:40:37,170 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-47
+2026-01-26 22:40:37,170 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-37
+2026-01-26 22:40:37,170 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-37
+2026-01-26 22:40:37,172 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-134
+2026-01-26 22:40:37,172 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-134
+2026-01-26 22:40:37,251 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-38
+2026-01-26 22:40:37,251 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-38
+2026-01-26 22:40:37,251 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-24
+2026-01-26 22:40:37,251 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-24
+2026-01-26 22:40:37,324 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-186
+2026-01-26 22:40:37,324 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-186
+2026-01-26 22:40:37,417 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-17
+2026-01-26 22:40:37,417 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-17
+2026-01-26 22:40:37,446 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-101
+2026-01-26 22:40:37,446 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-101
+2026-01-26 22:40:37,449 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-57
+2026-01-26 22:40:37,449 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-57
+2026-01-26 22:40:37,457 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-16
+2026-01-26 22:40:37,457 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-16
+2026-01-26 22:40:37,537 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-91
+2026-01-26 22:40:37,537 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-91
+2026-01-26 22:40:37,541 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-65
+2026-01-26 22:40:37,541 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-13
+2026-01-26 22:40:37,541 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-65
+2026-01-26 22:40:37,541 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-13
+2026-01-26 22:40:37,599 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-51
+2026-01-26 22:40:37,599 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-51
+2026-01-26 22:40:37,602 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-172
+2026-01-26 22:40:37,602 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-172
+2026-01-26 22:40:37,630 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-182
+2026-01-26 22:40:37,631 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-182
+2026-01-26 22:40:37,634 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-178
+2026-01-26 22:40:37,634 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-178
+2026-01-26 22:40:37,658 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-200
+2026-01-26 22:40:37,658 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-200
+2026-01-26 22:40:37,803 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-123
+2026-01-26 22:40:37,803 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-123
+2026-01-26 22:40:37,829 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-154
+2026-01-26 22:40:37,829 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-154
+2026-01-26 22:40:37,830 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-20
+2026-01-26 22:40:37,830 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-20
+2026-01-26 22:40:37,904 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-34
+2026-01-26 22:40:37,904 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-34
+2026-01-26 22:40:37,906 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-191
+2026-01-26 22:40:37,906 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-191
+2026-01-26 22:40:37,910 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-75
+2026-01-26 22:40:37,911 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-75
+2026-01-26 22:40:37,912 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-110
+2026-01-26 22:40:37,912 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-110
+2026-01-26 22:40:37,984 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-95
+2026-01-26 22:40:37,984 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-95
+2026-01-26 22:40:38,012 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-188
+2026-01-26 22:40:38,012 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-188
+2026-01-26 22:40:38,027 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-135
+2026-01-26 22:40:38,027 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-135
+2026-01-26 22:40:38,076 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-181
+2026-01-26 22:40:38,076 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-181
+2026-01-26 22:40:38,077 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-192
+2026-01-26 22:40:38,077 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-192
+2026-01-26 22:40:38,082 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-87
+2026-01-26 22:40:38,082 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-87
+2026-01-26 22:40:38,140 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-180
+2026-01-26 22:40:38,140 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-180
+2026-01-26 22:40:38,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-98
+2026-01-26 22:40:38,146 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-98
+2026-01-26 22:40:38,183 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-31
+2026-01-26 22:40:38,183 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-31
+2026-01-26 22:40:38,191 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-33
+2026-01-26 22:40:38,191 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-33
+2026-01-26 22:40:38,954 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-39
+2026-01-26 22:40:38,955 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-39
+2026-01-26 22:40:38,970 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-92
+2026-01-26 22:40:38,970 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-92
+2026-01-26 22:40:39,168 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-155
+2026-01-26 22:40:39,168 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-155
+2026-01-26 22:40:39,169 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-40
+2026-01-26 22:40:39,169 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-40
+2026-01-26 22:40:39,197 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-15
+2026-01-26 22:40:39,197 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-15
+2026-01-26 22:40:39,199 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-157
+2026-01-26 22:40:39,199 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-157
+2026-01-26 22:40:39,293 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-19
+2026-01-26 22:40:39,293 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-19
+2026-01-26 22:40:39,295 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-159
+2026-01-26 22:40:39,295 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-159
+2026-01-26 22:40:39,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-118
+2026-01-26 22:40:39,305 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-118
+2026-01-26 22:40:39,325 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-185
+2026-01-26 22:40:39,325 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-185
+2026-01-26 22:40:39,335 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-53
+2026-01-26 22:40:39,335 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-53
+2026-01-26 22:40:39,337 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-22
+2026-01-26 22:40:39,337 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-22
+2026-01-26 22:40:39,338 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-189
+2026-01-26 22:40:39,338 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-189
+2026-01-26 22:40:39,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-102
+2026-01-26 22:40:39,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-138
+2026-01-26 22:40:39,340 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-102
+2026-01-26 22:40:39,340 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-138
+2026-01-26 22:40:39,459 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-156
+2026-01-26 22:40:39,459 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-156
+2026-01-26 22:40:39,675 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-86
+2026-01-26 22:40:39,675 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-86
+2026-01-26 22:40:39,675 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-148
+2026-01-26 22:40:39,675 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-148
+2026-01-26 22:40:39,680 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-126
+2026-01-26 22:40:39,680 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-126
+2026-01-26 22:40:39,680 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-165
+2026-01-26 22:40:39,680 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-165
+2026-01-26 22:40:39,681 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-106
+2026-01-26 22:40:39,681 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-106
+2026-01-26 22:40:40,077 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-44
+2026-01-26 22:40:40,077 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-44
+2026-01-26 22:40:40,079 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-32
+2026-01-26 22:40:40,079 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-32
+2026-01-26 22:40:40,080 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-8
+2026-01-26 22:40:40,080 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-8
+2026-01-26 22:40:40,092 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-176
+2026-01-26 22:40:40,092 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-176
+2026-01-26 22:40:40,143 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-103
+2026-01-26 22:40:40,143 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-103
+2026-01-26 22:40:41,908 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-41
+2026-01-26 22:40:41,908 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-41
+2026-01-26 22:40:41,909 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-84
+2026-01-26 22:40:41,909 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-168
+2026-01-26 22:40:41,909 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-84
+2026-01-26 22:40:41,909 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-168
+2026-01-26 22:40:43,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-77
+2026-01-26 22:40:43,224 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-77
+2026-01-26 22:40:43,225 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-67
+2026-01-26 22:40:43,225 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-67
+2026-01-26 22:40:43,225 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-54
+2026-01-26 22:40:43,225 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-54
+2026-01-26 22:40:43,227 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Spike Test - 200 Users Burst 1-18
+2026-01-26 22:40:43,227 INFO o.a.j.t.JMeterThread: Thread finished: Spike Test - 200 Users Burst 1-18
+2026-01-26 22:40:43,227 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-01-26 22:40:43,228 INFO o.a.j.r.Summariser: summary +   2336 in 00:00:13 =  176.7/s Avg:   782 Min:     9 Max: 15275 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2026-01-26 22:40:43,228 INFO o.a.j.r.Summariser: summary =  40847 in 00:02:07 =  321.3/s Avg:   591 Min:     8 Max: 22294 Err:     0 (0.00%)
+2026-01-26 22:40:43,228 INFO o.a.j.JMeter: Generating Dashboard
+2026-01-26 22:40:43,228 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-01-26 22:40:43,240 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-01-26 22:40:44,259 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-01-26 22:40:44,259 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-01-26 22:40:44,262 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-01-26 22:40:44,262 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-01-26 22:40:44,281 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-01-26 22:40:44,283 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-01-26 22:40:44,283 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-01-26 22:40:44,283 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-01-26 22:40:44,466 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-01-26 22:40:44,468 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-01-26 22:40:44,468 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-01-26 22:40:44,468 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-01-26 22:40:44,636 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-01-26 22:40:44,638 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 285929 samples
+2026-01-26 22:40:44,638 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-01-26 22:40:44,638 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-01-26 22:40:44,638 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-01-26 22:40:44,638 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-01-26 22:40:44,639 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-01-26 22:40:44,639 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-01-26 22:40:44,645 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-01-26 22:40:44,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-01-26 22:40:44,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-01-26 22:40:44,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-01-26 22:40:44,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 612705 samples
+2026-01-26 22:40:44,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 122541 samples
+2026-01-26 22:40:44,647 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 40847 samples
+2026-01-26 22:40:44,648 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 40847 samples produced in 1s 378 ms on channel 0
+2026-01-26 22:40:44,648 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-01-26 22:40:44,726 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-01-26 22:40:44,727 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-01-26 22:40:44,727 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-01-26 22:40:44,727 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-01-26 22:40:44,728 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report\statistics.json
+2026-01-26 22:40:44,800 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-01-26 22:40:44,806 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report
+2026-01-26 22:40:44,900 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report, creating folder structure
+2026-01-26 22:40:44,902 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\jmeter\bin\report-template' to 'C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report', got message: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report, found non empty folder with following content [C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report\statistics.json], will be ignored
+2026-01-26 22:40:45,401 INFO o.a.j.JMeter: Dashboard generated

@@ -1,0 +1,147 @@
+{
+    "info": {
+        "_postman_id": "the-simpsons-api-collection",
+        "name": "The Simpsons API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Characters",
+            "item": [
+                {
+                    "name": "Get All Characters (Page 1)",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://thesimpsonsapi.com/api/characters",
+                            "protocol": "https",
+                            "host": [
+                                "thesimpsonsapi",
+                                "com"
+                            ],
+                            "path": [
+                                "api",
+                                "characters"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Character by ID (Homer)",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://thesimpsonsapi.com/api/characters/1",
+                            "protocol": "https",
+                            "host": [
+                                "thesimpsonsapi",
+                                "com"
+                            ],
+                            "path": [
+                                "api",
+                                "characters",
+                                "1"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Episodes",
+            "item": [
+                {
+                    "name": "Get All Episodes",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://thesimpsonsapi.com/api/episodes",
+                            "protocol": "https",
+                            "host": [
+                                "thesimpsonsapi",
+                                "com"
+                            ],
+                            "path": [
+                                "api",
+                                "episodes"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Episode by ID (1)",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://thesimpsonsapi.com/api/episodes/1",
+                            "protocol": "https",
+                            "host": [
+                                "thesimpsonsapi",
+                                "com"
+                            ],
+                            "path": [
+                                "api",
+                                "episodes",
+                                "1"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        },
+        {
+            "name": "Locations",
+            "item": [
+                {
+                    "name": "Get All Locations",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://thesimpsonsapi.com/api/locations",
+                            "protocol": "https",
+                            "host": [
+                                "thesimpsonsapi",
+                                "com"
+                            ],
+                            "path": [
+                                "api",
+                                "locations"
+                            ]
+                        }
+                    },
+                    "response": []
+                },
+                {
+                    "name": "Get Location by ID (1)",
+                    "request": {
+                        "method": "GET",
+                        "header": [],
+                        "url": {
+                            "raw": "https://thesimpsonsapi.com/api/locations/1",
+                            "protocol": "https",
+                            "host": [
+                                "thesimpsonsapi",
+                                "com"
+                            ],
+                            "path": [
+                                "api",
+                                "locations",
+                                "1"
+                            ]
+                        }
+                    },
+                    "response": []
+                }
+            ]
+        }
+    ]
+}

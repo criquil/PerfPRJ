@@ -1,0 +1,674 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1769477076400,491,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29729,189,1,1,https://thesimpsonsapi.com/api/locations,484,0,438
+1769477079896,577,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3076,128,1,1,https://thesimpsonsapi.com/api/locations,577,0,79
+1769477083475,133,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,190,1,1,https://thesimpsonsapi.com/api/locations,126,0,84
+1769477086609,125,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3083,128,2,2,https://thesimpsonsapi.com/api/locations,124,0,78
+1769477088320,125,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3083,128,2,2,https://thesimpsonsapi.com/api/locations,124,0,85
+1769477089735,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,2,2,https://thesimpsonsapi.com/api/locations,118,0,80
+1769477091446,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,190,2,2,https://thesimpsonsapi.com/api/locations,117,0,77
+1769477092854,125,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,2,2,https://thesimpsonsapi.com/api/locations,120,0,79
+1769477094569,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,2,2,https://thesimpsonsapi.com/api/locations,120,0,81
+1769477095981,429,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1471,132,2,2,https://thesimpsonsapi.com/api/locations/470,429,0,76
+1769477097691,559,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1797,132,3,3,https://thesimpsonsapi.com/api/locations/323,559,0,75
+1769477099413,559,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1720,131,3,3,https://thesimpsonsapi.com/api/locations/49,559,0,78
+1769477100319,315,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,934,132,3,3,https://thesimpsonsapi.com/api/locations/450,314,0,77
+1769477101251,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,3,3,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477102973,124,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,3,3,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477103635,122,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,3,3,https://thesimpsonsapi.com/api/locations,122,0,82
+1769477104368,132,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,3,3,https://thesimpsonsapi.com/api/locations,126,0,84
+1769477106098,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,3,3,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477106760,126,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,3,3,https://thesimpsonsapi.com/api/locations,126,0,84
+1769477107503,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,3,3,https://thesimpsonsapi.com/api/locations,112,0,75
+1769477109218,316,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1365,132,4,4,https://thesimpsonsapi.com/api/locations/295,315,0,77
+1769477109888,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,4,4,https://thesimpsonsapi.com/api/locations,118,0,80
+1769477110617,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,4,4,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477112534,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,190,4,4,https://thesimpsonsapi.com/api/locations,116,0,77
+1769477112319,593,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1654,132,4,4,https://thesimpsonsapi.com/api/locations/300,593,0,85
+1769477113006,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,190,4,4,https://thesimpsonsapi.com/api/locations,115,0,76
+1769477113728,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,190,4,4,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477115657,123,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,4,4,https://thesimpsonsapi.com/api/locations,122,0,83
+1769477115913,128,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,190,4,4,https://thesimpsonsapi.com/api/locations,123,0,81
+1769477116128,124,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,190,4,4,https://thesimpsonsapi.com/api/locations,119,0,79
+1769477116851,121,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,4,4,https://thesimpsonsapi.com/api/locations,121,0,81
+1769477118781,331,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1457,132,4,4,https://thesimpsonsapi.com/api/locations/257,331,0,77
+1769477119044,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,4,4,https://thesimpsonsapi.com/api/locations,116,0,78
+1769477119254,600,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1513,132,4,4,https://thesimpsonsapi.com/api/locations/137,600,0,79
+1769477119973,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,4,4,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477122115,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/locations,123,0,81
+1769477122163,606,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1587,132,5,5,https://thesimpsonsapi.com/api/locations/115,605,0,74
+1769477122857,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477123086,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,5,5,https://thesimpsonsapi.com/api/locations,118,0,78
+1769477124317,129,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,123,0,81
+1769477125244,157,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,5,5,https://thesimpsonsapi.com/api/locations,157,0,116
+1769477125770,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,5,5,https://thesimpsonsapi.com/api/locations,117,0,77
+1769477125980,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/locations,118,0,77
+1769477126206,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477127446,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,113,0,76
+1769477128401,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,5,5,https://thesimpsonsapi.com/api/locations,109,0,74
+1769477128888,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,5,5,https://thesimpsonsapi.com/api/locations,109,0,74
+1769477129325,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,120,0,80
+1769477129103,601,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1497,132,5,5,https://thesimpsonsapi.com/api/locations/425,601,0,75
+1769477130566,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,117,0,76
+1769477131512,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,117,0,77
+1769477131999,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,5,5,https://thesimpsonsapi.com/api/locations,118,0,78
+1769477132453,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477132705,132,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,190,5,5,https://thesimpsonsapi.com/api/locations,127,0,77
+1769477133688,578,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,965,132,6,6,https://thesimpsonsapi.com/api/locations/195,578,0,77
+1769477134634,123,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,122,0,84
+1769477135119,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477135573,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,116,0,75
+1769477135839,328,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1533,132,6,6,https://thesimpsonsapi.com/api/locations/443,328,0,76
+1769477136317,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477137269,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/locations,118,0,76
+1769477137758,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,190,6,6,https://thesimpsonsapi.com/api/locations,124,0,80
+1769477138237,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/locations,114,0,74
+1769477138692,593,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1551,132,6,6,https://thesimpsonsapi.com/api/locations/247,593,0,77
+1769477139169,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,120,0,80
+1769477139436,137,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1728,131,6,6,https://thesimpsonsapi.com/api/locations/49,136,0,77
+1769477140392,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477140886,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,113,0,76
+1769477141356,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,114,0,77
+1769477142289,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477142285,125,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,6,6,https://thesimpsonsapi.com/api/locations,125,0,84
+1769477142574,139,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,972,132,6,6,https://thesimpsonsapi.com/api/locations/195,139,0,92
+1769477143509,128,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,190,6,6,https://thesimpsonsapi.com/api/locations,122,0,84
+1769477144000,123,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1521,132,6,6,https://thesimpsonsapi.com/api/locations/137,123,0,77
+1769477144470,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,190,6,6,https://thesimpsonsapi.com/api/locations,121,0,80
+1769477145401,124,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,7,7,https://thesimpsonsapi.com/api/locations,119,0,78
+1769477145412,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,113,0,72
+1769477145714,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,190,7,7,https://thesimpsonsapi.com/api/locations,115,0,76
+1769477146638,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477147125,344,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1175,132,7,7,https://thesimpsonsapi.com/api/locations/285,344,0,78
+1769477147599,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477148318,123,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,123,0,83
+1769477148527,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,112,0,76
+1769477148527,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477148835,656,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1105,132,7,7,https://thesimpsonsapi.com/api/locations/453,655,0,77
+1769477149753,333,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1556,132,7,7,https://thesimpsonsapi.com/api/locations/235,333,0,77
+1769477150470,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,113,0,77
+1769477150712,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,117,0,80
+1769477151444,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,113,0,77
+1769477151644,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,190,7,7,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477151641,574,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1379,132,7,7,https://thesimpsonsapi.com/api/locations/341,574,0,78
+1769477152494,339,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1000,131,7,7,https://thesimpsonsapi.com/api/locations/97,338,0,76
+1769477153089,604,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1831,132,7,7,https://thesimpsonsapi.com/api/locations/382,603,0,76
+1769477153585,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477153831,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,112,0,75
+1769477154560,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,114,0,76
+1769477154769,122,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,122,0,81
+1769477155217,568,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1751,132,7,7,https://thesimpsonsapi.com/api/locations/205,567,0,73
+1769477155834,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,190,7,7,https://thesimpsonsapi.com/api/locations,118,0,77
+1769477156694,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477156696,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477156945,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,7,7,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477157892,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477157676,593,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1304,131,8,8,https://thesimpsonsapi.com/api/locations/60,592,0,73
+1769477158786,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477158955,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,115,0,78
+1769477159814,339,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1210,132,8,8,https://thesimpsonsapi.com/api/locations/187,339,0,76
+1769477160058,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,190,8,8,https://thesimpsonsapi.com/api/locations,120,0,79
+1769477159812,618,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1917,132,8,8,https://thesimpsonsapi.com/api/locations/325,618,0,74
+1769477160318,131,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,190,8,8,https://thesimpsonsapi.com/api/locations,125,0,82
+1769477161010,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,113,0,76
+1769477161270,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,190,8,8,https://thesimpsonsapi.com/api/locations,121,0,79
+1769477161899,124,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,124,0,83
+1769477162072,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/locations,120,0,80
+1769477163187,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,118,0,80
+1769477163432,350,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1497,132,8,8,https://thesimpsonsapi.com/api/locations/379,350,0,76
+1769477163155,649,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1772,132,8,8,https://thesimpsonsapi.com/api/locations/165,648,0,74
+1769477163450,422,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1376,132,8,8,https://thesimpsonsapi.com/api/locations/248,422,0,74
+1769477164399,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,190,8,8,https://thesimpsonsapi.com/api/locations,121,0,80
+1769477164124,570,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1871,132,8,8,https://thesimpsonsapi.com/api/locations/411,570,0,79
+1769477165026,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477165199,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,190,8,8,https://thesimpsonsapi.com/api/locations,114,0,76
+1769477166306,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,107,0,72
+1769477166784,124,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,124,0,86
+1769477166806,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477166874,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477167527,137,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,190,8,8,https://thesimpsonsapi.com/api/locations,131,0,89
+1769477167696,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,8,8,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477168139,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,8,8,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477168320,336,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1987,132,8,8,https://thesimpsonsapi.com/api/locations/353,336,0,79
+1769477169416,593,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,983,132,9,9,https://thesimpsonsapi.com/api/locations/418,593,0,79
+1769477169910,124,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,121,0,81
+1769477169994,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3084,128,9,9,https://thesimpsonsapi.com/api/locations,116,0,77
+1769477169930,423,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1872,132,9,9,https://thesimpsonsapi.com/api/locations/384,423,0,78
+1769477170665,328,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1516,132,9,9,https://thesimpsonsapi.com/api/locations/227,328,0,76
+1769477170814,313,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1668,132,9,9,https://thesimpsonsapi.com/api/locations/302,313,0,76
+1769477171253,126,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3084,128,9,9,https://thesimpsonsapi.com/api/locations,126,0,80
+1769477171656,590,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1838,132,9,9,https://thesimpsonsapi.com/api/locations/173,590,0,83
+1769477172317,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,116,0,76
+1769477173035,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3084,128,9,9,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477173111,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3084,128,9,9,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477173354,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477173009,923,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,975,132,9,9,https://thesimpsonsapi.com/api/locations/238,923,0,81
+1769477173994,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3084,128,9,9,https://thesimpsonsapi.com/api/locations,112,0,76
+1769477174128,344,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1169,132,9,9,https://thesimpsonsapi.com/api/locations/164,344,0,74
+1769477174380,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,114,0,76
+1769477175440,324,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1746,132,9,9,https://thesimpsonsapi.com/api/locations/385,324,0,86
+1769477175249,563,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,965,132,9,9,https://thesimpsonsapi.com/api/locations/143,563,0,76
+1769477176150,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,9,9,https://thesimpsonsapi.com/api/locations,120,0,79
+1769477176223,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3084,128,9,9,https://thesimpsonsapi.com/api/locations,113,0,74
+1769477176471,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477177109,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,113,0,73
+1769477176933,535,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1545,132,9,9,https://thesimpsonsapi.com/api/locations/304,535,0,75
+1769477177473,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477177502,128,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,9,9,https://thesimpsonsapi.com/api/locations,122,0,83
+1769477178765,114,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,9,9,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477178813,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1839,132,9,9,https://thesimpsonsapi.com/api/locations/382,119,0,73
+1769477179338,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,9,9,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477179592,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,9,9,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477179277,592,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,2349,132,9,9,https://thesimpsonsapi.com/api/locations/145,591,0,74
+1769477180228,329,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1634,132,9,9,https://thesimpsonsapi.com/api/locations/113,329,0,73
+1769477180469,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,9,9,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477180598,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,9,9,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477180632,296,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1726,132,9,9,https://thesimpsonsapi.com/api/locations/141,296,0,73
+1769477181880,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,78
+1769477181934,356,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1776,132,10,10,https://thesimpsonsapi.com/api/locations/420,355,0,79
+1769477182456,122,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,121,0,81
+1769477182704,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477182870,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477183558,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,77
+1769477183714,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477183582,327,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,2107,132,10,10,https://thesimpsonsapi.com/api/locations/403,327,0,78
+1769477183929,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,121,0,79
+1769477184318,125,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,120,0,79
+1769477184995,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477185291,341,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1805,132,10,10,https://thesimpsonsapi.com/api/locations/101,341,0,73
+1769477185579,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,120,0,79
+1769477185825,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,74
+1769477185987,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477186673,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477186826,125,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,125,0,82
+1769477186910,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1662,132,10,10,https://thesimpsonsapi.com/api/locations/300,119,0,74
+1769477187056,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477187444,380,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1494,132,10,10,https://thesimpsonsapi.com/api/locations/119,380,0,75
+1769477188117,577,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1121,132,10,10,https://thesimpsonsapi.com/api/locations/441,576,0,74
+1769477188634,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,116,0,73
+1769477188706,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477189107,324,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,933,132,10,10,https://thesimpsonsapi.com/api/locations/429,324,0,72
+1769477188946,542,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1284,131,10,10,https://thesimpsonsapi.com/api/locations/46,542,0,77
+1769477189793,127,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,126,0,86
+1769477189952,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,116,0,77
+1769477190172,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,113,0,73
+1769477190030,317,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1099,132,10,10,https://thesimpsonsapi.com/api/locations/222,317,0,74
+1769477190825,138,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,138,0,76
+1769477191752,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477191824,133,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,133,0,81
+1769477191696,356,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1693,132,10,10,https://thesimpsonsapi.com/api/locations/427,356,0,75
+1769477192490,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477192433,560,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1721,132,10,10,https://thesimpsonsapi.com/api/locations/170,559,0,81
+1769477192920,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,121,0,80
+1769477193076,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477193292,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477193349,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477193964,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,76
+1769477194959,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,117,0,79
+1769477194877,331,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1924,132,10,10,https://thesimpsonsapi.com/api/locations/313,331,0,87
+1769477195053,321,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1832,132,10,10,https://thesimpsonsapi.com/api/locations/280,321,0,77
+1769477195602,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477196201,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,76
+1769477196047,329,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1795,131,10,10,https://thesimpsonsapi.com/api/locations/24,329,0,78
+1769477195994,571,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1606,132,10,10,https://thesimpsonsapi.com/api/locations/434,571,0,78
+1769477196406,556,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1704,132,10,10,https://thesimpsonsapi.com/api/locations/475,555,0,77
+1769477196461,549,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1527,131,10,10,https://thesimpsonsapi.com/api/locations/70,548,0,80
+1769477197084,130,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,124,0,82
+1769477198210,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,121,0,80
+1769477198077,296,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1477,132,10,10,https://thesimpsonsapi.com/api/locations/433,295,0,82
+1769477198376,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,72
+1769477198718,371,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1099,132,10,10,https://thesimpsonsapi.com/api/locations/225,371,0,75
+1769477199317,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,74
+1769477199377,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477199963,122,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,121,0,81
+1769477199566,567,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1317,131,10,10,https://thesimpsonsapi.com/api/locations/68,566,0,74
+1769477200011,321,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1075,132,10,10,https://thesimpsonsapi.com/api/locations/286,321,0,78
+1769477200216,124,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1384,132,10,10,https://thesimpsonsapi.com/api/locations/248,124,0,74
+1769477201338,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,74
+1769477201375,141,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,140,0,96
+1769477201493,599,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1536,131,10,10,https://thesimpsonsapi.com/api/locations/93,599,0,84
+1769477202090,127,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,127,0,80
+1769477202431,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,115,0,74
+1769477202490,379,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1574,131,10,10,https://thesimpsonsapi.com/api/locations/37,379,0,77
+1769477203134,125,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1465,132,10,10,https://thesimpsonsapi.com/api/locations/257,125,0,77
+1769477203333,121,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,121,0,82
+1769477203341,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,112,0,75
+1769477203086,402,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1624,132,10,10,https://thesimpsonsapi.com/api/locations/331,402,0,79
+1769477204452,114,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1465,132,10,10,https://thesimpsonsapi.com/api/locations/257,114,0,76
+1769477204519,370,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1308,130,10,10,https://thesimpsonsapi.com/api/locations/8,370,0,86
+1769477205093,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,117,0,77
+1769477205218,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,116,0,76
+1769477205548,582,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1480,132,10,10,https://thesimpsonsapi.com/api/locations/432,582,0,74
+1769477206260,121,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,121,0,80
+1769477205871,576,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,2159,131,10,10,https://thesimpsonsapi.com/api/locations/23,576,0,76
+1769477206455,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477206460,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,72
+1769477206489,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,76
+1769477207567,129,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,123,0,81
+1769477207890,314,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1014,132,10,10,https://thesimpsonsapi.com/api/locations/249,314,0,76
+1769477208212,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477208340,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477209132,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,73
+1769477209382,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477209448,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477209568,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,74
+1769477209569,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,74
+1769477209605,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,113,0,74
+1769477210697,288,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1772,132,10,10,https://thesimpsonsapi.com/api/locations/350,288,0,74
+1769477211205,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,114,0,74
+1769477211452,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,113,0,73
+1769477211325,545,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,2079,132,10,10,https://thesimpsonsapi.com/api/locations/364,545,0,74
+1769477212244,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,74
+1769477212494,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,77
+1769477212683,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,119,0,79
+1769477212690,127,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,127,0,81
+1769477212726,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,119,0,77
+1769477212560,305,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1929,132,10,10,https://thesimpsonsapi.com/api/locations/400,305,0,72
+1769477213987,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477214328,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,119,0,79
+1769477214571,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477214873,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477215366,124,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,118,0,78
+1769477215805,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,120,0,81
+1769477215846,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,73
+1769477215867,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477215608,565,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1902,132,10,10,https://thesimpsonsapi.com/api/locations/351,565,0,74
+1769477215818,537,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1418,132,10,10,https://thesimpsonsapi.com/api/locations/424,537,0,74
+1769477217101,118,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,973,132,10,10,https://thesimpsonsapi.com/api/locations/143,117,0,72
+1769477217447,118,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1374,132,10,10,https://thesimpsonsapi.com/api/locations/295,117,0,73
+1769477217995,120,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1218,132,10,10,https://thesimpsonsapi.com/api/locations/187,120,0,75
+1769477217688,585,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1636,132,10,10,https://thesimpsonsapi.com/api/locations/109,585,0,73
+1769477218490,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477218925,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477218954,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477219173,118,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1846,132,10,10,https://thesimpsonsapi.com/api/locations/173,118,0,73
+1769477219355,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477218985,602,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1194,132,10,10,https://thesimpsonsapi.com/api/locations/219,602,0,77
+1769477220565,124,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,124,0,81
+1769477220220,646,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1208,132,10,10,https://thesimpsonsapi.com/api/locations/142,646,0,73
+1769477221116,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477221275,124,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,119,0,78
+1769477221613,332,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1333,132,10,10,https://thesimpsonsapi.com/api/locations/284,332,0,72
+1769477222036,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,73
+1769477222073,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,114,0,74
+1769477222293,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477222473,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,72
+1769477222588,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,77
+1769477223693,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477223867,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,121,0,83
+1769477224225,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477224400,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,107,0,72
+1769477224946,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,118,0,78
+1769477225147,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,115,0,76
+1769477225192,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477225583,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,119,0,81
+1769477225704,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477225409,539,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1831,132,10,10,https://thesimpsonsapi.com/api/locations/104,539,0,77
+1769477226809,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477226996,125,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,119,0,78
+1769477227509,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477227335,555,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,987,132,10,10,https://thesimpsonsapi.com/api/locations/244,555,0,71
+1769477228070,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477228270,135,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,128,0,87
+1769477228702,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,117,0,76
+1769477228303,566,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1431,132,10,10,https://thesimpsonsapi.com/api/locations/233,565,0,79
+1769477228824,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477228949,299,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,2121,132,10,10,https://thesimpsonsapi.com/api/locations/377,298,0,73
+1769477230122,146,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,131,0,72
+1769477229920,593,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1425,132,10,10,https://thesimpsonsapi.com/api/locations/397,593,0,76
+1769477230630,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477230893,317,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,985,131,10,10,https://thesimpsonsapi.com/api/locations/44,316,0,78
+1769477231188,114,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,109,0,71
+1769477231405,130,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1177,132,10,10,https://thesimpsonsapi.com/api/locations/164,130,0,80
+1769477231825,154,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,141,0,102
+1769477231939,145,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,136,0,97
+1769477231869,484,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1635,132,10,10,https://thesimpsonsapi.com/api/locations/319,483,0,82
+1769477232249,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1432,132,10,10,https://thesimpsonsapi.com/api/locations/397,119,0,74
+1769477233269,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,107,0,71
+1769477233514,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,117,0,76
+1769477233742,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,74
+1769477234211,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477234305,124,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,124,0,78
+1769477234537,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477234981,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477235085,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477235369,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,116,0,78
+1769477235354,322,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1680,132,10,10,https://thesimpsonsapi.com/api/locations/223,322,0,78
+1769477236378,315,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1641,132,10,10,https://thesimpsonsapi.com/api/locations/207,315,0,77
+1769477236634,344,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1464,132,10,10,https://thesimpsonsapi.com/api/locations/421,344,0,84
+1769477236864,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477237431,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,116,0,73
+1769477237651,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477237334,581,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1925,132,10,10,https://thesimpsonsapi.com/api/locations/282,581,0,79
+1769477238093,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,117,0,79
+1769477238206,287,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1616,131,10,10,https://thesimpsonsapi.com/api/locations/86,287,0,72
+1769477238488,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,74
+1769477238678,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477239695,125,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,120,0,78
+1769477239979,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,76
+1769477239982,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477240550,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,116,0,76
+1769477240761,121,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477240916,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477241211,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,118,0,77
+1769477241493,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,112,0,75
+1769477241606,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,113,0,73
+1769477241789,605,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1602,132,10,10,https://thesimpsonsapi.com/api/locations/414,605,0,76
+1769477242820,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,117,0,73
+1769477243100,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477243098,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477243666,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,117,0,76
+1769477243881,120,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1729,131,10,10,https://thesimpsonsapi.com/api/locations/49,120,0,79
+1769477244335,137,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,137,0,92
+1769477244032,599,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1442,132,10,10,https://thesimpsonsapi.com/api/locations/404,599,0,73
+1769477244724,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477244606,571,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1919,132,10,10,https://thesimpsonsapi.com/api/locations/329,571,0,80
+1769477245396,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477245941,333,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1128,131,10,10,https://thesimpsonsapi.com/api/locations/99,333,0,74
+1769477246216,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477246210,305,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1645,132,10,10,https://thesimpsonsapi.com/api/locations/292,304,0,72
+1769477247002,114,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477246788,547,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1521,132,10,10,https://thesimpsonsapi.com/api/locations/416,547,0,76
+1769477247474,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477247632,120,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1008,131,10,10,https://thesimpsonsapi.com/api/locations/97,120,0,73
+1769477247837,113,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,108,0,70
+1769477248179,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477248513,120,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1387,132,10,10,https://thesimpsonsapi.com/api/locations/341,120,0,74
+1769477249275,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477249332,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,76
+1769477249515,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477250337,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,82
+1769477250585,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,118,0,76
+1769477250118,676,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1146,131,10,10,https://thesimpsonsapi.com/api/locations/75,675,0,74
+1769477250753,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,117,0,77
+1769477250952,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,121,0,80
+1769477251290,121,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,120,0,78
+1769477251636,319,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1063,131,10,10,https://thesimpsonsapi.com/api/locations/91,318,0,73
+1769477252388,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,73
+1769477252448,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477252636,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477253458,314,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1789,132,10,10,https://thesimpsonsapi.com/api/locations/407,314,0,72
+1769477253707,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,72
+1769477253796,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,120,0,80
+1769477253878,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477254080,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477254412,363,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1961,131,10,10,https://thesimpsonsapi.com/api/locations/98,363,0,78
+1769477254956,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477255498,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477255560,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,119,0,81
+1769477255751,342,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1821,132,10,10,https://thesimpsonsapi.com/api/locations/359,342,0,74
+1769477256773,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,76
+1769477256816,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,117,0,77
+1769477256989,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,120,0,79
+1769477256916,319,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1904,132,10,10,https://thesimpsonsapi.com/api/locations/265,319,0,81
+1769477257198,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,111,0,72
+1769477257776,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,77
+1769477258076,297,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1015,131,10,10,https://thesimpsonsapi.com/api/locations/73,297,0,81
+1769477258680,159,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,158,0,122
+1769477259095,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,117,0,76
+1769477258610,661,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1935,130,10,10,https://thesimpsonsapi.com/api/locations/2,661,0,193
+1769477259888,107,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,107,0,71
+1769477259935,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,116,0,75
+1769477260115,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477260237,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477260315,300,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1196,132,10,10,https://thesimpsonsapi.com/api/locations/106,299,0,72
+1769477260890,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,120,0,78
+1769477261374,380,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1721,132,10,10,https://thesimpsonsapi.com/api/locations/128,380,0,111
+1769477261838,128,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,122,0,79
+1769477262271,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,121,0,78
+1769477262217,599,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1661,132,10,10,https://thesimpsonsapi.com/api/locations/287,599,0,79
+1769477262994,114,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1374,132,10,10,https://thesimpsonsapi.com/api/locations/295,114,0,76
+1769477263055,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,111,0,74
+1769477263225,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,119,0,80
+1769477263349,107,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,107,0,72
+1769477263614,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,116,0,80
+1769477264017,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477264967,127,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1760,132,10,10,https://thesimpsonsapi.com/api/locations/205,127,0,78
+1769477264755,561,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,994,132,10,10,https://thesimpsonsapi.com/api/locations/338,561,0,81
+1769477265399,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,121,0,79
+1769477265818,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,116,0,78
+1769477266109,124,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,117,0,77
+1769477266173,116,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,116,0,78
+1769477266345,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477266460,120,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1729,131,10,10,https://thesimpsonsapi.com/api/locations/49,120,0,80
+1769477266732,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,115,0,78
+1769477267129,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1933,132,10,10,https://thesimpsonsapi.com/api/locations/282,119,0,74
+1769477268096,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477268317,114,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,109,0,71
+1769477268528,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,123,0,79
+1769477268942,125,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,125,0,76
+1769477269235,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477269291,347,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1458,132,10,10,https://thesimpsonsapi.com/api/locations/218,346,0,76
+1769477269581,143,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,142,0,98
+1769477269848,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477269462,532,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,2134,132,10,10,https://thesimpsonsapi.com/api/locations/349,532,0,74
+1769477270249,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,72
+1769477271209,142,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1813,132,10,10,https://thesimpsonsapi.com/api/locations/101,142,0,78
+1769477271433,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477271656,357,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1620,132,10,10,https://thesimpsonsapi.com/api/locations/423,357,0,72
+1769477272070,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,73
+1769477272346,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477272639,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477272724,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477272995,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477272967,565,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1055,131,10,10,https://thesimpsonsapi.com/api/locations/76,565,0,72
+1769477273358,574,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1453,132,10,10,https://thesimpsonsapi.com/api/locations/326,574,0,75
+1769477274553,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,73
+1769477274352,547,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1990,131,10,10,https://thesimpsonsapi.com/api/locations/57,547,0,76
+1769477275190,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477275456,107,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,107,0,72
+1769477275015,558,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1318,132,10,10,https://thesimpsonsapi.com/api/locations/152,558,0,75
+1769477275839,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477275760,293,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1759,132,10,10,https://thesimpsonsapi.com/api/locations/469,293,0,78
+1769477276106,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,120,0,81
+1769477276532,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,112,0,76
+1769477276933,302,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1810,132,10,10,https://thesimpsonsapi.com/api/locations/199,301,0,78
+1769477277662,315,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1512,132,10,10,https://thesimpsonsapi.com/api/locations/184,315,0,75
+1769477277899,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477278300,120,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1525,132,10,10,https://thesimpsonsapi.com/api/locations/227,120,0,74
+1769477278563,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477278574,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,116,0,77
+1769477279054,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477278955,520,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1427,131,10,10,https://thesimpsonsapi.com/api/locations/55,520,0,75
+1769477279646,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,120,0,78
+1769477279226,572,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,965,132,10,10,https://thesimpsonsapi.com/api/locations/192,571,0,80
+1769477280236,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477281015,320,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1703,131,10,10,https://thesimpsonsapi.com/api/locations/96,320,0,72
+1769477280978,557,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,2095,132,10,10,https://thesimpsonsapi.com/api/locations/183,557,0,78
+1769477281422,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477281678,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,116,0,73
+1769477281697,126,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,121,0,78
+1769477282165,313,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1350,132,10,10,https://thesimpsonsapi.com/api/locations/283,313,0,79
+1769477282477,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,73
+1769477282800,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477282773,544,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1282,132,10,10,https://thesimpsonsapi.com/api/locations/166,543,0,82
+1769477283349,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,112,0,76
+1769477284336,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477284538,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,73
+1769477284796,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,74
+1769477284537,536,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1555,132,10,10,https://thesimpsonsapi.com/api/locations/114,536,0,73
+1769477284824,575,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,938,132,10,10,https://thesimpsonsapi.com/api/locations/131,574,0,79
+1769477285479,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,112,0,74
+1769477285598,336,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1558,131,10,10,https://thesimpsonsapi.com/api/locations/80,336,0,73
+1769477285918,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,73
+1769477286317,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,115,0,76
+1769477286462,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,78
+1769477287456,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1485,132,10,10,https://thesimpsonsapi.com/api/locations/433,119,0,73
+1769477287648,288,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1785,132,10,10,https://thesimpsonsapi.com/api/locations/291,288,0,77
+1769477287907,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477288074,384,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1207,131,10,10,https://thesimpsonsapi.com/api/locations/88,384,0,74
+1769477288598,299,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1929,132,10,10,https://thesimpsonsapi.com/api/locations/201,299,0,72
+1769477288400,550,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1771,132,10,10,https://thesimpsonsapi.com/api/locations/177,550,0,72
+1769477288936,121,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1520,132,10,10,https://thesimpsonsapi.com/api/locations/184,121,0,78
+1769477289029,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,73
+1769477289581,114,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,109,0,70
+1769477289433,541,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1732,132,10,10,https://thesimpsonsapi.com/api/locations/410,540,0,77
+1769477290576,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477290938,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,72
+1769477291026,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477291458,579,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1502,132,10,10,https://thesimpsonsapi.com/api/locations/431,579,0,78
+1769477291899,150,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,2116,132,10,10,https://thesimpsonsapi.com/api/locations/403,150,0,104
+1769477292057,156,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,156,0,104
+1769477292144,175,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,175,0,117
+1769477291951,584,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1896,132,10,10,https://thesimpsonsapi.com/api/locations/333,584,0,102
+1769477292696,131,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,131,0,78
+1769477292975,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477294047,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,119,0,77
+1769477294141,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,73
+1769477293698,576,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1945,132,10,10,https://thesimpsonsapi.com/api/locations/162,575,0,73
+1769477295050,287,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1768,132,10,10,https://thesimpsonsapi.com/api/locations/439,287,0,75
+1769477295215,128,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,127,0,91
+1769477295322,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,120,0,82
+1769477295039,599,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1691,132,10,10,https://thesimpsonsapi.com/api/locations/378,599,0,77
+1769477295535,117,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477296095,118,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,118,0,79
+1769477295829,567,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1648,132,10,10,https://thesimpsonsapi.com/api/locations/111,567,0,72
+1769477297172,118,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1610,132,10,10,https://thesimpsonsapi.com/api/locations/414,118,0,74
+1769477297274,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,115,0,73
+1769477297252,326,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1439,132,10,10,https://thesimpsonsapi.com/api/locations/398,326,0,77
+1769477298343,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,75
+1769477298338,135,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1952,132,10,10,https://thesimpsonsapi.com/api/locations/162,135,0,75
+1769477298450,135,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,134,0,73
+1769477298639,114,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477298653,118,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,74
+1769477299214,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,113,0,75
+1769477299397,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477300579,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,72
+1769477300291,564,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1537,131,10,10,https://thesimpsonsapi.com/api/locations/85,564,0,74
+1769477300392,545,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,959,132,10,10,https://thesimpsonsapi.com/api/locations/472,545,0,71
+1769477301455,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,120,0,80
+1769477301473,117,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1933,132,10,10,https://thesimpsonsapi.com/api/locations/313,117,0,72
+1769477301584,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,115,0,75
+1769477301772,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,111,0,72
+1769477301753,319,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,934,132,10,10,https://thesimpsonsapi.com/api/locations/146,319,0,74
+1769477302514,123,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1002,132,10,10,https://thesimpsonsapi.com/api/locations/338,123,0,77
+1769477302334,318,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1256,131,10,10,https://thesimpsonsapi.com/api/locations/89,318,0,73
+1769477303854,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477303937,119,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,119,0,81
+1769477303688,568,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1226,130,10,10,https://thesimpsonsapi.com/api/locations/3,568,0,78
+1769477304577,113,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,113,0,76
+1769477304705,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1615,132,10,10,https://thesimpsonsapi.com/api/locations/434,119,0,75
+1769477304889,133,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1326,132,10,10,https://thesimpsonsapi.com/api/locations/152,132,0,74
+1769477304592,541,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1073,132,10,10,https://thesimpsonsapi.com/api/locations/153,541,0,75
+1769477305073,563,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1170,132,10,10,https://thesimpsonsapi.com/api/locations/255,563,0,73
+1769477305653,321,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1926,132,10,10,https://thesimpsonsapi.com/api/locations/457,320,0,70
+1769477305638,533,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1507,132,10,10,https://thesimpsonsapi.com/api/locations/110,533,0,74
+1769477306970,122,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,116,0,75
+1769477307057,129,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,126,0,81
+1769477307256,127,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,119,0,77
+1769477307825,125,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,946,132,10,10,https://thesimpsonsapi.com/api/locations/131,125,0,77
+1769477308022,115,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,111,0,71
+1769477308134,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477307691,580,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,996,132,10,10,https://thesimpsonsapi.com/api/locations/116,580,0,71
+1769477308638,318,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1721,131,10,10,https://thesimpsonsapi.com/api/locations/82,318,0,91
+1769477308974,117,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477309172,108,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,108,0,72
+1769477310093,107,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,107,0,72
+1769477310187,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1563,132,10,10,https://thesimpsonsapi.com/api/locations/114,119,0,75
+1769477310385,120,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,120,0,83
+1769477310952,125,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477311138,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477311246,125,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,120,0,78
+1769477311273,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,72
+1769477311956,129,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1779,132,10,10,https://thesimpsonsapi.com/api/locations/177,129,0,82
+1769477312093,129,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,122,0,80
+1769477312281,157,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,116,0,76
+1769477313202,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,115,0,78
+1769477313307,120,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,115,0,77
+1769477314078,134,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,134,0,88
+1769477314255,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,118,0,78
+1769477313506,908,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1782,132,10,10,https://thesimpsonsapi.com/api/locations/252,907,0,73
+1769477314372,116,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,112,0,72
+1769477314383,557,GET /locations/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1559,132,10,10,https://thesimpsonsapi.com/api/locations/454,557,0,79
+1769477315085,140,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,134,0,94
+1769477315223,115,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,115,0,78
+1769477315439,112,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,112,0,73
+1769477316317,120,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1264,131,10,10,https://thesimpsonsapi.com/api/locations/89,119,0,74
+1769477316429,547,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1627,132,10,10,https://thesimpsonsapi.com/api/locations/258,547,0,73
+1769477317213,109,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,109,0,73
+1769477317380,123,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,117,0,78
+1769477317490,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,114,0,75
+1769477317415,304,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1583,132,10,10,https://thesimpsonsapi.com/api/locations/408,304,0,72
+1769477317942,110,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,110,0,72
+1769477318227,111,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,111,0,73
+1769477318340,119,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,113,0,73
+1769477318554,119,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1130,132,10,10,https://thesimpsonsapi.com/api/locations/441,119,0,73
+1769477319438,62,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,62,0,27
+1769477319977,16,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,16,0,11
+1769477320324,47,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1615,132,10,10,https://thesimpsonsapi.com/api/locations/434,46,0,10
+1769477320503,18,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,18,0,9
+1769477320610,47,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1996,132,10,10,https://thesimpsonsapi.com/api/locations/353,47,0,11
+1769477320720,107,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1374,132,10,10,https://thesimpsonsapi.com/api/locations/295,107,0,11
+1769477321053,19,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,19,0,15
+1769477321338,21,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,21,0,15
+1769477321459,14,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,14,0,9
+1769477321673,255,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,941,132,10,10,https://thesimpsonsapi.com/api/locations/139,255,0,47
+1769477322500,489,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1972,131,10,10,https://thesimpsonsapi.com/api/locations/50,489,0,10
+1769477323371,13,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,13,0,9
+1769477322993,496,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1788,132,10,10,https://thesimpsonsapi.com/api/locations/415,496,0,9
+1769477323520,15,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,15,0,9
+1769477323827,15,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,15,0,9
+1769477324072,30,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,30,0,17
+1769477323657,497,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1657,131,10,10,https://thesimpsonsapi.com/api/locations/74,497,0,30
+1769477324360,14,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,14,0,9
+1769477324474,46,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1795,132,10,10,https://thesimpsonsapi.com/api/locations/415,46,0,11
+1769477324930,46,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,46,0,32
+1769477326384,25,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,25,0,17
+1769477325989,482,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1466,132,10,10,https://thesimpsonsapi.com/api/locations/297,482,0,10
+1769477326492,16,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,15,0,10
+1769477326537,216,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1024,132,10,10,https://thesimpsonsapi.com/api/locations/262,215,0,10
+1769477326844,15,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,14,0,8
+1769477327105,14,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,14,0,9
+1769477327157,14,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,13,0,10
+1769477327376,45,GET /locations/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1740,132,10,10,https://thesimpsonsapi.com/api/locations/410,45,0,10
+1769477327522,15,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,15,0,8
+1769477327978,15,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,15,0,9
+1769477329411,15,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,15,0,11
+1769477329474,16,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,16,0,11
+1769477329753,47,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1178,132,10,10,https://thesimpsonsapi.com/api/locations/164,46,0,10
+1769477329508,463,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,2508,132,10,10,https://thesimpsonsapi.com/api/locations/458,463,0,9
+1769477330120,15,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,15,0,9
+1769477330172,17,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,17,0,8
+1769477329860,470,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1579,132,10,10,https://thesimpsonsapi.com/api/locations/311,470,0,9
+1769477330422,14,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,13,0,8
+1769477330538,237,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1389,132,10,10,https://thesimpsonsapi.com/api/locations/157,237,0,10
+1769477330994,12,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,12,0,8
+1769477332428,20,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,20,0,10
+1769477332491,241,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,979,132,10,10,https://thesimpsonsapi.com/api/locations/108,241,0,9
+1769477332800,30,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,30,0,19
+1769477332971,26,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,26,0,17
+1769477333135,18,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,18,0,12
+1769477333190,52,GET /locations/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1937,132,10,10,https://thesimpsonsapi.com/api/locations/201,52,0,12
+1769477333333,48,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1912,132,10,10,https://thesimpsonsapi.com/api/locations/265,48,0,11
+1769477333436,16,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,15,0,10
+1769477334007,15,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,14,0,10
+1769477333775,497,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1761,132,10,10,https://thesimpsonsapi.com/api/locations/186,497,0,10
+1769477335448,14,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,14,0,9
+1769477335733,16,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,15,0,11
+1769477335831,56,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1554,132,10,10,https://thesimpsonsapi.com/api/locations/304,56,0,22
+1769477335997,45,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,949,132,10,10,https://thesimpsonsapi.com/api/locations/139,45,0,9
+1769477336155,13,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,13,0,8
+1769477336242,15,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,15,0,10
+1769477336383,15,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,15,0,11
+1769477336453,17,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,16,0,11
+1769477337023,20,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,20,0,13
+1769477337273,14,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,14,0,9
+1769477338463,48,GET /locations/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1204,132,10,10,https://thesimpsonsapi.com/api/locations/106,48,0,11
+1769477338750,45,GET /locations/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1522,132,10,10,https://thesimpsonsapi.com/api/locations/137,45,0,9
+1769477338888,14,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,14,0,9
+1769477339169,14,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,14,0,8
+1769477339258,15,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,15,0,10
+1769477339044,264,GET /locations/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1023,131,10,10,https://thesimpsonsapi.com/api/locations/47,264,0,8
+1769477339398,21,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,20,0,10
+1769477339470,16,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,16,0,9
+1769477340044,250,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1632,131,10,10,https://thesimpsonsapi.com/api/locations/38,250,0,19
+1769477340287,584,GET /locations/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1674,131,10,10,https://thesimpsonsapi.com/api/locations/54,584,0,11
+1769477341510,16,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,16,0,10
+1769477341795,20,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,20,0,10
+1769477341902,45,GET /locations/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1385,132,10,10,https://thesimpsonsapi.com/api/locations/248,45,0,8
+1769477342183,16,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/locations,16,0,11
+1769477342274,18,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,18,0,10
+1769477342309,24,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,24,0,19
+1769477342418,52,GET /locations/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1953,132,10,10,https://thesimpsonsapi.com/api/locations/162,52,0,18
+1769477342486,15,GET /locations (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,190,10,10,https://thesimpsonsapi.com/api/locations,15,0,10
+1769477343295,516,GET /locations/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1266,131,10,10,https://thesimpsonsapi.com/api/locations/16,516,0,7
+1769477343872,20,GET /locations (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,3085,128,10,10,https://thesimpsonsapi.com/api/locations,20,0,14

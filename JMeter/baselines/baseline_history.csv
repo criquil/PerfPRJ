@@ -1,0 +1,4 @@
+Date,API,Avg_RT,P95_RT,Throughput,Error_Rate,Notes
+2026-01-26,Characters,232,600,2.5,31.32,Initial baseline (Random Page 404s)
+2026-01-26,Episodes,192,545,2.5,33.73,Initial baseline (Random Page 404s)
+2026-01-26,Locations,196,577,2.5,31.65,Initial baseline (Random Page 404s)

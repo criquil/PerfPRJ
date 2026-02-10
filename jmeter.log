@@ -1,0 +1,730 @@
+2026-01-26 23:28:00,367 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-01-26 23:28:00,387 INFO o.a.j.JMeter: Loading user properties from: C:\jmeter\bin\user.properties
+2026-01-26 23:28:00,388 INFO o.a.j.JMeter: Loading system properties from: C:\jmeter\bin\system.properties
+2026-01-26 23:28:00,395 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-01-26 23:28:00,395 INFO o.a.j.JMeter: Version 5.6.3
+2026-01-26 23:28:00,395 INFO o.a.j.JMeter: java.version=25.0.1
+2026-01-26 23:28:00,395 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-01-26 23:28:00,395 INFO o.a.j.JMeter: os.name=Windows 11
+2026-01-26 23:28:00,395 INFO o.a.j.JMeter: os.arch=amd64
+2026-01-26 23:28:00,396 INFO o.a.j.JMeter: os.version=10.0
+2026-01-26 23:28:00,396 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-01-26 23:28:00,396 INFO o.a.j.JMeter: java.awt.headless=true
+2026-01-26 23:28:00,396 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-01-26 23:28:00,396 INFO o.a.j.JMeter: Available Processors =12
+2026-01-26 23:28:00,410 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-01-26 23:28:00,412 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-01-26 23:28:00,412 INFO o.a.j.JMeter: JMeterHome=C:\jmeter
+2026-01-26 23:28:00,412 INFO o.a.j.JMeter: user.dir  =C:\Users\crisq\OneDrive\Documents\PerfPRJ
+2026-01-26 23:28:00,413 INFO o.a.j.JMeter: PWD       =C:\Users\crisq\OneDrive\Documents\PerfPRJ
+2026-01-26 23:28:00,414 INFO o.a.j.JMeter: IP: 192.168.1.89 Name: Lenovo FullName: Lenovo
+2026-01-26 23:28:00,425 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report_v2'
+2026-01-26 23:28:00,427 INFO o.a.j.s.FileServer: Default base='C:\Users\crisq\OneDrive\Documents\PerfPRJ'
+2026-01-26 23:28:00,427 INFO o.a.j.s.FileServer: Set new base='C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter'
+2026-01-26 23:28:00,681 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-01-26 23:28:00,700 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-01-26 23:28:00,703 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-01-26 23:28:00,706 INFO o.a.j.s.SaveService: Loading file: JMeter\spike_characters.jmx
+2026-01-26 23:28:00,753 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 23:28:00,753 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 23:28:00,753 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 23:28:00,753 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 23:28:00,753 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-01-26 23:28:00,753 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-01-26 23:28:00,779 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-01-26 23:28:00,783 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-01-26 23:28:00,783 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: JMeter/results/spike_characters_v2.jtl
+2026-01-26 23:28:00,783 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\jmeter\bin\reportgenerator.properties
+2026-01-26 23:28:00,784 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-01-26 23:28:00,787 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-01-26 23:28:00,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-01-26 23:28:00,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-01-26 23:28:00,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-01-26 23:28:00,789 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-01-26 23:28:00,790 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-01-26 23:28:00,790 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-01-26 23:28:00,790 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-01-26 23:28:00,791 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-01-26 23:28:00,793 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,793 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,793 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,793 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,793 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,793 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,794 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-01-26 23:28:00,795 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-01-26 23:28:00,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-01-26 23:28:00,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-01-26 23:28:00,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-01-26 23:28:00,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-01-26 23:28:00,796 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-01-26 23:28:00,807 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-01-26 23:28:00,808 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-01-26 23:28:00,808 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-01-26 23:28:00,813 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-01-26 23:28:00,813 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-01-26 23:28:00,901 INFO o.a.j.JMeter: Running test (1769480880901)
+2026-01-26 23:28:00,916 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Baseline Load - 20 Users
+2026-01-26 23:28:00,916 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Baseline Load - 20 Users.
+2026-01-26 23:28:00,916 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-01-26 23:28:00,918 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=10 delayedStart=false
+2026-01-26 23:28:00,925 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-1
+2026-01-26 23:28:00,929 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-01-26 23:28:00,929 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Sudden Spike - 180 Additional Users
+2026-01-26 23:28:00,929 INFO o.a.j.e.StandardJMeterEngine: Starting 180 threads for group Sudden Spike - 180 Additional Users.
+2026-01-26 23:28:00,929 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-01-26 23:28:00,929 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=180 ramp-up=1 delayedStart=false
+2026-01-26 23:28:00,970 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2026-01-26 23:28:00,971 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-01-26 23:28:01,421 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-2
+2026-01-26 23:28:01,922 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-3
+2026-01-26 23:28:02,422 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-4
+2026-01-26 23:28:02,921 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-5
+2026-01-26 23:28:03,421 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-6
+2026-01-26 23:28:03,920 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-7
+2026-01-26 23:28:03,942 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Lenovo
+2026-01-26 23:28:03,947 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-01-26 23:28:03,949 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-01-26 23:28:03,949 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-01-26 23:28:03,949 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-01-26 23:28:03,949 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-01-26 23:28:04,098 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2026-01-26 23:28:04,103 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2026-01-26 23:28:04,103 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2026-01-26 23:28:04,175 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2026-01-26 23:28:04,177 INFO o.a.j.u.SSLManager: KeyStore created OK
+2026-01-26 23:28:04,177 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2026-01-26 23:28:04,421 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-8
+2026-01-26 23:28:04,456 INFO o.a.j.r.Summariser: summary +      1 in 00:00:04 =    0.3/s Avg:   450 Min:   450 Max:   450 Err:     0 (0.00%) Active: 8 Started: 8 Finished: 0
+2026-01-26 23:28:04,920 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-9
+2026-01-26 23:28:05,419 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-10
+2026-01-26 23:28:05,919 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-11
+2026-01-26 23:28:06,419 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-12
+2026-01-26 23:28:06,921 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-13
+2026-01-26 23:28:07,421 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-14
+2026-01-26 23:28:07,919 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-15
+2026-01-26 23:28:08,419 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-16
+2026-01-26 23:28:08,919 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-17
+2026-01-26 23:28:09,418 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-18
+2026-01-26 23:28:09,919 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-19
+2026-01-26 23:28:10,419 INFO o.a.j.t.JMeterThread: Thread started: Baseline Load - 20 Users 1-20
+2026-01-26 23:28:30,206 INFO o.a.j.r.Summariser: summary +    147 in 00:00:26 =    5.7/s Avg:   104 Min:    97 Max:   167 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2026-01-26 23:28:30,206 INFO o.a.j.r.Summariser: summary =    148 in 00:00:29 =    5.1/s Avg:   107 Min:    97 Max:   450 Err:     0 (0.00%)
+2026-01-26 23:29:00,109 INFO o.a.j.r.Summariser: summary +    192 in 00:00:30 =    6.4/s Avg:   101 Min:    97 Max:   152 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2026-01-26 23:29:00,109 INFO o.a.j.r.Summariser: summary =    340 in 00:00:59 =    5.7/s Avg:   104 Min:    97 Max:   450 Err:     0 (0.00%)
+2026-01-26 23:29:00,930 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-1
+2026-01-26 23:29:00,937 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-2
+2026-01-26 23:29:00,942 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-3
+2026-01-26 23:29:00,948 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-4
+2026-01-26 23:29:00,955 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-5
+2026-01-26 23:29:00,960 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-6
+2026-01-26 23:29:00,967 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-7
+2026-01-26 23:29:00,972 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-8
+2026-01-26 23:29:00,978 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-9
+2026-01-26 23:29:00,986 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-10
+2026-01-26 23:29:00,991 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-11
+2026-01-26 23:29:00,995 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-12
+2026-01-26 23:29:01,002 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-13
+2026-01-26 23:29:01,008 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-14
+2026-01-26 23:29:01,014 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-15
+2026-01-26 23:29:01,020 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-16
+2026-01-26 23:29:01,026 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-17
+2026-01-26 23:29:01,032 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-18
+2026-01-26 23:29:01,038 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-19
+2026-01-26 23:29:01,044 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-20
+2026-01-26 23:29:01,050 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-21
+2026-01-26 23:29:01,056 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-22
+2026-01-26 23:29:01,062 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-23
+2026-01-26 23:29:01,068 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-24
+2026-01-26 23:29:01,073 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-25
+2026-01-26 23:29:01,080 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-26
+2026-01-26 23:29:01,086 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-27
+2026-01-26 23:29:01,091 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-28
+2026-01-26 23:29:01,097 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-29
+2026-01-26 23:29:01,104 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-30
+2026-01-26 23:29:01,110 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-31
+2026-01-26 23:29:01,116 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-32
+2026-01-26 23:29:01,121 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-33
+2026-01-26 23:29:01,128 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-34
+2026-01-26 23:29:01,134 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-35
+2026-01-26 23:29:01,141 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-36
+2026-01-26 23:29:01,146 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-37
+2026-01-26 23:29:01,153 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-38
+2026-01-26 23:29:01,158 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-39
+2026-01-26 23:29:01,164 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-40
+2026-01-26 23:29:01,171 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-41
+2026-01-26 23:29:01,176 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-42
+2026-01-26 23:29:01,182 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-43
+2026-01-26 23:29:01,188 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-44
+2026-01-26 23:29:01,194 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-45
+2026-01-26 23:29:01,199 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-46
+2026-01-26 23:29:01,206 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-47
+2026-01-26 23:29:01,212 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-48
+2026-01-26 23:29:01,218 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-49
+2026-01-26 23:29:01,223 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-50
+2026-01-26 23:29:01,229 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-51
+2026-01-26 23:29:01,235 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-52
+2026-01-26 23:29:01,243 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-53
+2026-01-26 23:29:01,247 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-54
+2026-01-26 23:29:01,254 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-55
+2026-01-26 23:29:01,259 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-56
+2026-01-26 23:29:01,266 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-57
+2026-01-26 23:29:01,272 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-58
+2026-01-26 23:29:01,277 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-59
+2026-01-26 23:29:01,283 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-60
+2026-01-26 23:29:01,291 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-61
+2026-01-26 23:29:01,296 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-62
+2026-01-26 23:29:01,302 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-63
+2026-01-26 23:29:01,309 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-64
+2026-01-26 23:29:01,316 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-65
+2026-01-26 23:29:01,320 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-66
+2026-01-26 23:29:01,327 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-67
+2026-01-26 23:29:01,332 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-68
+2026-01-26 23:29:01,339 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-69
+2026-01-26 23:29:01,345 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-70
+2026-01-26 23:29:01,351 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-71
+2026-01-26 23:29:01,358 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-72
+2026-01-26 23:29:01,362 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-73
+2026-01-26 23:29:01,368 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-74
+2026-01-26 23:29:01,375 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-75
+2026-01-26 23:29:01,381 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-76
+2026-01-26 23:29:01,386 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-77
+2026-01-26 23:29:01,393 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-78
+2026-01-26 23:29:01,398 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-79
+2026-01-26 23:29:01,403 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-80
+2026-01-26 23:29:01,410 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-81
+2026-01-26 23:29:01,416 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-82
+2026-01-26 23:29:01,422 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-83
+2026-01-26 23:29:01,428 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-84
+2026-01-26 23:29:01,434 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-85
+2026-01-26 23:29:01,440 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-86
+2026-01-26 23:29:01,446 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-87
+2026-01-26 23:29:01,452 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-88
+2026-01-26 23:29:01,458 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-89
+2026-01-26 23:29:01,464 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-90
+2026-01-26 23:29:01,471 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-91
+2026-01-26 23:29:01,476 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-92
+2026-01-26 23:29:01,483 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-93
+2026-01-26 23:29:01,490 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-94
+2026-01-26 23:29:01,495 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-95
+2026-01-26 23:29:01,501 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-96
+2026-01-26 23:29:01,507 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-97
+2026-01-26 23:29:01,513 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-98
+2026-01-26 23:29:01,519 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-99
+2026-01-26 23:29:01,525 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-100
+2026-01-26 23:29:01,531 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-101
+2026-01-26 23:29:01,536 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-102
+2026-01-26 23:29:01,543 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-103
+2026-01-26 23:29:01,549 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-104
+2026-01-26 23:29:01,554 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-105
+2026-01-26 23:29:01,560 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-106
+2026-01-26 23:29:01,566 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-107
+2026-01-26 23:29:01,572 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-108
+2026-01-26 23:29:01,578 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-109
+2026-01-26 23:29:01,585 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-110
+2026-01-26 23:29:01,590 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-111
+2026-01-26 23:29:01,597 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-112
+2026-01-26 23:29:01,603 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-113
+2026-01-26 23:29:01,609 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-114
+2026-01-26 23:29:01,615 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-115
+2026-01-26 23:29:01,622 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-116
+2026-01-26 23:29:01,628 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-117
+2026-01-26 23:29:01,633 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-118
+2026-01-26 23:29:01,638 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-119
+2026-01-26 23:29:01,644 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-120
+2026-01-26 23:29:01,650 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-121
+2026-01-26 23:29:01,656 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-122
+2026-01-26 23:29:01,662 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-123
+2026-01-26 23:29:01,669 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-124
+2026-01-26 23:29:01,676 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-125
+2026-01-26 23:29:01,680 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-126
+2026-01-26 23:29:01,686 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-127
+2026-01-26 23:29:01,694 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-128
+2026-01-26 23:29:01,700 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-129
+2026-01-26 23:29:01,706 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-130
+2026-01-26 23:29:01,709 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-131
+2026-01-26 23:29:01,717 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-132
+2026-01-26 23:29:01,723 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-133
+2026-01-26 23:29:01,729 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-134
+2026-01-26 23:29:01,735 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-135
+2026-01-26 23:29:01,741 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-136
+2026-01-26 23:29:01,746 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-137
+2026-01-26 23:29:01,752 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-138
+2026-01-26 23:29:01,758 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-139
+2026-01-26 23:29:01,764 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-140
+2026-01-26 23:29:01,770 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-141
+2026-01-26 23:29:01,776 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-142
+2026-01-26 23:29:01,782 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-143
+2026-01-26 23:29:01,788 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-144
+2026-01-26 23:29:01,794 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-145
+2026-01-26 23:29:01,799 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-146
+2026-01-26 23:29:01,805 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-147
+2026-01-26 23:29:01,811 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-148
+2026-01-26 23:29:01,817 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-149
+2026-01-26 23:29:01,824 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-150
+2026-01-26 23:29:01,830 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-151
+2026-01-26 23:29:01,836 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-152
+2026-01-26 23:29:01,842 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-153
+2026-01-26 23:29:01,849 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-154
+2026-01-26 23:29:01,853 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-155
+2026-01-26 23:29:01,860 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-156
+2026-01-26 23:29:01,865 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-157
+2026-01-26 23:29:01,871 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-158
+2026-01-26 23:29:01,877 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-159
+2026-01-26 23:29:01,883 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-160
+2026-01-26 23:29:01,889 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-161
+2026-01-26 23:29:01,895 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-162
+2026-01-26 23:29:01,902 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-163
+2026-01-26 23:29:01,907 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-164
+2026-01-26 23:29:01,914 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-165
+2026-01-26 23:29:01,921 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-166
+2026-01-26 23:29:01,927 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-167
+2026-01-26 23:29:01,932 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-168
+2026-01-26 23:29:01,938 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-169
+2026-01-26 23:29:01,945 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-170
+2026-01-26 23:29:01,951 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-171
+2026-01-26 23:29:01,957 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-172
+2026-01-26 23:29:01,963 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-173
+2026-01-26 23:29:01,969 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-174
+2026-01-26 23:29:01,975 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-175
+2026-01-26 23:29:01,981 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-176
+2026-01-26 23:29:01,988 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-177
+2026-01-26 23:29:01,994 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-178
+2026-01-26 23:29:01,999 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-179
+2026-01-26 23:29:02,005 INFO o.a.j.t.JMeterThread: Thread started: Sudden Spike - 180 Additional Users 2-180
+2026-01-26 23:29:30,005 INFO o.a.j.r.Summariser: summary +  10559 in 00:00:30 =  353.2/s Avg:   471 Min:    93 Max:  7448 Err:  1870 (17.71%) Active: 200 Started: 200 Finished: 0
+2026-01-26 23:29:30,005 INFO o.a.j.r.Summariser: summary =  10899 in 00:01:29 =  122.3/s Avg:   460 Min:    93 Max:  7448 Err:  1870 (17.16%)
+2026-01-26 23:30:00,002 INFO o.a.j.r.Summariser: summary +  10047 in 00:00:30 =  334.9/s Avg:   543 Min:    93 Max: 22141 Err:  2429 (24.18%) Active: 200 Started: 200 Finished: 0
+2026-01-26 23:30:00,004 INFO o.a.j.r.Summariser: summary =  20946 in 00:01:59 =  175.9/s Avg:   500 Min:    93 Max: 22141 Err:  4299 (20.52%)
+2026-01-26 23:30:00,935 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-18
+2026-01-26 23:30:00,935 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-18
+2026-01-26 23:30:00,938 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-19
+2026-01-26 23:30:00,938 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-19
+2026-01-26 23:30:00,950 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-21
+2026-01-26 23:30:00,950 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-21
+2026-01-26 23:30:00,955 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-100
+2026-01-26 23:30:00,955 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-100
+2026-01-26 23:30:00,956 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-35
+2026-01-26 23:30:00,956 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-35
+2026-01-26 23:30:00,961 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-60
+2026-01-26 23:30:00,962 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-60
+2026-01-26 23:30:00,963 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-26
+2026-01-26 23:30:00,963 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-26
+2026-01-26 23:30:00,965 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-82
+2026-01-26 23:30:00,965 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-90
+2026-01-26 23:30:00,965 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-82
+2026-01-26 23:30:00,965 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-90
+2026-01-26 23:30:00,977 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-158
+2026-01-26 23:30:00,977 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-158
+2026-01-26 23:30:00,979 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-81
+2026-01-26 23:30:00,979 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-81
+2026-01-26 23:30:00,981 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-91
+2026-01-26 23:30:00,981 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-91
+2026-01-26 23:30:00,981 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-31
+2026-01-26 23:30:00,981 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-31
+2026-01-26 23:30:00,981 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-122
+2026-01-26 23:30:00,981 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-122
+2026-01-26 23:30:00,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-53
+2026-01-26 23:30:00,983 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-53
+2026-01-26 23:30:00,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-76
+2026-01-26 23:30:00,983 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-76
+2026-01-26 23:30:00,985 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-13
+2026-01-26 23:30:00,985 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-13
+2026-01-26 23:30:00,994 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-61
+2026-01-26 23:30:00,994 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-15
+2026-01-26 23:30:00,994 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-61
+2026-01-26 23:30:00,994 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-15
+2026-01-26 23:30:00,996 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-92
+2026-01-26 23:30:00,996 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-92
+2026-01-26 23:30:00,997 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-72
+2026-01-26 23:30:00,997 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-72
+2026-01-26 23:30:00,997 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-36
+2026-01-26 23:30:00,997 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-36
+2026-01-26 23:30:00,999 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-88
+2026-01-26 23:30:00,999 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-88
+2026-01-26 23:30:01,001 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-109
+2026-01-26 23:30:01,001 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-109
+2026-01-26 23:30:01,056 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-37
+2026-01-26 23:30:01,056 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-37
+2026-01-26 23:30:01,059 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-103
+2026-01-26 23:30:01,059 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-144
+2026-01-26 23:30:01,059 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-103
+2026-01-26 23:30:01,059 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-144
+2026-01-26 23:30:01,069 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-43
+2026-01-26 23:30:01,069 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-43
+2026-01-26 23:30:01,073 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-83
+2026-01-26 23:30:01,073 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-83
+2026-01-26 23:30:01,085 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-30
+2026-01-26 23:30:01,085 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-30
+2026-01-26 23:30:01,086 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-141
+2026-01-26 23:30:01,086 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-141
+2026-01-26 23:30:01,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-4
+2026-01-26 23:30:01,088 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-4
+2026-01-26 23:30:01,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-137
+2026-01-26 23:30:01,088 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-137
+2026-01-26 23:30:01,088 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-157
+2026-01-26 23:30:01,089 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-157
+2026-01-26 23:30:01,089 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-143
+2026-01-26 23:30:01,089 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-143
+2026-01-26 23:30:01,089 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-123
+2026-01-26 23:30:01,089 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-123
+2026-01-26 23:30:01,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-1
+2026-01-26 23:30:01,090 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-107
+2026-01-26 23:30:01,090 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-1
+2026-01-26 23:30:01,092 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-107
+2026-01-26 23:30:01,092 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-58
+2026-01-26 23:30:01,092 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-58
+2026-01-26 23:30:01,093 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-66
+2026-01-26 23:30:01,093 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-66
+2026-01-26 23:30:01,094 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-177
+2026-01-26 23:30:01,094 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-177
+2026-01-26 23:30:01,096 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-45
+2026-01-26 23:30:01,096 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-45
+2026-01-26 23:30:01,112 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-24
+2026-01-26 23:30:01,112 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-24
+2026-01-26 23:30:01,120 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-170
+2026-01-26 23:30:01,120 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-49
+2026-01-26 23:30:01,120 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-170
+2026-01-26 23:30:01,120 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-49
+2026-01-26 23:30:01,124 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-79
+2026-01-26 23:30:01,124 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-79
+2026-01-26 23:30:01,131 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-126
+2026-01-26 23:30:01,132 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-126
+2026-01-26 23:30:01,154 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-160
+2026-01-26 23:30:01,154 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-160
+2026-01-26 23:30:01,156 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-136
+2026-01-26 23:30:01,156 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-136
+2026-01-26 23:30:01,159 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-16
+2026-01-26 23:30:01,159 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-16
+2026-01-26 23:30:01,162 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-55
+2026-01-26 23:30:01,162 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-55
+2026-01-26 23:30:01,174 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-169
+2026-01-26 23:30:01,175 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-169
+2026-01-26 23:30:01,176 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-50
+2026-01-26 23:30:01,176 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-50
+2026-01-26 23:30:01,177 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-89
+2026-01-26 23:30:01,177 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-89
+2026-01-26 23:30:01,179 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-154
+2026-01-26 23:30:01,179 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-154
+2026-01-26 23:30:01,191 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-162
+2026-01-26 23:30:01,192 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-162
+2026-01-26 23:30:01,194 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-62
+2026-01-26 23:30:01,194 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-62
+2026-01-26 23:30:01,209 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-98
+2026-01-26 23:30:01,209 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-98
+2026-01-26 23:30:01,221 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-147
+2026-01-26 23:30:01,221 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-147
+2026-01-26 23:30:01,223 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-12
+2026-01-26 23:30:01,223 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-12
+2026-01-26 23:30:01,266 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-102
+2026-01-26 23:30:01,267 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-102
+2026-01-26 23:30:01,267 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-25
+2026-01-26 23:30:01,267 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-25
+2026-01-26 23:30:01,269 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-94
+2026-01-26 23:30:01,269 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-94
+2026-01-26 23:30:01,269 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-120
+2026-01-26 23:30:01,269 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-120
+2026-01-26 23:30:01,299 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-64
+2026-01-26 23:30:01,299 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-64
+2026-01-26 23:30:01,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-127
+2026-01-26 23:30:01,300 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-106
+2026-01-26 23:30:01,300 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-127
+2026-01-26 23:30:01,300 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-106
+2026-01-26 23:30:01,303 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-161
+2026-01-26 23:30:01,303 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-161
+2026-01-26 23:30:01,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-48
+2026-01-26 23:30:01,315 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-48
+2026-01-26 23:30:01,315 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-101
+2026-01-26 23:30:01,315 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-101
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-121
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-121
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-22
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-22
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-47
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-47
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-156
+2026-01-26 23:30:01,317 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-156
+2026-01-26 23:30:01,319 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-149
+2026-01-26 23:30:01,319 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-149
+2026-01-26 23:30:01,323 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-175
+2026-01-26 23:30:01,323 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-175
+2026-01-26 23:30:01,356 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-57
+2026-01-26 23:30:01,356 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-57
+2026-01-26 23:30:01,358 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-148
+2026-01-26 23:30:01,358 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-148
+2026-01-26 23:30:01,360 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-173
+2026-01-26 23:30:01,360 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-173
+2026-01-26 23:30:01,360 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-34
+2026-01-26 23:30:01,360 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-34
+2026-01-26 23:30:01,362 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-2
+2026-01-26 23:30:01,362 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-2
+2026-01-26 23:30:01,363 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-96
+2026-01-26 23:30:01,363 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-96
+2026-01-26 23:30:01,365 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-172
+2026-01-26 23:30:01,365 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-172
+2026-01-26 23:30:01,405 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-29
+2026-01-26 23:30:01,405 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-29
+2026-01-26 23:30:01,417 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-176
+2026-01-26 23:30:01,417 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-176
+2026-01-26 23:30:01,421 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-42
+2026-01-26 23:30:01,421 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-95
+2026-01-26 23:30:01,421 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-42
+2026-01-26 23:30:01,421 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-95
+2026-01-26 23:30:01,423 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-116
+2026-01-26 23:30:01,423 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-166
+2026-01-26 23:30:01,423 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-116
+2026-01-26 23:30:01,423 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-166
+2026-01-26 23:30:01,433 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-124
+2026-01-26 23:30:01,433 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-124
+2026-01-26 23:30:01,455 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-5
+2026-01-26 23:30:01,456 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-5
+2026-01-26 23:30:01,484 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-41
+2026-01-26 23:30:01,484 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-41
+2026-01-26 23:30:01,494 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-163
+2026-01-26 23:30:01,494 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-163
+2026-01-26 23:30:01,494 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-7
+2026-01-26 23:30:01,494 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-7
+2026-01-26 23:30:01,526 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-150
+2026-01-26 23:30:01,526 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-150
+2026-01-26 23:30:01,571 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-69
+2026-01-26 23:30:01,572 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-69
+2026-01-26 23:30:01,573 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-9
+2026-01-26 23:30:01,573 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-9
+2026-01-26 23:30:01,575 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-139
+2026-01-26 23:30:01,575 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-75
+2026-01-26 23:30:01,575 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-68
+2026-01-26 23:30:01,575 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-139
+2026-01-26 23:30:01,575 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-68
+2026-01-26 23:30:01,575 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-75
+2026-01-26 23:30:01,577 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-20
+2026-01-26 23:30:01,577 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-20
+2026-01-26 23:30:01,577 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-63
+2026-01-26 23:30:01,577 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-63
+2026-01-26 23:30:01,606 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-131
+2026-01-26 23:30:01,607 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-131
+2026-01-26 23:30:01,608 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-6
+2026-01-26 23:30:01,608 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-6
+2026-01-26 23:30:01,610 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-93
+2026-01-26 23:30:01,610 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-93
+2026-01-26 23:30:01,630 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-3
+2026-01-26 23:30:01,630 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-3
+2026-01-26 23:30:01,636 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-71
+2026-01-26 23:30:01,636 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-71
+2026-01-26 23:30:01,638 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-27
+2026-01-26 23:30:01,638 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-27
+2026-01-26 23:30:01,643 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-85
+2026-01-26 23:30:01,643 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-59
+2026-01-26 23:30:01,643 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-85
+2026-01-26 23:30:01,643 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-59
+2026-01-26 23:30:01,663 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-73
+2026-01-26 23:30:01,663 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-73
+2026-01-26 23:30:01,668 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-165
+2026-01-26 23:30:01,668 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-165
+2026-01-26 23:30:01,683 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-151
+2026-01-26 23:30:01,683 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-151
+2026-01-26 23:30:01,725 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-54
+2026-01-26 23:30:01,725 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-54
+2026-01-26 23:30:01,726 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-87
+2026-01-26 23:30:01,726 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-87
+2026-01-26 23:30:01,726 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-117
+2026-01-26 23:30:01,726 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-117
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-33
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-33
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-99
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-108
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-99
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-108
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-133
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-167
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-133
+2026-01-26 23:30:01,728 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-167
+2026-01-26 23:30:01,739 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-128
+2026-01-26 23:30:01,739 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-128
+2026-01-26 23:30:01,740 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-67
+2026-01-26 23:30:01,740 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-67
+2026-01-26 23:30:01,771 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-152
+2026-01-26 23:30:01,771 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-152
+2026-01-26 23:30:01,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-115
+2026-01-26 23:30:01,785 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-115
+2026-01-26 23:30:01,786 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-142
+2026-01-26 23:30:01,786 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-142
+2026-01-26 23:30:01,786 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-14
+2026-01-26 23:30:01,786 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-14
+2026-01-26 23:30:01,862 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-180
+2026-01-26 23:30:01,862 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-180
+2026-01-26 23:30:01,863 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-10
+2026-01-26 23:30:01,863 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-10
+2026-01-26 23:30:01,865 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-44
+2026-01-26 23:30:01,865 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-44
+2026-01-26 23:30:01,875 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-140
+2026-01-26 23:30:01,875 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-140
+2026-01-26 23:30:01,896 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-153
+2026-01-26 23:30:01,896 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-153
+2026-01-26 23:30:01,925 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-138
+2026-01-26 23:30:01,925 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-138
+2026-01-26 23:30:01,926 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-78
+2026-01-26 23:30:01,926 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-78
+2026-01-26 23:30:01,928 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-114
+2026-01-26 23:30:01,928 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-114
+2026-01-26 23:30:01,955 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-113
+2026-01-26 23:30:01,955 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-113
+2026-01-26 23:30:01,957 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-105
+2026-01-26 23:30:01,957 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-105
+2026-01-26 23:30:01,958 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-17
+2026-01-26 23:30:01,959 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-17
+2026-01-26 23:30:01,959 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-97
+2026-01-26 23:30:01,959 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-97
+2026-01-26 23:30:01,959 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-65
+2026-01-26 23:30:01,959 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-65
+2026-01-26 23:30:01,961 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-155
+2026-01-26 23:30:01,961 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-155
+2026-01-26 23:30:01,961 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-104
+2026-01-26 23:30:01,961 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-104
+2026-01-26 23:30:01,989 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-70
+2026-01-26 23:30:01,989 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-70
+2026-01-26 23:30:01,999 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-8
+2026-01-26 23:30:01,999 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-8
+2026-01-26 23:30:02,152 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-32
+2026-01-26 23:30:02,152 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-32
+2026-01-26 23:30:02,156 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-39
+2026-01-26 23:30:02,156 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-39
+2026-01-26 23:30:02,158 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-171
+2026-01-26 23:30:02,158 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-171
+2026-01-26 23:30:02,281 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-11
+2026-01-26 23:30:02,281 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-11
+2026-01-26 23:30:02,306 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-84
+2026-01-26 23:30:02,306 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-84
+2026-01-26 23:30:02,309 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-164
+2026-01-26 23:30:02,309 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-77
+2026-01-26 23:30:02,309 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-164
+2026-01-26 23:30:02,309 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-77
+2026-01-26 23:30:02,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-86
+2026-01-26 23:30:02,311 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-86
+2026-01-26 23:30:02,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-46
+2026-01-26 23:30:02,311 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-46
+2026-01-26 23:30:02,493 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-52
+2026-01-26 23:30:02,493 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-52
+2026-01-26 23:30:02,586 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-178
+2026-01-26 23:30:02,586 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-178
+2026-01-26 23:30:02,738 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-125
+2026-01-26 23:30:02,738 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-146
+2026-01-26 23:30:02,738 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-125
+2026-01-26 23:30:02,738 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-146
+2026-01-26 23:30:02,783 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-119
+2026-01-26 23:30:02,783 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-119
+2026-01-26 23:30:02,784 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-118
+2026-01-26 23:30:02,784 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-118
+2026-01-26 23:30:02,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-179
+2026-01-26 23:30:02,785 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-179
+2026-01-26 23:30:02,785 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-23
+2026-01-26 23:30:02,785 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-23
+2026-01-26 23:30:02,787 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-145
+2026-01-26 23:30:02,787 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-145
+2026-01-26 23:30:02,801 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-159
+2026-01-26 23:30:02,801 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-159
+2026-01-26 23:30:02,953 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-56
+2026-01-26 23:30:02,953 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-56
+2026-01-26 23:30:02,954 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-132
+2026-01-26 23:30:02,954 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-132
+2026-01-26 23:30:03,060 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-129
+2026-01-26 23:30:03,060 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-129
+2026-01-26 23:30:03,106 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-111
+2026-01-26 23:30:03,106 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-111
+2026-01-26 23:30:03,108 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-80
+2026-01-26 23:30:03,108 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-80
+2026-01-26 23:30:03,151 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-28
+2026-01-26 23:30:03,151 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-168
+2026-01-26 23:30:03,151 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-28
+2026-01-26 23:30:03,151 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-168
+2026-01-26 23:30:03,306 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-51
+2026-01-26 23:30:03,306 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-51
+2026-01-26 23:30:03,307 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-40
+2026-01-26 23:30:03,307 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-40
+2026-01-26 23:30:03,307 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-134
+2026-01-26 23:30:03,307 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-134
+2026-01-26 23:30:03,839 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-74
+2026-01-26 23:30:03,840 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-135
+2026-01-26 23:30:03,840 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-74
+2026-01-26 23:30:03,840 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-135
+2026-01-26 23:30:04,735 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-38
+2026-01-26 23:30:04,735 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-38
+2026-01-26 23:30:05,106 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-110
+2026-01-26 23:30:05,106 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-110
+2026-01-26 23:30:05,112 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-174
+2026-01-26 23:30:05,112 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-174
+2026-01-26 23:30:05,518 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-130
+2026-01-26 23:30:05,518 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-130
+2026-01-26 23:30:07,502 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Sudden Spike - 180 Additional Users 2-112
+2026-01-26 23:30:07,502 INFO o.a.j.t.JMeterThread: Thread finished: Sudden Spike - 180 Additional Users 2-112
+2026-01-26 23:30:30,385 INFO o.a.j.r.Summariser: summary +    619 in 00:00:30 =   20.4/s Avg:   894 Min:    95 Max: 15137 Err:   207 (33.44%) Active: 20 Started: 200 Finished: 180
+2026-01-26 23:30:30,385 INFO o.a.j.r.Summariser: summary =  21565 in 00:02:29 =  144.3/s Avg:   511 Min:    93 Max: 22141 Err:  4506 (20.89%)
+2026-01-26 23:30:58,271 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-2
+2026-01-26 23:30:58,415 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-9
+2026-01-26 23:30:58,790 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-17
+2026-01-26 23:30:58,853 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-12
+2026-01-26 23:30:58,899 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-19
+2026-01-26 23:30:59,041 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-16
+2026-01-26 23:30:59,043 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-4
+2026-01-26 23:30:59,145 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-20
+2026-01-26 23:30:59,294 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-8
+2026-01-26 23:30:59,759 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-11
+2026-01-26 23:31:00,018 INFO o.a.j.r.Summariser: summary +    190 in 00:00:30 =    6.4/s Avg:   101 Min:    95 Max:   399 Err:     0 (0.00%) Active: 10 Started: 200 Finished: 190
+2026-01-26 23:31:00,019 INFO o.a.j.r.Summariser: summary =  21755 in 00:02:59 =  121.5/s Avg:   508 Min:    93 Max: 22141 Err:  4506 (20.71%)
+2026-01-26 23:31:00,019 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-18
+2026-01-26 23:31:00,215 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-6
+2026-01-26 23:31:00,378 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-15
+2026-01-26 23:31:00,410 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-14
+2026-01-26 23:31:00,476 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-13
+2026-01-26 23:31:00,636 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-1
+2026-01-26 23:31:00,659 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-5
+2026-01-26 23:31:00,676 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-10
+2026-01-26 23:31:00,707 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-3
+2026-01-26 23:31:00,899 INFO o.a.j.t.JMeterThread: Thread finished: Baseline Load - 20 Users 1-7
+2026-01-26 23:31:00,899 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-01-26 23:31:00,900 INFO o.a.j.r.Summariser: summary +      9 in 00:00:01 =   10.2/s Avg:   101 Min:    97 Max:   108 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+2026-01-26 23:31:00,901 INFO o.a.j.r.Summariser: summary =  21764 in 00:03:00 =  120.9/s Avg:   507 Min:    93 Max: 22141 Err:  4506 (20.70%)
+2026-01-26 23:31:00,901 INFO o.a.j.JMeter: Generating Dashboard
+2026-01-26 23:31:00,901 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-01-26 23:31:00,913 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-01-26 23:31:01,611 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-01-26 23:31:01,611 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-01-26 23:31:01,614 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-01-26 23:31:01,614 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-01-26 23:31:01,625 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-01-26 23:31:01,630 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-01-26 23:31:01,632 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-01-26 23:31:01,632 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-01-26 23:31:01,761 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-01-26 23:31:01,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-01-26 23:31:01,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-01-26 23:31:01,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-01-26 23:31:01,845 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-01-26 23:31:01,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 152348 samples
+2026-01-26 23:31:01,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-01-26 23:31:01,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-01-26 23:31:01,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-01-26 23:31:01,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-01-26 23:31:01,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-01-26 23:31:01,846 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-01-26 23:31:01,850 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-01-26 23:31:01,851 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-01-26 23:31:01,851 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-01-26 23:31:01,851 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-01-26 23:31:01,851 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 326460 samples
+2026-01-26 23:31:01,851 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 65292 samples
+2026-01-26 23:31:01,851 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 21764 samples
+2026-01-26 23:31:01,852 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 21764 samples produced in 916ms on channel 0
+2026-01-26 23:31:01,852 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-01-26 23:31:01,928 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-01-26 23:31:01,928 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-01-26 23:31:01,928 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-01-26 23:31:01,928 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-01-26 23:31:01,929 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report_v2\statistics.json
+2026-01-26 23:31:01,992 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-01-26 23:31:01,996 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report_v2
+2026-01-26 23:31:02,098 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report_v2, creating folder structure
+2026-01-26 23:31:02,100 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'C:\jmeter\bin\report-template' to 'C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report_v2', got message: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report_v2, found non empty folder with following content [C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report_v2\statistics.json], will be ignored
+2026-01-26 23:31:02,529 INFO o.a.j.JMeter: Dashboard generated

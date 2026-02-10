@@ -1,0 +1,36 @@
+2026-01-26 22:43:37,617 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-01-26 22:43:37,635 INFO o.a.j.JMeter: Loading user properties from: C:\jmeter\bin\user.properties
+2026-01-26 22:43:37,635 INFO o.a.j.JMeter: Loading system properties from: C:\jmeter\bin\system.properties
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: Version 5.6.3
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: java.version=25.0.1
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: os.name=Windows 11
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: os.arch=amd64
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: os.version=10.0
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-01-26 22:43:37,644 INFO o.a.j.JMeter: java.awt.headless=null
+2026-01-26 22:43:37,645 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-01-26 22:43:37,645 INFO o.a.j.JMeter: Available Processors =12
+2026-01-26 22:43:37,659 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-01-26 22:43:37,660 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-01-26 22:43:37,660 INFO o.a.j.JMeter: JMeterHome=C:\jmeter
+2026-01-26 22:43:37,660 INFO o.a.j.JMeter: user.dir  =C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report
+2026-01-26 22:43:37,661 INFO o.a.j.JMeter: PWD       =C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report
+2026-01-26 22:43:37,666 INFO o.a.j.JMeter: IP: 192.168.1.89 Name: Lenovo FullName: Lenovo
+2026-01-26 22:43:37,677 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2026-01-26 22:43:37,888 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2026-01-26 22:44:04,953 INFO o.a.j.s.FileServer: Default base='C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\results\spike_characters_report'
+2026-01-26 22:44:04,956 INFO o.a.j.g.a.Load: Loading file: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\spike_characters.jmx
+2026-01-26 22:44:04,956 INFO o.a.j.s.FileServer: Set new base='C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter'
+2026-01-26 22:44:05,199 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-01-26 22:44:05,218 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-01-26 22:44:05,219 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-01-26 22:44:05,221 INFO o.a.j.s.SaveService: Loading file: C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter\spike_characters.jmx
+2026-01-26 22:44:05,242 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:44:05,242 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:44:05,242 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:44:05,242 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-01-26 22:44:05,242 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-01-26 22:44:05,242 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-01-26 22:44:05,467 INFO o.a.j.s.FileServer: Set new base='C:\Users\crisq\OneDrive\Documents\PerfPRJ\JMeter'

@@ -1,0 +1,668 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1769477066900,1091,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29721,189,1,1,https://thesimpsonsapi.com/api/episodes,968,0,495
+1769477070996,578,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1221,130,1,1,https://thesimpsonsapi.com/api/episodes/93,578,0,80
+1769477074578,672,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8751,127,1,1,https://thesimpsonsapi.com/api/episodes,672,0,77
+1769477078253,133,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,2,2,https://thesimpsonsapi.com/api/episodes,127,0,86
+1769477078826,127,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8758,127,2,2,https://thesimpsonsapi.com/api/episodes,127,0,81
+1769477081387,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,2,2,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477081955,130,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,188,2,2,https://thesimpsonsapi.com/api/episodes,124,0,84
+1769477084510,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,2,2,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477085086,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,188,2,2,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477087632,580,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1132,131,3,3,https://thesimpsonsapi.com/api/episodes/520,580,0,78
+1769477088207,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,3,3,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477090822,132,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,3,3,https://thesimpsonsapi.com/api/episodes,127,0,83
+1769477091213,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,188,3,3,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477091330,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,188,3,3,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477093957,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,3,3,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477094453,299,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1475,131,3,3,https://thesimpsonsapi.com/api/episodes/235,299,0,77
+1769477094338,672,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1326,131,3,3,https://thesimpsonsapi.com/api/episodes/229,672,0,78
+1769477097075,121,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,3,3,https://thesimpsonsapi.com/api/episodes,121,0,81
+1769477097754,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,188,3,3,https://thesimpsonsapi.com/api/episodes,121,0,81
+1769477098011,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,3,3,https://thesimpsonsapi.com/api/episodes,114,0,77
+1769477100198,123,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,4,4,https://thesimpsonsapi.com/api/episodes,123,0,81
+1769477100883,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8759,127,4,4,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477101132,126,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,4,4,https://thesimpsonsapi.com/api/episodes,125,0,78
+1769477102822,551,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1121,130,4,4,https://thesimpsonsapi.com/api/episodes/70,551,0,80
+1769477103323,331,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1113,131,4,4,https://thesimpsonsapi.com/api/episodes/683,331,0,76
+1769477103998,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8759,127,4,4,https://thesimpsonsapi.com/api/episodes,111,0,75
+1769477104260,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,4,4,https://thesimpsonsapi.com/api/episodes,115,0,77
+1769477106655,124,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,4,4,https://thesimpsonsapi.com/api/episodes,119,0,79
+1769477106374,538,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1164,131,4,4,https://thesimpsonsapi.com/api/episodes/149,538,0,78
+1769477107111,140,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,4,4,https://thesimpsonsapi.com/api/episodes,135,0,77
+1769477107376,559,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1267,131,4,4,https://thesimpsonsapi.com/api/episodes/136,558,0,80
+1769477109913,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,189,4,4,https://thesimpsonsapi.com/api/episodes,123,0,82
+1769477109780,576,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1449,131,4,4,https://thesimpsonsapi.com/api/episodes/377,575,0,82
+1769477110253,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8759,127,4,4,https://thesimpsonsapi.com/api/episodes,115,0,78
+1769477110936,124,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,4,4,https://thesimpsonsapi.com/api/episodes,116,0,78
+1769477113043,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477113357,136,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,136,0,95
+1769477113370,542,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1430,131,5,5,https://thesimpsonsapi.com/api/episodes/160,542,0,82
+1769477114061,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,115,0,78
+1769477114822,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,116,0,78
+1769477116165,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477116496,130,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/episodes,123,0,82
+1769477116912,282,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1081,131,5,5,https://thesimpsonsapi.com/api/episodes/547,281,0,82
+1769477117177,122,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,122,0,79
+1769477117938,371,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1332,131,5,5,https://thesimpsonsapi.com/api/episodes/436,370,0,77
+1769477119286,647,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1240,131,5,5,https://thesimpsonsapi.com/api/episodes/524,647,0,76
+1769477119626,505,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1473,131,5,5,https://thesimpsonsapi.com/api/episodes/341,505,0,77
+1769477120196,128,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/episodes,123,0,80
+1769477120301,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,5,5,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477121310,124,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,124,0,83
+1769477122935,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,188,5,5,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477123133,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,112,0,76
+1769477123325,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477123421,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,5,5,https://thesimpsonsapi.com/api/episodes,114,0,77
+1769477124436,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477126058,120,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1438,131,6,6,https://thesimpsonsapi.com/api/episodes/160,120,0,74
+1769477126247,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477126537,108,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,108,0,73
+1769477126823,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,116,0,78
+1769477126438,590,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1299,131,6,6,https://thesimpsonsapi.com/api/episodes/395,589,0,73
+1769477127547,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477129178,123,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,118,0,79
+1769477129360,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477129646,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,114,0,76
+1769477129940,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477130027,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,123,0,82
+1769477130665,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477132302,134,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477132479,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,188,6,6,https://thesimpsonsapi.com/api/episodes,120,0,80
+1769477132763,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477133052,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477133157,124,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,118,0,79
+1769477133787,559,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1600,130,6,6,https://thesimpsonsapi.com/api/episodes/91,558,0,76
+1769477135437,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29730,189,6,6,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477135607,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,6,6,https://thesimpsonsapi.com/api/episodes,110,0,74
+1769477136168,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,117,0,78
+1769477135878,554,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1511,131,7,7,https://thesimpsonsapi.com/api/episodes/399,553,0,76
+1769477136282,528,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1355,131,7,7,https://thesimpsonsapi.com/api/episodes/196,528,0,75
+1769477137347,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29730,189,7,7,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477138719,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,117,0,78
+1769477138819,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,189,7,7,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477138556,529,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1391,131,7,7,https://thesimpsonsapi.com/api/episodes/588,529,0,76
+1769477139434,118,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,118,0,78
+1769477139287,279,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,946,131,7,7,https://thesimpsonsapi.com/api/episodes/435,278,0,76
+1769477139813,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,188,7,7,https://thesimpsonsapi.com/api/episodes,113,0,73
+1769477140471,557,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1173,131,7,7,https://thesimpsonsapi.com/api/episodes/605,557,0,76
+1769477141948,131,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,131,0,75
+1769477141838,526,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1184,130,7,7,https://thesimpsonsapi.com/api/episodes/19,526,0,73
+1769477142088,558,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1541,131,7,7,https://thesimpsonsapi.com/api/episodes/609,558,0,92
+1769477142568,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477142555,310,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1221,131,7,7,https://thesimpsonsapi.com/api/episodes/143,310,0,76
+1769477142933,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,188,7,7,https://thesimpsonsapi.com/api/episodes,118,0,77
+1769477144030,124,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,123,0,81
+1769477145081,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477145366,131,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,7,7,https://thesimpsonsapi.com/api/episodes,125,0,81
+1769477145647,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477145867,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,7,7,https://thesimpsonsapi.com/api/episodes,114,0,76
+1769477145682,546,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1105,131,7,7,https://thesimpsonsapi.com/api/episodes/768,545,0,75
+1769477146056,530,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1500,131,7,7,https://thesimpsonsapi.com/api/episodes/755,530,0,74
+1769477147155,119,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,7,7,https://thesimpsonsapi.com/api/episodes,119,0,79
+1769477148193,320,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,975,131,8,8,https://thesimpsonsapi.com/api/episodes/508,320,0,75
+1769477148498,133,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/episodes,126,0,84
+1769477148766,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477149229,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477148987,516,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1139,131,8,8,https://thesimpsonsapi.com/api/episodes/194,516,0,76
+1769477149588,547,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1122,131,8,8,https://thesimpsonsapi.com/api/episodes/672,547,0,77
+1769477150275,117,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1146,131,8,8,https://thesimpsonsapi.com/api/episodes/194,116,0,72
+1769477150820,291,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1411,131,8,8,https://thesimpsonsapi.com/api/episodes/562,291,0,79
+1769477151632,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,109,0,72
+1769477151514,282,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1353,131,8,8,https://thesimpsonsapi.com/api/episodes/226,282,0,79
+1769477151883,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477152504,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/episodes,120,0,82
+1769477152347,366,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1327,131,8,8,https://thesimpsonsapi.com/api/episodes/431,365,0,73
+1769477153136,311,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1428,131,8,8,https://thesimpsonsapi.com/api/episodes/498,311,0,73
+1769477153392,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477154112,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,114,0,74
+1769477154796,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/episodes,113,0,73
+1769477154999,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477154741,562,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1266,131,8,8,https://thesimpsonsapi.com/api/episodes/363,562,0,73
+1769477155631,532,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1077,131,8,8,https://thesimpsonsapi.com/api/episodes/241,532,0,74
+1769477155715,552,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1314,131,8,8,https://thesimpsonsapi.com/api/episodes/543,551,0,75
+1769477156448,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477156505,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477157230,298,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1297,131,8,8,https://thesimpsonsapi.com/api/episodes/602,297,0,80
+1769477157918,119,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,119,0,79
+1769477158113,293,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1421,131,8,8,https://thesimpsonsapi.com/api/episodes/161,292,0,81
+1769477158306,118,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477159165,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,8,8,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477159269,159,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29730,189,8,8,https://thesimpsonsapi.com/api/episodes,146,0,104
+1769477159571,317,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1299,129,9,9,https://thesimpsonsapi.com/api/episodes/5,317,0,80
+1769477159620,293,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1274,131,9,9,https://thesimpsonsapi.com/api/episodes/263,293,0,76
+1769477160528,305,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1492,130,9,9,https://thesimpsonsapi.com/api/episodes/81,305,0,76
+1769477161039,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477161406,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,114,0,77
+1769477161426,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477162278,121,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,120,0,80
+1769477162428,281,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1161,131,9,9,https://thesimpsonsapi.com/api/episodes/281,281,0,75
+1769477162821,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477162913,129,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1229,131,9,9,https://thesimpsonsapi.com/api/episodes/143,129,0,80
+1769477162888,605,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1245,131,9,9,https://thesimpsonsapi.com/api/episodes/522,605,0,75
+1769477163835,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,189,9,9,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477164151,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29730,189,9,9,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477164521,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477164538,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29730,189,9,9,https://thesimpsonsapi.com/api/episodes,116,0,75
+1769477165400,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29730,189,9,9,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477165711,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,111,0,75
+1769477165935,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29730,188,9,9,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477166044,309,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1209,131,9,9,https://thesimpsonsapi.com/api/episodes/168,309,0,76
+1769477166494,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29730,189,9,9,https://thesimpsonsapi.com/api/episodes,113,0,73
+1769477166957,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29730,189,9,9,https://thesimpsonsapi.com/api/episodes,114,0,73
+1769477167274,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477167661,128,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,9,9,https://thesimpsonsapi.com/api/episodes,121,0,83
+1769477167636,597,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1093,131,9,9,https://thesimpsonsapi.com/api/episodes/738,597,0,74
+1769477168824,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,9,9,https://thesimpsonsapi.com/api/episodes,123,0,80
+1769477168521,530,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1099,131,9,9,https://thesimpsonsapi.com/api/episodes/748,530,0,74
+1769477169055,296,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1086,129,9,9,https://thesimpsonsapi.com/api/episodes/6,296,0,74
+1769477169356,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,115,0,78
+1769477169616,412,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1207,131,9,9,https://thesimpsonsapi.com/api/episodes/358,412,0,76
+1769477170076,271,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1170,131,9,9,https://thesimpsonsapi.com/api/episodes/208,270,0,80
+1769477170387,119,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8759,127,9,9,https://thesimpsonsapi.com/api/episodes,119,0,79
+1769477170791,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,188,9,9,https://thesimpsonsapi.com/api/episodes,112,0,72
+1769477171234,533,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1427,131,9,9,https://thesimpsonsapi.com/api/episodes/246,533,0,73
+1769477171952,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,74
+1769477172052,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8759,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,77
+1769477172472,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,115,0,74
+1769477172352,274,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1241,131,10,10,https://thesimpsonsapi.com/api/episodes/456,274,0,74
+1769477173030,283,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1101,131,10,10,https://thesimpsonsapi.com/api/episodes/542,282,0,76
+1769477173348,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,115,0,73
+1769477173507,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,120,0,81
+1769477173910,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8759,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,75
+1769477174768,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,76
+1769477174823,125,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,125,0,85
+1769477175073,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477175168,283,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1110,131,10,10,https://thesimpsonsapi.com/api/episodes/303,283,0,78
+1769477175593,125,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,125,0,82
+1769477175628,125,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,125,0,79
+1769477176467,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477176635,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,76
+1769477176314,543,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1438,131,10,10,https://thesimpsonsapi.com/api/episodes/316,543,0,78
+1769477177020,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477177882,120,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,120,0,80
+1769477177949,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477178196,119,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,118,0,78
+1769477178451,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477178753,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477178719,512,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1008,131,10,10,https://thesimpsonsapi.com/api/episodes/701,512,0,76
+1769477179750,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477179580,594,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1213,131,10,10,https://thesimpsonsapi.com/api/episodes/664,593,0,81
+1769477179857,548,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1199,131,10,10,https://thesimpsonsapi.com/api/episodes/153,548,0,77
+1769477180132,322,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1361,131,10,10,https://thesimpsonsapi.com/api/episodes/365,322,0,79
+1769477181004,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,75
+1769477181066,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477181316,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477181571,128,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,121,0,80
+1769477181884,280,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1242,131,10,10,https://thesimpsonsapi.com/api/episodes/133,280,0,75
+1769477182232,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,124,0,85
+1769477182860,121,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,121,0,80
+1769477183175,275,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1128,131,10,10,https://thesimpsonsapi.com/api/episodes/621,275,0,73
+1769477183406,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477183456,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477184186,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477184433,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477184116,535,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1068,131,10,10,https://thesimpsonsapi.com/api/episodes/707,535,0,79
+1769477184700,272,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1153,131,10,10,https://thesimpsonsapi.com/api/episodes/383,272,0,75
+1769477185165,307,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1655,130,10,10,https://thesimpsonsapi.com/api/episodes/85,307,0,76
+1769477185363,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,74
+1769477185982,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477186566,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477186452,299,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1445,131,10,10,https://thesimpsonsapi.com/api/episodes/455,299,0,74
+1769477186522,260,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1165,131,10,10,https://thesimpsonsapi.com/api/episodes/228,259,0,73
+1769477187555,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477187305,503,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1398,131,10,10,https://thesimpsonsapi.com/api/episodes/532,503,0,72
+1769477187652,535,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1308,131,10,10,https://thesimpsonsapi.com/api/episodes/437,535,0,75
+1769477187973,271,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1265,131,10,10,https://thesimpsonsapi.com/api/episodes/514,271,0,73
+1769477188473,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477188485,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477189093,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,74
+1769477189680,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,78
+1769477189752,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477189783,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,107,0,71
+1769477190810,123,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,123,0,81
+1769477190667,286,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1100,131,10,10,https://thesimpsonsapi.com/api/episodes/585,286,0,74
+1769477191188,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,72
+1769477191245,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477191596,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,76
+1769477191586,123,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,118,0,77
+1769477192205,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477192797,124,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,119,0,77
+1769477192866,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,118,0,75
+1769477192892,136,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,129,0,88
+1769477193936,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,72
+1769477193956,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477194306,131,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,124,0,82
+1769477194365,262,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1087,131,10,10,https://thesimpsonsapi.com/api/episodes/642,262,0,76
+1769477194710,319,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1073,131,10,10,https://thesimpsonsapi.com/api/episodes/354,319,0,76
+1769477194711,523,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1654,131,10,10,https://thesimpsonsapi.com/api/episodes/587,522,0,79
+1769477195322,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,77
+1769477195923,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477196028,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,76
+1769477195986,544,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1264,131,10,10,https://thesimpsonsapi.com/api/episodes/541,544,0,76
+1769477197052,272,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1217,131,10,10,https://thesimpsonsapi.com/api/episodes/202,272,0,74
+1769477197075,279,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1345,130,10,10,https://thesimpsonsapi.com/api/episodes/28,279,0,76
+1769477197438,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,115,0,75
+1769477197627,120,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,120,0,80
+1769477198029,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477198233,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477198436,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477199036,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,115,0,74
+1769477199141,408,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1267,130,10,10,https://thesimpsonsapi.com/api/episodes/52,408,0,74
+1769477199530,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,76
+1769477200326,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477200355,120,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1076,131,10,10,https://thesimpsonsapi.com/api/episodes/707,119,0,75
+1769477200560,118,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1141,131,10,10,https://thesimpsonsapi.com/api/episodes/520,118,0,71
+1769477201147,118,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,118,0,79
+1769477200748,563,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1691,131,10,10,https://thesimpsonsapi.com/api/episodes/318,563,0,93
+1769477201361,135,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1340,131,10,10,https://thesimpsonsapi.com/api/episodes/436,135,0,91
+1769477201557,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477202159,180,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,179,0,120
+1769477202644,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477202550,638,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1098,131,10,10,https://thesimpsonsapi.com/api/episodes/699,638,0,76
+1769477203438,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477203679,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,120,0,80
+1769477203475,393,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1271,130,10,10,https://thesimpsonsapi.com/api/episodes/82,393,0,74
+1769477204266,120,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1500,130,10,10,https://thesimpsonsapi.com/api/episodes/81,120,0,74
+1769477204313,124,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,119,0,78
+1769477204499,118,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1406,131,10,10,https://thesimpsonsapi.com/api/episodes/532,117,0,73
+1769477204673,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477205339,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477205763,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,115,0,75
+1769477206189,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477206556,269,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1296,131,10,10,https://thesimpsonsapi.com/api/episodes/523,269,0,75
+1769477206806,128,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,122,0,81
+1769477206870,275,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1326,131,10,10,https://thesimpsonsapi.com/api/episodes/120,275,0,73
+1769477207389,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477207439,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,116,0,72
+1769477207619,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477207786,278,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1543,131,10,10,https://thesimpsonsapi.com/api/episodes/401,278,0,76
+1769477208461,307,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1053,131,10,10,https://thesimpsonsapi.com/api/episodes/691,306,0,76
+1769477208886,118,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1340,131,10,10,https://thesimpsonsapi.com/api/episodes/436,118,0,75
+1769477209311,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477209935,290,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1202,131,10,10,https://thesimpsonsapi.com/api/episodes/285,290,0,73
+1769477210146,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477209828,539,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1394,129,10,10,https://thesimpsonsapi.com/api/episodes/2,539,0,74
+1769477210507,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477210556,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,76
+1769477210731,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477211066,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477211770,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,124,0,82
+1769477212004,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,120,0,79
+1769477212421,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,107,0,71
+1769477213225,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,114,0,74
+1769477213265,123,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477213368,341,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1237,130,10,10,https://thesimpsonsapi.com/api/episodes/13,341,0,75
+1769477213619,291,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1079,131,10,10,https://thesimpsonsapi.com/api/episodes/183,291,0,73
+1769477213667,299,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1049,131,10,10,https://thesimpsonsapi.com/api/episodes/600,298,0,74
+1769477213849,283,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,985,131,10,10,https://thesimpsonsapi.com/api/episodes/567,282,0,73
+1769477214176,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477214899,118,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,118,0,79
+1769477215133,277,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1138,131,10,10,https://thesimpsonsapi.com/api/episodes/119,277,0,72
+1769477215529,123,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,119,0,77
+1769477216346,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477216389,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477216710,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477216966,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477216912,320,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1405,131,10,10,https://thesimpsonsapi.com/api/episodes/460,320,0,75
+1769477217133,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,77
+1769477217299,272,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1128,131,10,10,https://thesimpsonsapi.com/api/episodes/388,272,0,72
+1769477218018,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,109,0,71
+1769477218412,278,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1233,131,10,10,https://thesimpsonsapi.com/api/episodes/731,277,0,74
+1769477218653,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477219465,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477219501,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,76
+1769477219822,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,76
+1769477220093,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,78
+1769477220250,128,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,128,0,71
+1769477220233,145,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477220572,130,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1322,131,10,10,https://thesimpsonsapi.com/api/episodes/543,130,0,82
+1769477221134,274,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1036,131,10,10,https://thesimpsonsapi.com/api/episodes/725,274,0,78
+1769477221767,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,124,0,81
+1769477221690,262,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1742,131,10,10,https://thesimpsonsapi.com/api/episodes/332,262,0,74
+1769477222617,108,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,108,0,72
+1769477222585,520,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1520,131,10,10,https://thesimpsonsapi.com/api/episodes/734,520,0,74
+1769477223210,129,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1316,131,10,10,https://thesimpsonsapi.com/api/episodes/437,129,0,79
+1769477222935,533,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1269,131,10,10,https://thesimpsonsapi.com/api/episodes/145,533,0,80
+1769477223379,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,77
+1769477223702,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477223379,545,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1248,130,10,10,https://thesimpsonsapi.com/api/episodes/94,545,0,75
+1769477224409,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477224953,108,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,108,0,73
+1769477224897,272,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1302,130,10,10,https://thesimpsonsapi.com/api/episodes/31,272,0,78
+1769477225726,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,78
+1769477226107,300,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1472,131,10,10,https://thesimpsonsapi.com/api/episodes/470,300,0,78
+1769477226469,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477226494,272,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1100,131,10,10,https://thesimpsonsapi.com/api/episodes/118,272,0,72
+1769477226340,553,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1120,131,10,10,https://thesimpsonsapi.com/api/episodes/571,552,0,78
+1769477226820,125,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,120,0,79
+1769477226925,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,72
+1769477227524,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,113,0,73
+1769477228061,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477228171,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,117,0,78
+1769477228842,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,75
+1769477229409,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,77
+1769477229585,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477229768,128,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,122,0,81
+1769477229894,270,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1082,131,10,10,https://thesimpsonsapi.com/api/episodes/237,269,0,72
+1769477229945,282,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1619,130,10,10,https://thesimpsonsapi.com/api/episodes/53,281,0,72
+1769477230644,118,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1108,131,10,10,https://thesimpsonsapi.com/api/episodes/585,117,0,73
+1769477231174,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477230043,1250,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1104,131,10,10,https://thesimpsonsapi.com/api/episodes/572,1250,0,72
+1769477231289,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,119,0,78
+1769477231957,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,116,0,79
+1769477232525,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477232704,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,74
+1769477233165,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477233228,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477232897,522,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1125,130,10,10,https://thesimpsonsapi.com/api/episodes/69,522,0,79
+1769477233763,122,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1087,131,10,10,https://thesimpsonsapi.com/api/episodes/183,122,0,75
+1769477234295,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477234416,125,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,125,0,85
+1769477234293,521,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1484,131,10,10,https://thesimpsonsapi.com/api/episodes/412,521,0,74
+1769477235074,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477235815,120,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,993,131,10,10,https://thesimpsonsapi.com/api/episodes/567,120,0,73
+1769477235637,556,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1206,131,10,10,https://thesimpsonsapi.com/api/episodes/719,556,0,74
+1769477236341,118,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,118,0,77
+1769477236421,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477236288,505,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1645,130,10,10,https://thesimpsonsapi.com/api/episodes/11,505,0,72
+1769477236886,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,122,0,81
+1769477237412,123,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,78
+1769477237542,294,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1015,131,10,10,https://thesimpsonsapi.com/api/episodes/715,294,0,80
+1769477237816,117,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1044,131,10,10,https://thesimpsonsapi.com/api/episodes/725,117,0,72
+1769477238192,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477238937,114,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,109,0,71
+1769477239195,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477239461,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477239542,122,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1095,131,10,10,https://thesimpsonsapi.com/api/episodes/642,122,0,76
+1769477239795,322,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1403,131,10,10,https://thesimpsonsapi.com/api/episodes/518,321,0,79
+1769477240016,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477240536,122,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1146,131,10,10,https://thesimpsonsapi.com/api/episodes/119,122,0,76
+1769477240836,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477240934,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477241311,108,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,108,0,72
+1769477242052,119,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,119,0,78
+1769477242314,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477242584,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477242664,550,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1400,131,10,10,https://thesimpsonsapi.com/api/episodes/277,550,0,76
+1769477243129,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,106,0,71
+1769477243117,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477244056,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,73
+1769477243953,260,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1024,131,10,10,https://thesimpsonsapi.com/api/episodes/623,260,0,72
+1769477243658,636,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1344,131,10,10,https://thesimpsonsapi.com/api/episodes/128,636,0,73
+1769477244420,130,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,130,0,84
+1769477245172,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477245427,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477245700,532,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1234,131,10,10,https://thesimpsonsapi.com/api/episodes/765,532,0,73
+1769477246214,123,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1550,131,10,10,https://thesimpsonsapi.com/api/episodes/609,123,0,77
+1769477246236,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,74
+1769477246239,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,71
+1769477247175,137,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,123,0,81
+1769477247296,122,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,122,0,78
+1769477247552,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,115,0,72
+1769477247214,520,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1272,131,10,10,https://thesimpsonsapi.com/api/episodes/231,520,0,73
+1769477248290,108,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,108,0,72
+1769477248538,297,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1286,131,10,10,https://thesimpsonsapi.com/api/episodes/179,297,0,74
+1769477249233,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477249346,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,107,0,71
+1769477249338,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,117,0,76
+1769477249356,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,114,0,74
+1769477250314,140,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,132,0,92
+1769477250419,274,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1371,130,10,10,https://thesimpsonsapi.com/api/episodes/63,274,0,72
+1769477250735,119,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1482,131,10,10,https://thesimpsonsapi.com/api/episodes/341,119,0,74
+1769477250669,442,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1183,131,10,10,https://thesimpsonsapi.com/api/episodes/414,442,0,80
+1769477251399,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,76
+1769477251836,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477252454,296,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1340,131,10,10,https://thesimpsonsapi.com/api/episodes/268,296,0,73
+1769477252476,280,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,988,131,10,10,https://thesimpsonsapi.com/api/episodes/718,279,0,81
+1769477252351,566,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1309,131,10,10,https://thesimpsonsapi.com/api/episodes/211,566,0,75
+1769477252455,538,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1345,131,10,10,https://thesimpsonsapi.com/api/episodes/324,538,0,78
+1769477253456,518,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1257,131,10,10,https://thesimpsonsapi.com/api/episodes/188,518,0,75
+1769477253693,541,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1002,131,10,10,https://thesimpsonsapi.com/api/episodes/745,541,0,71
+1769477253855,537,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1158,131,10,10,https://thesimpsonsapi.com/api/episodes/379,537,0,78
+1769477254111,299,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1185,131,10,10,https://thesimpsonsapi.com/api/episodes/306,299,0,75
+1769477254518,315,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1137,131,10,10,https://thesimpsonsapi.com/api/episodes/753,315,0,80
+1769477254952,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477255918,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477255994,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477255756,516,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1299,131,10,10,https://thesimpsonsapi.com/api/episodes/405,516,0,78
+1769477255750,525,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1048,131,10,10,https://thesimpsonsapi.com/api/episodes/724,525,0,80
+1769477256977,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,72
+1769477257236,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477257393,284,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1416,130,10,10,https://thesimpsonsapi.com/api/episodes/45,283,0,78
+1769477257414,298,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1224,131,10,10,https://thesimpsonsapi.com/api/episodes/297,298,0,77
+1769477257835,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,73
+1769477258071,523,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1225,131,10,10,https://thesimpsonsapi.com/api/episodes/239,523,0,77
+1769477259037,130,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1101,131,10,10,https://thesimpsonsapi.com/api/episodes/738,130,0,79
+1769477259108,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477259278,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477259274,420,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1152,130,10,10,https://thesimpsonsapi.com/api/episodes/77,420,0,73
+1769477260096,124,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477260677,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477260712,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,75
+1769477260354,542,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1049,131,10,10,https://thesimpsonsapi.com/api/episodes/678,542,0,89
+1769477260954,108,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,108,0,72
+1769477261596,520,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1036,131,10,10,https://thesimpsonsapi.com/api/episodes/704,520,0,80
+1769477262169,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477262223,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,74
+1769477262398,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477262696,117,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1159,130,10,10,https://thesimpsonsapi.com/api/episodes/77,117,0,73
+1769477263221,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477263793,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477263825,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477263898,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,75
+1769477264064,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,72
+1769477265116,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477265283,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,72
+1769477265342,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,72
+1769477265511,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477265816,117,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1109,131,10,10,https://thesimpsonsapi.com/api/episodes/542,117,0,73
+1769477266331,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,74
+1769477266942,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477267010,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477267174,129,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,123,0,82
+1769477266906,509,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1089,131,10,10,https://thesimpsonsapi.com/api/episodes/764,509,0,73
+1769477268226,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,72
+1769477268394,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,72
+1769477268621,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477268452,544,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1165,131,10,10,https://thesimpsonsapi.com/api/episodes/132,544,0,76
+1769477268934,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477269451,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,77
+1769477270060,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,76
+1769477270130,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,116,0,78
+1769477270416,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477270304,509,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1184,131,10,10,https://thesimpsonsapi.com/api/episodes/254,509,0,76
+1769477271335,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477271511,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,121,0,78
+1769477271735,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,114,0,74
+1769477271997,131,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1353,130,10,10,https://thesimpsonsapi.com/api/episodes/28,131,0,72
+1769477272051,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477272565,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477273247,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,74
+1769477273534,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,117,0,76
+1769477273173,522,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1278,131,10,10,https://thesimpsonsapi.com/api/episodes/579,521,0,73
+1769477273815,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,74
+1769477274453,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,113,0,72
+1769477274638,294,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1224,131,10,10,https://thesimpsonsapi.com/api/episodes/495,294,0,73
+1769477274850,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,113,0,73
+1769477275129,117,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,117,0,78
+1769477275167,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477275678,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477276358,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477276656,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477276696,131,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,130,0,83
+1769477276927,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,75
+1769477277933,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477277568,504,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,921,131,10,10,https://thesimpsonsapi.com/api/episodes/697,503,0,71
+1769477277970,118,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1551,131,10,10,https://thesimpsonsapi.com/api/episodes/401,117,0,72
+1769477278279,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477278246,288,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,955,131,10,10,https://thesimpsonsapi.com/api/episodes/705,287,0,72
+1769477278796,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,111,0,72
+1769477279475,276,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1252,131,10,10,https://thesimpsonsapi.com/api/episodes/590,276,0,73
+1769477279770,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477279827,289,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1260,131,10,10,https://thesimpsonsapi.com/api/episodes/302,289,0,80
+1769477280039,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,107,0,71
+1769477281053,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,115,0,77
+1769477281074,131,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477281089,262,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1228,130,10,10,https://thesimpsonsapi.com/api/episodes/51,261,0,73
+1769477281391,119,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,118,0,79
+1769477281534,280,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1455,131,10,10,https://thesimpsonsapi.com/api/episodes/320,280,0,73
+1769477281912,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477282751,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,107,0,71
+1769477282880,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477283146,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,72
+1769477283116,278,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1225,131,10,10,https://thesimpsonsapi.com/api/episodes/152,278,0,77
+1769477284173,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,115,0,75
+1769477284205,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477284350,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,120,0,78
+1769477284815,110,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,110,0,73
+1769477284509,610,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1339,131,10,10,https://thesimpsonsapi.com/api/episodes/490,610,0,79
+1769477285024,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477285859,114,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1114,131,10,10,https://thesimpsonsapi.com/api/episodes/768,114,0,69
+1769477285999,294,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1091,131,10,10,https://thesimpsonsapi.com/api/episodes/298,294,0,74
+1769477286258,118,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1306,131,10,10,https://thesimpsonsapi.com/api/episodes/602,118,0,72
+1769477286395,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,73
+1769477287296,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,72
+1769477287326,114,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,109,0,70
+1769477287477,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477287927,270,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1113,131,10,10,https://thesimpsonsapi.com/api/episodes/417,269,0,74
+1769477288145,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477288121,270,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1283,131,10,10,https://thesimpsonsapi.com/api/episodes/269,270,0,73
+1769477288976,134,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1275,130,10,10,https://thesimpsonsapi.com/api/episodes/52,134,0,72
+1769477289295,123,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477289379,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,77
+1769477289510,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,122,0,79
+1769477290415,120,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1108,131,10,10,https://thesimpsonsapi.com/api/episodes/585,120,0,80
+1769477290440,119,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477290593,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477291197,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,75
+1769477291258,114,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,77
+1769477291392,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,115,0,75
+1769477292110,150,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,150,0,101
+1769477292638,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,107,0,72
+1769477292419,338,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1475,131,10,10,https://thesimpsonsapi.com/api/episodes/248,338,0,73
+1769477292495,524,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1118,131,10,10,https://thesimpsonsapi.com/api/episodes/330,524,0,78
+1769477293536,124,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,74
+1769477293560,130,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,129,0,77
+1769477293704,516,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1126,131,10,10,https://thesimpsonsapi.com/api/episodes/392,516,0,76
+1769477294309,118,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,118,0,80
+1769477294373,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,71
+1769477294513,107,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,993,131,10,10,https://thesimpsonsapi.com/api/episodes/567,107,0,71
+1769477295261,121,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,121,0,84
+1769477295747,115,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477295757,130,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,124,0,82
+1769477296020,535,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1472,131,10,10,https://thesimpsonsapi.com/api/episodes/421,535,0,74
+1769477296660,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,113,0,74
+1769477296691,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,116,0,76
+1769477297221,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-3,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,106,0,72
+1769477297428,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477297489,523,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1104,131,10,10,https://thesimpsonsapi.com/api/episodes/402,523,0,84
+1769477297621,515,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1109,131,10,10,https://thesimpsonsapi.com/api/episodes/684,514,0,77
+1769477298383,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,73
+1769477298863,121,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,115,0,76
+1769477298888,267,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1249,131,10,10,https://thesimpsonsapi.com/api/episodes/310,267,0,72
+1769477299556,113,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,113,0,75
+1769477299779,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477299813,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,116,0,73
+1769477300551,125,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,119,0,78
+1769477300328,630,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1080,131,10,10,https://thesimpsonsapi.com/api/episodes/217,630,0,73
+1769477301014,128,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,122,0,80
+1769477301136,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,75
+1769477301501,353,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1095,131,10,10,https://thesimpsonsapi.com/api/episodes/633,352,0,76
+1769477301984,122,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,117,0,77
+1769477302156,120,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,120,0,80
+1769477302668,116,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,116,0,77
+1769477302929,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,121,0,78
+1769477302894,260,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,972,131,10,10,https://thesimpsonsapi.com/api/episodes/325,259,0,71
+1769477303676,278,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1141,131,10,10,https://thesimpsonsapi.com/api/episodes/597,277,0,75
+1769477303958,118,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477304141,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,121,0,82
+1769477304248,112,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,112,0,74
+1769477304854,116,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,111,0,73
+1769477305107,120,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,114,0,75
+1769477305277,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,72
+1769477305785,271,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1204,131,10,10,https://thesimpsonsapi.com/api/episodes/190,271,0,74
+1769477306057,126,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477306155,117,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,113,0,72
+1769477306956,128,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,122,0,80
+1769477307077,277,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1222,131,10,10,https://thesimpsonsapi.com/api/episodes/586,277,0,74
+1769477307362,116,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,963,131,10,10,https://thesimpsonsapi.com/api/episodes/705,116,0,72
+1769477307271,282,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1497,131,10,10,https://thesimpsonsapi.com/api/episodes/635,282,0,74
+1769477307972,109,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,109,0,73
+1769477308229,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477308394,283,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,1617,131,10,10,https://thesimpsonsapi.com/api/episodes/162,283,0,79
+1769477309186,107,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,107,0,72
+1769477309274,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,110,0,71
+1769477309059,535,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1070,131,10,10,https://thesimpsonsapi.com/api/episodes/743,535,0,75
+1769477310084,127,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,121,0,79
+1769477310355,115,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,109,0,71
+1769477310554,111,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,111,0,74
+1769477310479,297,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1138,131,10,10,https://thesimpsonsapi.com/api/episodes/386,296,0,80
+1769477311083,42,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,41,0,36
+1769477311342,105,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,105,0,9
+1769477311678,15,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,15,0,10
+1769477312293,26,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-4,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,25,0,8
+1769477312594,15,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,15,0,9
+1769477312390,501,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1241,131,10,10,https://thesimpsonsapi.com/api/episodes/242,500,0,11
+1769477313212,18,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,17,0,11
+1769477313471,18,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,18,0,9
+1769477313665,15,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,15,0,9
+1769477313776,16,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,16,0,11
+1769477314124,40,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,39,0,32
+1769477314447,13,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,13,0,8
+1769477314693,19,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,19,0,11
+1769477315320,23,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,23,0,18
+1769477315893,16,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-7,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,16,0,10
+1769477315610,479,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1091,131,10,10,https://thesimpsonsapi.com/api/episodes/737,478,0,11
+1769477316231,18,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,17,0,11
+1769477316490,32,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,30,0,20
+1769477316682,16,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,16,0,11
+1769477316795,193,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1446,130,10,10,https://thesimpsonsapi.com/api/episodes/35,193,0,9
+1769477317165,17,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,17,0,11
+1769477317461,31,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,31,0,18
+1769477317713,16,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,15,0,9
+1769477318344,49,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1323,131,10,10,https://thesimpsonsapi.com/api/episodes/543,49,0,11
+1769477318910,200,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1319,130,10,10,https://thesimpsonsapi.com/api/episodes/88,200,0,9
+1769477319090,29,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,29,0,19
+1769477319250,13,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,13,0,8
+1769477319699,35,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,31,0,20
+1769477319523,451,GET /episodes/{id},200,OK,Baseline - 10 Users 1-3,text,true,,1252,130,10,10,https://thesimpsonsapi.com/api/episodes/15,451,0,8
+1769477319989,13,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-1,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,13,0,8
+1769477320493,15,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,15,0,9
+1769477320183,446,GET /episodes/{id},200,OK,Baseline - 10 Users 1-9,text,true,,1121,131,10,10,https://thesimpsonsapi.com/api/episodes/489,446,0,11
+1769477320729,15,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-2,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,15,0,9
+1769477321394,24,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,24,0,11
+1769477322119,16,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,16,0,12
+1769477322111,46,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1236,130,10,10,https://thesimpsonsapi.com/api/episodes/51,46,0,9
+1769477322265,14,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-5,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,14,0,9
+1769477322974,16,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,16,0,11
+1769477322736,452,GET /episodes/{id},200,OK,Baseline - 10 Users 1-8,text,true,,1245,131,10,10,https://thesimpsonsapi.com/api/episodes/174,452,0,11
+1769477323003,207,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1189,131,10,10,https://thesimpsonsapi.com/api/episodes/289,207,0,8
+1769477323510,14,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-6,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,14,0,9
+1769477323630,42,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,36,0,25
+1769477323745,14,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,13,0,8
+1769477324420,18,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,18,0,11
+1769477325137,15,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-10,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,15,0,10
+1769477325159,16,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,188,10,10,https://thesimpsonsapi.com/api/episodes,15,0,11
+1769477325281,209,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1107,131,10,10,https://thesimpsonsapi.com/api/episodes/603,209,0,11
+1769477325991,15,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,15,0,9
+1769477326190,17,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,16,0,10
+1769477326212,50,GET /episodes/{id},200,OK,Baseline - 10 Users 1-1,text,true,,1146,131,10,10,https://thesimpsonsapi.com/api/episodes/386,50,0,15
+1769477326525,56,GET /episodes/{id},200,OK,Baseline - 10 Users 1-6,text,true,,1552,131,10,10,https://thesimpsonsapi.com/api/episodes/401,56,0,17
+1769477326673,17,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-9,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,17,0,10
+1769477326759,230,GET /episodes/{id},200,OK,Baseline - 10 Users 1-2,text,true,,973,131,10,10,https://thesimpsonsapi.com/api/episodes/716,230,0,10
+1769477327439,210,GET /episodes/{id},200,OK,Baseline - 10 Users 1-4,text,true,,1036,131,10,10,https://thesimpsonsapi.com/api/episodes/742,210,0,11
+1769477328153,238,GET /episodes/{id},200,OK,Baseline - 10 Users 1-10,text,true,,1219,131,10,10,https://thesimpsonsapi.com/api/episodes/557,238,0,12
+1769477328176,216,GET /episodes/{id},200,OK,Baseline - 10 Users 1-7,text,true,,1020,131,10,10,https://thesimpsonsapi.com/api/episodes/711,216,0,9
+1769477328492,12,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-5,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,11,0,6
+1769477329008,30,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,29,0,20
+1769477329209,27,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-8,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,21,0,16
+1769477329264,16,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-1,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,16,0,9
+1769477329583,13,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-6,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,13,0,8
+1769477329692,16,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-9,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,15,0,10
+1769477329991,15,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-2,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,15,0,10
+1769477330650,18,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-4,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,18,0,13
+1769477331392,17,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-10,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,16,0,11
+1769477331392,17,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-7,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,16,0,10
+1769477331505,206,GET /episodes/{id},200,OK,Baseline - 10 Users 1-5,text,true,,1368,130,10,10,https://thesimpsonsapi.com/api/episodes/22,206,0,10
+1769477332039,15,GET /episodes (Random Page),404,Not Found,Baseline - 10 Users 1-3,text,false,Test failed: code expected to contain /200/,29731,189,10,10,https://thesimpsonsapi.com/api/episodes,14,0,10
+1769477332236,16,GET /episodes (Page 1),200,OK,Baseline - 10 Users 1-8,text,true,,8760,127,10,10,https://thesimpsonsapi.com/api/episodes,15,0,10
