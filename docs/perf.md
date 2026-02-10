@@ -23,14 +23,14 @@ Se centra en métricas como latencia, throughput, error rate y consumo de recurs
 
 ## 3. Estrategias de Performance Testing
 
-| Estrategia | Definición | Racional (Por qué) | Objetivo (Para qué) | Ejecución Sugerida | Ejemplo / SLA |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Baseline Test** | Medición inicial en condiciones ideales. | Establece un punto de referencia sólido. | Comparar ejecuciones futuras y detectar regresiones. | Carga baja/media (10-30 VU), 30 min. | Latencia < 500ms, Error 0%. |
-| **Load Test** | Comportamiento bajo carga esperada. | Valida si soporta el tráfico proyectado. | Confirmar estabilidad en producción. | Usuarios concurrentes según SLA (p.ej. 500 VU). | 500 VU por 30-60 min. |
-| **Stress Test** | Carga más allá del límite teórico. | Revela el punto de quiebre (Breaking Point). | Identificar cuellos de botella y recuperación. | Incremento gradual hasta fallo del servicio. | Error Rate > 5% o Latencia > 10s. |
-| **Spike Test** | Incremento súbito y masivo de tráfico. | Simula eventos inesperados o virales. | Validar resiliencia y auto-escalado rápido. | De 10 a 1000 VU en segundos. | Disponibilidad tras pico abrupto. |
-| **Endurance Test** | Carga constante por tiempo prolongado. | Detecta degradación acumulativa. | Identificar fugas de memoria (Memory Leaks). | Carga moderada por 4, 8 o 24 horas. | 12h estables sin reinicios. |
-| **Scalability Test** | Medición de rendimiento vs recursos. | Asegura que el escalado sea eficiente. | Validar si más fierro = más performance. | Probar con distintas configuraciones de CPU/RAM. | +50% recursos = +40/50% throughput. |
+| Estrategia | Definición | Por qué | Para qué sirve | Cuándo aplicarla | Cómo ejecutarla | Ejemplo |
+|------------|------------|---------|----------------|------------------|-----------------|---------|
+| **Baseline Test** | Medición inicial en condiciones normales. | Establece referencia. | Comparar futuras pruebas y detectar regresiones. | Inicio de proyecto, cambios menores. | Carga moderada (30–50 usuarios), 5–10 min. | Latencia <500 ms, error rate <1%. |
+| **Load Test** | Validar comportamiento bajo carga sostenida. | Asegura capacidad esperada. | Confirmar estabilidad. | Antes de producción. | Simular cientos de usuarios concurrentes. | 500 usuarios por 30 min. |
+| **Stress Test** | Empujar la API más allá de su capacidad. | Revela punto de quiebre. | Identificar límites y recuperación. | En entornos críticos. | Incrementar usuarios hasta fallo. | Error rate >5%. |
+| **Spike Test** | Evaluar respuesta ante incrementos súbitos. | Simula picos inesperados. | Validar resiliencia. | APIs expuestas a eventos masivos. | Subir usuarios de 100 a 1000 en segundos. | Disponibilidad tras pico abrupto. |
+| **Endurance Test** | Validar estabilidad prolongada. | Detecta degradación en el tiempo. | Identificar memory leaks. | Servicios 24/7. | Carga constante por horas. | 12h de ejecución estable. |
+| **Scalability Test** | Medir respuesta al aumentar recursos. | Asegura escalado correcto. | Validar autoescalado. | Entornos cloud. | Probar con distintos niveles de CPU/RAM. | Throughput proporcional al escalado. |
 
 ---
 
@@ -48,14 +48,13 @@ Se centra en métricas como latencia, throughput, error rate y consumo de recurs
 
 ## 5. Thresholds por estrategia
 
-| Métrica | Baseline | Load Test | Stress Test | Spike Test | Endurance |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Avg Resp Time** | < 500 ms | < 2 s | N/A (Punto de quiebre) | < 2 s (Post-pico) | < 2.5 s |
-| **Percentil 95** | < 800 ms | < 3 s | N/A | < 3 s (Post-pico) | < 3 s |
-| **Error Rate** | < 0.1% | < 1% | > 5% (Target) | < 2% | < 1% |
-| **Throughput** | Máximo ideal | Estable | Degradación | Recuperación | Estable |
-| **Recursos (CPU)** | < 30% | < 70% | Saturation | Spike & Recovery | Estable |
-
+| Métrica | Baseline | Load Test | Stress Test | Spike Test | Endurance Test |
+|---------|----------|-----------|-------------|------------|----------------|
+| Tiempo de respuesta promedio | < 500 ms | < 2 s | Puede superar 2 s | < 2 s tras pico | < 2–3 s sostenido |
+| Percentil 95 (p95) | < 800 ms | < 3 s | Puede superar 3 s | < 3 s tras estabilización | < 3 s sostenido |
+| Error rate | < 1% | < 2% | >5% aceptado para quiebre | < 2% | < 2% |
+| Throughput | Constante | Constante bajo carga | Disminuye al límite | Recupera tras pico | Constante en horas |
+| Consumo de CPU/memoria | Bajo | Moderado | Elevado, medir recuperación | Elevado en pico, luego estable | Sin leaks ni acumulación |
 
 ---
 
@@ -67,11 +66,29 @@ Se centra en métricas como latencia, throughput, error rate y consumo de recurs
 
 ---
 
-## 7. Encaje en el PTLC (Performance Test Life Cycle)
+## 7. Herramienta recomendada: JMeter
+- **Por qué JMeter**:  
+  - Es una herramienta robusta y ampliamente utilizada para **Non Functional Tests**.  
+  - Permite simular múltiples usuarios concurrentes y diferentes patrones de carga sobre APIs.  
+  - Ofrece integración con CI/CD y generación de reportes detallados.  
+
+- **Por qué no se recomienda para pruebas funcionales**:  
+  - JMeter está diseñado para medir rendimiento, no para validar lógica de negocio o flujos funcionales.  
+  - Carece de capacidades avanzadas de verificación funcional (ej. validaciones complejas de UI o reglas de negocio).  
+
+- **Limitaciones de JMeter**:  
+  - Alto consumo de recursos en pruebas muy grandes (se recomienda distribuir con JMeter en modo cluster).  
+  - Curva de aprendizaje inicial para configurar escenarios complejos.  
+  - Interfaz menos amigable comparada con herramientas modernas como k6.  
+  - No es ideal para pruebas funcionales de front-end o validaciones visuales.  
+
+---
+
+## 8. Encaje en el PTLC (Performance Test Life Cycle)
 
 1. **Identificación de requerimientos**: definir métricas y thresholds.  
 2. **Planificación y diseño**: seleccionar estrategias y escenarios.  
-3. **Configuración del entorno**: preparar infraestructura y herramientas.  
+3. **Configuración del entorno**: preparar infraestructura y herramientas (ej. JMeter).  
 4. **Ejecución de pruebas**: baseline iterado, carga, estrés, spike, endurance.  
 5. **Análisis de resultados**: comparar contra thresholds y benchmarks.  
 6. **Optimización y reejecución**: ajustar y validar mejoras.  
@@ -79,9 +96,10 @@ Se centra en métricas como latencia, throughput, error rate y consumo de recurs
 
 ---
 
-## 8. Conclusiones
+## 9. Conclusiones
 - La **unidad inicial** son las pruebas de API.  
 - Las diferentes pruebas de performance son **estrategias de probar APIs de manera masiva** o con diferentes cargas.  
 - Se clasifican como **NFT (Non Functional Tests)**, cuyo propósito es evaluar componentes internos, no la funcionalidad de una web.  
 - El **Baseline Test** debe ser recalculado en múltiples ocasiones y nunca heredado de corridas previas.  
 - Los **thresholds claros y benchmarks de mercado** son esenciales para asegurar APIs estables, escalables y competitivas.  
+- **JMeter** es la herramienta más adecuada para ejecutar estas pruebas, aunque debe complementarse con otras soluciones para casos funcionales o validaciones de UI.  
